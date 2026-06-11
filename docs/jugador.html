@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mundial 2026 — Jugador</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <a class="back-link" href="index.html">← Volver al ranking</a>
+
+      <header class="hero hero--left">
+        <p class="hero__eyebrow">Polla Familiar Mundialista</p>
+        <div class="hero__title-row">
+          <img src="assets/26.png" alt="Mundial 2026" class="hero__logo" width="72" height="72" />
+          <h1 class="hero__title" id="participant-name">Cargando…</h1>
+        </div>
+        <p class="hero__subtitle" id="participant-meta"></p>
+      </header>
+
+      <section class="scoreboard" id="scoreboard" aria-label="Puntaje acumulado"></section>
+      <section class="podium" id="podium" aria-label="Resultados finales"></section>
+      <main class="phases" id="phases"></main>
+    </div>
+
+    <script src="scoring.js"></script>
+    <script src="shared.js"></script>
+    <script src="jugador.js"></script>
+  </body>
+</html>

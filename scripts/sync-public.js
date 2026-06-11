@@ -24,6 +24,27 @@ function copyDirectory(sourceDir, targetDir) {
   }
 }
 
+function mirrorDirectory(sourceDir, targetDir) {
+  if (!fs.existsSync(sourceDir)) {
+    return;
+  }
+
+  fs.rmSync(targetDir, { recursive: true, force: true });
+  fs.mkdirSync(targetDir, { recursive: true });
+
+  for (const entry of fs.readdirSync(sourceDir, { withFileTypes: true })) {
+    const sourcePath = path.join(sourceDir, entry.name);
+    const targetPath = path.join(targetDir, entry.name);
+
+    if (entry.isDirectory()) {
+      mirrorDirectory(sourcePath, targetPath);
+      continue;
+    }
+
+    copyFile(sourcePath, targetPath);
+  }
+}
+
 const files = [
   ["data/resultados-oficiales.json", "public/data/resultados-oficiales.json"],
   ["data/ranking.json", "public/data/ranking.json"],
@@ -54,4 +75,8 @@ copyDirectory(
   path.join(root, "public", "data", "participantes")
 );
 
-console.log("Archivos sincronizados a public/");
+const docsDir = path.join(root, "docs");
+mirrorDirectory(path.join(root, "public"), docsDir);
+fs.writeFileSync(path.join(docsDir, ".nojekyll"), "", "utf8");
+
+console.log("Archivos sincronizados a public/ y docs/");
