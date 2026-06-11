@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mundial-2026.local/schemas/resumen.schema.json",
+  "title": "Resumen de apuestas Mundial 2026",
+  "type": "object",
+  "required": ["version", "titulo", "partidos", "resultadosFinales"],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 1
+    },
+    "fuente": {
+      "type": "string"
+    },
+    "hoja": {
+      "type": "string",
+      "const": "RESUMEN"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "participante": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": ["string", "null"]
+        },
+        "nombre": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "partidos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["fase", "faseGrupo", "equipo1", "equipo2", "pendiente"],
+        "properties": {
+          "fase": {
+            "type": "string",
+            "examples": ["Dieciseisavos", "Octavos", "Cuartos", "Semifinales", "FINAL", "3er Puesto"]
+          },
+          "faseGrupo": {
+            "type": ["string", "null"],
+            "enum": ["dieciseisavos", "octavos", "cuartos", "semifinales", "final", null]
+          },
+          "fecha": {
+            "type": ["string", "null"],
+            "format": "date"
+          },
+          "equipo1": {
+            "type": "string"
+          },
+          "equipo2": {
+            "type": "string"
+          },
+          "marcador": {
+            "type": ["string", "null"],
+            "pattern": "^\\d+-\\d+$"
+          },
+          "pendiente": {
+            "type": "boolean"
+          },
+          "estadio": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "resultadosFinales": {
+      "type": "object",
+      "properties": {
+        "campeon": { "type": ["string", "null"] },
+        "subcampeon": { "type": ["string", "null"] },
+        "tercerPuesto": { "type": ["string", "null"] },
+        "cuartoPuesto": { "type": ["string", "null"] },
+        "goleador": { "type": ["string", "null"] }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "totalPartidos": { "type": "integer" },
+        "partidosPendientes": { "type": "integer" },
+        "generadoEn": { "type": "string", "format": "date-time" }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+ {
+  "name": "mundial-2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "add:jugador": "node scripts/add-jugador.js",
+    "update:jugador": "node scripts/add-jugador.js --update",
+    "convert:resumen": "node scripts/convert-resumen.js",
+    "setup:participantes": "node scripts/setup-participantes.js",
+    "score": "node scripts/calcular-puntos.js",
+    "sync:public": "node scripts/sync-public.js",
+    "build": "npm run score && npm run sync:public",
+    "dev": "npm run build && npx --yes serve public -l 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
