@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-06-17T21:56:11.396Z",
+  "generadoEn": "2026-06-17T22:24:33.098Z",
   "config": {
     "inscripcion": 25000,
     "moneda": "COP",
@@ -18,7 +18,7 @@
   "pozoTotal": 225000,
   "totalJugadores": 9,
   "etapasConfirmadas": [],
-  "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+  "ultimaActualizacionOficial": "2026-06-17T22:24:32.791Z",
   "ranking": [
     {
       "id": "daniel-vargas",
@@ -26,7 +26,7 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "ultimaActualizacionOficial": "2026-06-17T22:24:32.791Z",
       "posicion": 1,
       "premio": 112500,
       "premioPorcentaje": 0.5
@@ -37,7 +37,7 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "ultimaActualizacionOficial": "2026-06-17T22:24:32.791Z",
       "posicion": 2,
       "premio": 67500,
       "premioPorcentaje": 0.3
@@ -48,7 +48,7 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "ultimaActualizacionOficial": "2026-06-17T22:24:32.791Z",
       "posicion": 3,
       "premio": 45000,
       "premioPorcentaje": 0.2
@@ -59,7 +59,7 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "ultimaActualizacionOficial": "2026-06-17T22:24:32.791Z",
       "posicion": 4,
       "premio": 0,
       "premioPorcentaje": 0
@@ -70,7 +70,7 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "ultimaActualizacionOficial": "2026-06-17T22:24:32.791Z",
       "posicion": 5,
       "premio": 0,
       "premioPorcentaje": 0
@@ -81,7 +81,7 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "ultimaActualizacionOficial": "2026-06-17T22:24:32.791Z",
       "posicion": 6,
       "premio": 0,
       "premioPorcentaje": 0
@@ -92,7 +92,7 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "ultimaActualizacionOficial": "2026-06-17T22:24:32.791Z",
       "posicion": 7,
       "premio": 0,
       "premioPorcentaje": 0
@@ -103,7 +103,7 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "ultimaActualizacionOficial": "2026-06-17T22:24:32.791Z",
       "posicion": 8,
       "premio": 0,
       "premioPorcentaje": 0
@@ -114,7 +114,7 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "ultimaActualizacionOficial": "2026-06-17T22:24:32.791Z",
       "posicion": 9,
       "premio": 0,
       "premioPorcentaje": 0

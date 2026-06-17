@@ -572,6 +572,36 @@
           "pts": 1
         }
       ]
+    },
+    {
+      "id": "L",
+      "nombre": "Grupo L",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "INGLATERRA",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 4,
+          "gc": 2,
+          "dg": 2,
+          "pts": 3
+        },
+        {
+          "posicion": 2,
+          "equipo": "CROACIA",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 2,
+          "gc": 4,
+          "dg": -2,
+          "pts": 0
+        }
+      ]
     }
   ],
   "partidosGrupos": [
@@ -813,8 +843,8 @@
       "fecha": "2026-06-17",
       "equipo1": "INGLATERRA",
       "equipo2": "CROACIA",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "4-2",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1698,7 +1728,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-17T21:48:59.594Z",
+    "actualizadoEn": "2026-06-17T22:24:32.791Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
