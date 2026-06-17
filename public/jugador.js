@@ -7,7 +7,7 @@ async function loadPlayer() {
     return;
   }
 
-  const { getPlayerId, renderPodium, renderScoreboard, renderPhases, formatMoney } = ui;
+  const { getPlayerId, renderPodium, renderScoreboard, renderPlayerPhases, formatMoney } = ui;
 
   const playerId = getPlayerId();
   const participantName = document.getElementById("participant-name");
@@ -59,9 +59,9 @@ async function loadPlayer() {
       participantMeta.textContent = `${resultado.total} pts acumulados`;
     }
 
-    scoreboardRoot.innerHTML = renderScoreboard(resultado, oficial);
+    scoreboardRoot.innerHTML = renderScoreboard(resultado, oficial, pronostico);
     podiumRoot.innerHTML = renderPodium(pronostico.resultadosFinales);
-    phasesRoot.innerHTML = renderPhases(pronostico.partidos);
+    phasesRoot.innerHTML = renderPlayerPhases(pronostico, oficial);
   } catch (error) {
     phasesRoot.innerHTML = `<div class="error">${error.message}</div>`;
   }

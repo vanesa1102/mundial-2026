@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mundial 2026 — Grupos y eliminatorias</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <a class="back-link" href="index.html">← Volver al ranking</a>
+
+      <header class="hero hero--left">
+        <p class="hero__eyebrow">Polla Familiar Mundialista</p>
+        <div class="hero__title-row">
+          <img src="assets/26.png" alt="Mundial 2026" class="hero__logo" width="72" height="72" />
+          <h1 class="hero__title">Mundial en vivo</h1>
+        </div>
+        <p class="hero__subtitle" id="mundial-meta">Cargando resultados oficiales…</p>
+      </header>
+
+      <section class="section-card" id="standings" aria-label="Tablas de grupos">
+        <div class="section-card__header">
+          <h2 class="section-card__title">Posiciones por grupo</h2>
+        </div>
+        <div class="section-card__body" id="standings-body"></div>
+      </section>
+
+      <section class="section-card" id="group-matches" aria-label="Partidos de grupos">
+        <div class="section-card__header">
+          <h2 class="section-card__title">Partidos de grupos</h2>
+        </div>
+        <div class="section-card__body" id="group-matches-body"></div>
+      </section>
+
+      <section class="section-card" id="knockout" aria-label="Eliminatorias">
+        <div class="section-card__header">
+          <h2 class="section-card__title">Eliminatorias</h2>
+          <p class="section-card__hint">Resultados oficiales y próximos partidos por fase</p>
+        </div>
+        <div class="section-card__body" id="knockout-body"></div>
+      </section>
+    </div>
+
+    <script src="shared.js"></script>
+    <script src="mundial.js"></script>
+  </body>
+</html>

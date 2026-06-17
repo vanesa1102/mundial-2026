@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "fuente": "Concurso Mundial 2026",
+  "hoja": "RESUMEN",
+  "titulo": "RESUMEN DE ELIMINATORIAS",
+  "participante": {
+    "id": "sebastian-martinez",
+    "nombre": "Sebastian Martinez"
+  },
+  "partidos": [
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-06-28",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Los Angeles"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-06-29",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Houston"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-06-29",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Boston"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-06-29",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Monterrey"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-06-30",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Dallas"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-06-30",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "N. York/N. Jersey"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-06-30",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Ciudad de México"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-07-01",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Atlanta"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-07-01",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Seattle"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-07-01",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "San Francisco"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-07-02",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Los Angeles"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-07-02",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Toronto"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-07-03",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Vancouver"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-07-03",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Dallas"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-07-03",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Miami"
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-07-03",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Kansas City"
+    },
+    {
+      "fase": "Octavos",
+      "faseGrupo": "octavos",
+      "fecha": "2026-07-04",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Houston"
+    },
+    {
+      "fase": "Octavos",
+      "faseGrupo": "octavos",
+      "fecha": "2026-07-04",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Filadelfia"
+    },
+    {
+      "fase": "Octavos",
+      "faseGrupo": "octavos",
+      "fecha": "2026-07-05",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "N. York/N. Jersey"
+    },
+    {
+      "fase": "Octavos",
+      "faseGrupo": "octavos",
+      "fecha": "2026-07-05",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Ciudad de México"
+    },
+    {
+      "fase": "Octavos",
+      "faseGrupo": "octavos",
+      "fecha": "2026-07-06",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Dallas"
+    },
+    {
+      "fase": "Octavos",
+      "faseGrupo": "octavos",
+      "fecha": "2026-07-06",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Seattle"
+    },
+    {
+      "fase": "Octavos",
+      "faseGrupo": "octavos",
+      "fecha": "2026-07-07",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Atlanta"
+    },
+    {
+      "fase": "Octavos",
+      "faseGrupo": "octavos",
+      "fecha": "2026-07-07",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Vancouver"
+    },
+    {
+      "fase": "Cuartos",
+      "faseGrupo": "cuartos",
+      "fecha": "2026-07-09",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Boston"
+    },
+    {
+      "fase": "Cuartos",
+      "faseGrupo": "cuartos",
+      "fecha": "2026-07-10",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Los Angeles"
+    },
+    {
+      "fase": "Cuartos",
+      "faseGrupo": "cuartos",
+      "fecha": "2026-07-11",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Miami"
+    },
+    {
+      "fase": "Cuartos",
+      "faseGrupo": "cuartos",
+      "fecha": "2026-07-11",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Kansas City"
+    },
+    {
+      "fase": "Semifinales",
+      "faseGrupo": "semifinales",
+      "fecha": "2026-07-14",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Dallas"
+    },
+    {
+      "fase": "Semifinales",
+      "faseGrupo": "semifinales",
+      "fecha": "2026-07-15",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Atlanta"
+    },
+    {
+      "fase": "3er Puesto",
+      "faseGrupo": "final",
+      "fecha": "2026-07-18",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "Miami"
+    },
+    {
+      "fase": "FINAL",
+      "faseGrupo": "final",
+      "fecha": "2026-07-19",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": "N. York/N. Jersey"
+    }
+  ],
+  "resultadosFinales": {
+    "campeon": null,
+    "subcampeon": null,
+    "tercerPuesto": null,
+    "cuartoPuesto": null,
+    "goleador": null
+  },
+  "meta": {
+    "pendienteExcel": true,
+    "totalPartidos": 32,
+    "partidosPendientes": 32,
+    "generadoEn": "2026-06-15T23:27:11.346Z"
+  }
+}

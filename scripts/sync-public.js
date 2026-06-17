@@ -49,6 +49,7 @@ const files = [
   ["data/resultados-oficiales.json", "public/data/resultados-oficiales.json"],
   ["data/ranking.json", "public/data/ranking.json"],
   ["data/config.json", "public/data/config.json"],
+  ["data/team-aliases.json", "public/data/team-aliases.json"],
   ["lib/scoring.js", "public/scoring.js"],
 ];
 

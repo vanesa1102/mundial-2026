@@ -5,7 +5,7 @@
   "titulo": "RESUMEN DE ELIMINATORIAS",
   "participante": {
     "id": "vanessa-trivino",
-    "nombre": "Vanessa Trivino"
+    "nombre": "Vanessa Triviño"
   },
   "partidos": [
     {
@@ -339,6 +339,6 @@
   "meta": {
     "totalPartidos": 32,
     "partidosPendientes": 0,
-    "generadoEn": "2026-06-11T03:41:18.290Z"
+    "generadoEn": "2026-06-15T23:38:01.969Z"
   }
 }

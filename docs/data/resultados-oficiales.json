@@ -1,287 +1,1693 @@
 {
   "version": 1,
   "titulo": "Resultados oficiales Mundial 2026",
-  "etapasConfirmadas": ["dieciseisavos", "octavos", "cuartos"],
+  "etapasConfirmadas": [],
+  "grupos": [
+    {
+      "id": "A",
+      "nombre": "Grupo A",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "MÉXICO",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 2,
+          "gc": 0,
+          "dg": 2,
+          "pts": 3
+        },
+        {
+          "posicion": 2,
+          "equipo": "Korea Republic",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 2,
+          "gc": 1,
+          "dg": 1,
+          "pts": 3
+        },
+        {
+          "posicion": 3,
+          "equipo": "REP. CHECA",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 1,
+          "gc": 2,
+          "dg": -1,
+          "pts": 0
+        },
+        {
+          "posicion": 4,
+          "equipo": "SUDÁFRICA",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 0,
+          "gc": 2,
+          "dg": -2,
+          "pts": 0
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "nombre": "Grupo B",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "Canada",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 2,
+          "equipo": "Bosnia-H.",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 3,
+          "equipo": "CATAR",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 4,
+          "equipo": "SUIZA",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "nombre": "Grupo C",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "ESCOCIA",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 1,
+          "gc": 0,
+          "dg": 1,
+          "pts": 3
+        },
+        {
+          "posicion": 2,
+          "equipo": "BRASIL",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 3,
+          "equipo": "MARRUECOS",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 4,
+          "equipo": "Haiti",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 0,
+          "gc": 1,
+          "dg": -1,
+          "pts": 0
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "nombre": "Grupo D",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "ESTADOS UNIDOS",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 4,
+          "gc": 1,
+          "dg": 3,
+          "pts": 3
+        },
+        {
+          "posicion": 2,
+          "equipo": "Australia",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 2,
+          "gc": 0,
+          "dg": 2,
+          "pts": 3
+        },
+        {
+          "posicion": 3,
+          "equipo": "Turkey",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 0,
+          "gc": 2,
+          "dg": -2,
+          "pts": 0
+        },
+        {
+          "posicion": 4,
+          "equipo": "PARAGUAY",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 1,
+          "gc": 4,
+          "dg": -3,
+          "pts": 0
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "nombre": "Grupo E",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "ALEMANIA",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 7,
+          "gc": 1,
+          "dg": 6,
+          "pts": 3
+        },
+        {
+          "posicion": 2,
+          "equipo": "COSTA de MARFIL",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 1,
+          "gc": 0,
+          "dg": 1,
+          "pts": 3
+        },
+        {
+          "posicion": 3,
+          "equipo": "ECUADOR",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 0,
+          "gc": 1,
+          "dg": -1,
+          "pts": 0
+        },
+        {
+          "posicion": 4,
+          "equipo": "Curaçao",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 1,
+          "gc": 7,
+          "dg": -6,
+          "pts": 0
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "nombre": "Grupo F",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "SUECIA",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 5,
+          "gc": 1,
+          "dg": 4,
+          "pts": 3
+        },
+        {
+          "posicion": 2,
+          "equipo": "PAÍSES BAJOS",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 3,
+          "equipo": "JAPÓN",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 4,
+          "equipo": "Tunisia",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 1,
+          "gc": 5,
+          "dg": -4,
+          "pts": 0
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "nombre": "Grupo G",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "Iran",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 2,
+          "equipo": "New Zealand",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 3,
+          "equipo": "BÉLGICA",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 4,
+          "equipo": "EGIPTO",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "nombre": "Grupo H",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "Saudi Arabia",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 2,
+          "equipo": "URUGUAY",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 3,
+          "equipo": "ESPAÑA",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 0,
+          "gc": 0,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 4,
+          "equipo": "Cape Verde",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 0,
+          "gc": 0,
+          "dg": 0,
+          "pts": 1
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "nombre": "Grupo I",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "NORUEGA",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 4,
+          "gc": 1,
+          "dg": 3,
+          "pts": 3
+        },
+        {
+          "posicion": 2,
+          "equipo": "FRANCIA",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 3,
+          "gc": 1,
+          "dg": 2,
+          "pts": 3
+        },
+        {
+          "posicion": 3,
+          "equipo": "SENEGAL",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 1,
+          "gc": 3,
+          "dg": -2,
+          "pts": 0
+        },
+        {
+          "posicion": 4,
+          "equipo": "Iraq",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 1,
+          "gc": 4,
+          "dg": -3,
+          "pts": 0
+        }
+      ]
+    },
+    {
+      "id": "J",
+      "nombre": "Grupo J",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "ARGENTINA",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 3,
+          "gc": 0,
+          "dg": 3,
+          "pts": 3
+        },
+        {
+          "posicion": 2,
+          "equipo": "AUSTRIA",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 3,
+          "gc": 1,
+          "dg": 2,
+          "pts": 3
+        },
+        {
+          "posicion": 3,
+          "equipo": "JORDANIA",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 1,
+          "gc": 3,
+          "dg": -2,
+          "pts": 0
+        },
+        {
+          "posicion": 4,
+          "equipo": "Algeria",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 0,
+          "gc": 3,
+          "dg": -3,
+          "pts": 0
+        }
+      ]
+    },
+    {
+      "id": "K",
+      "nombre": "Grupo K",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "PORTUGAL",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        },
+        {
+          "posicion": 2,
+          "equipo": "REP. del CONGO",
+          "pj": 1,
+          "g": 0,
+          "e": 1,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 1
+        }
+      ]
+    }
+  ],
+  "partidosGrupos": [
+    {
+      "fase": "Grupo A",
+      "faseGrupo": "grupos",
+      "grupo": "A",
+      "fecha": "2026-06-11",
+      "equipo1": "MÉXICO",
+      "equipo2": "SUDÁFRICA",
+      "marcador": "2-0",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo A",
+      "faseGrupo": "grupos",
+      "grupo": "A",
+      "fecha": "2026-06-12",
+      "equipo1": "Korea Republic",
+      "equipo2": "REP. CHECA",
+      "marcador": "2-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo B",
+      "faseGrupo": "grupos",
+      "grupo": "B",
+      "fecha": "2026-06-12",
+      "equipo1": "Canada",
+      "equipo2": "Bosnia-H.",
+      "marcador": "1-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo D",
+      "faseGrupo": "grupos",
+      "grupo": "D",
+      "fecha": "2026-06-13",
+      "equipo1": "ESTADOS UNIDOS",
+      "equipo2": "PARAGUAY",
+      "marcador": "4-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo B",
+      "faseGrupo": "grupos",
+      "grupo": "B",
+      "fecha": "2026-06-13",
+      "equipo1": "CATAR",
+      "equipo2": "SUIZA",
+      "marcador": "1-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo C",
+      "faseGrupo": "grupos",
+      "grupo": "C",
+      "fecha": "2026-06-13",
+      "equipo1": "BRASIL",
+      "equipo2": "MARRUECOS",
+      "marcador": "1-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo C",
+      "faseGrupo": "grupos",
+      "grupo": "C",
+      "fecha": "2026-06-14",
+      "equipo1": "Haiti",
+      "equipo2": "ESCOCIA",
+      "marcador": "0-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo D",
+      "faseGrupo": "grupos",
+      "grupo": "D",
+      "fecha": "2026-06-14",
+      "equipo1": "Australia",
+      "equipo2": "Turkey",
+      "marcador": "2-0",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo E",
+      "faseGrupo": "grupos",
+      "grupo": "E",
+      "fecha": "2026-06-14",
+      "equipo1": "ALEMANIA",
+      "equipo2": "Curaçao",
+      "marcador": "7-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo F",
+      "faseGrupo": "grupos",
+      "grupo": "F",
+      "fecha": "2026-06-14",
+      "equipo1": "PAÍSES BAJOS",
+      "equipo2": "JAPÓN",
+      "marcador": "2-2",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo E",
+      "faseGrupo": "grupos",
+      "grupo": "E",
+      "fecha": "2026-06-14",
+      "equipo1": "COSTA de MARFIL",
+      "equipo2": "ECUADOR",
+      "marcador": "1-0",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo F",
+      "faseGrupo": "grupos",
+      "grupo": "F",
+      "fecha": "2026-06-15",
+      "equipo1": "SUECIA",
+      "equipo2": "Tunisia",
+      "marcador": "5-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo H",
+      "faseGrupo": "grupos",
+      "grupo": "H",
+      "fecha": "2026-06-15",
+      "equipo1": "ESPAÑA",
+      "equipo2": "Cape Verde",
+      "marcador": "0-0",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo G",
+      "faseGrupo": "grupos",
+      "grupo": "G",
+      "fecha": "2026-06-15",
+      "equipo1": "BÉLGICA",
+      "equipo2": "EGIPTO",
+      "marcador": "1-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo H",
+      "faseGrupo": "grupos",
+      "grupo": "H",
+      "fecha": "2026-06-15",
+      "equipo1": "Saudi Arabia",
+      "equipo2": "URUGUAY",
+      "marcador": "1-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo G",
+      "faseGrupo": "grupos",
+      "grupo": "G",
+      "fecha": "2026-06-16",
+      "equipo1": "Iran",
+      "equipo2": "New Zealand",
+      "marcador": "2-2",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo I",
+      "faseGrupo": "grupos",
+      "grupo": "I",
+      "fecha": "2026-06-16",
+      "equipo1": "FRANCIA",
+      "equipo2": "SENEGAL",
+      "marcador": "3-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo I",
+      "faseGrupo": "grupos",
+      "grupo": "I",
+      "fecha": "2026-06-16",
+      "equipo1": "Iraq",
+      "equipo2": "NORUEGA",
+      "marcador": "1-4",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo J",
+      "faseGrupo": "grupos",
+      "grupo": "J",
+      "fecha": "2026-06-17",
+      "equipo1": "ARGENTINA",
+      "equipo2": "Algeria",
+      "marcador": "3-0",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo J",
+      "faseGrupo": "grupos",
+      "grupo": "J",
+      "fecha": "2026-06-17",
+      "equipo1": "AUSTRIA",
+      "equipo2": "JORDANIA",
+      "marcador": "3-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo K",
+      "faseGrupo": "grupos",
+      "grupo": "K",
+      "fecha": "2026-06-17",
+      "equipo1": "PORTUGAL",
+      "equipo2": "REP. del CONGO",
+      "marcador": "1-1",
+      "pendiente": false,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo L",
+      "faseGrupo": "grupos",
+      "grupo": "L",
+      "fecha": "2026-06-17",
+      "equipo1": "INGLATERRA",
+      "equipo2": "CROACIA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo L",
+      "faseGrupo": "grupos",
+      "grupo": "L",
+      "fecha": "2026-06-17",
+      "equipo1": "Ghana",
+      "equipo2": "Panama",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo K",
+      "faseGrupo": "grupos",
+      "grupo": "K",
+      "fecha": "2026-06-18",
+      "equipo1": "Uzbekistan",
+      "equipo2": "COLOMBIA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo A",
+      "faseGrupo": "grupos",
+      "grupo": "A",
+      "fecha": "2026-06-18",
+      "equipo1": "REP. CHECA",
+      "equipo2": "SUDÁFRICA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo B",
+      "faseGrupo": "grupos",
+      "grupo": "B",
+      "fecha": "2026-06-18",
+      "equipo1": "SUIZA",
+      "equipo2": "Bosnia-H.",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo B",
+      "faseGrupo": "grupos",
+      "grupo": "B",
+      "fecha": "2026-06-18",
+      "equipo1": "Canada",
+      "equipo2": "CATAR",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo A",
+      "faseGrupo": "grupos",
+      "grupo": "A",
+      "fecha": "2026-06-19",
+      "equipo1": "MÉXICO",
+      "equipo2": "Korea Republic",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo D",
+      "faseGrupo": "grupos",
+      "grupo": "D",
+      "fecha": "2026-06-19",
+      "equipo1": "ESTADOS UNIDOS",
+      "equipo2": "Australia",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo C",
+      "faseGrupo": "grupos",
+      "grupo": "C",
+      "fecha": "2026-06-19",
+      "equipo1": "ESCOCIA",
+      "equipo2": "MARRUECOS",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo C",
+      "faseGrupo": "grupos",
+      "grupo": "C",
+      "fecha": "2026-06-20",
+      "equipo1": "BRASIL",
+      "equipo2": "Haiti",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo D",
+      "faseGrupo": "grupos",
+      "grupo": "D",
+      "fecha": "2026-06-20",
+      "equipo1": "Turkey",
+      "equipo2": "PARAGUAY",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo F",
+      "faseGrupo": "grupos",
+      "grupo": "F",
+      "fecha": "2026-06-20",
+      "equipo1": "PAÍSES BAJOS",
+      "equipo2": "SUECIA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo E",
+      "faseGrupo": "grupos",
+      "grupo": "E",
+      "fecha": "2026-06-20",
+      "equipo1": "ALEMANIA",
+      "equipo2": "COSTA de MARFIL",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo E",
+      "faseGrupo": "grupos",
+      "grupo": "E",
+      "fecha": "2026-06-21",
+      "equipo1": "ECUADOR",
+      "equipo2": "Curaçao",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo F",
+      "faseGrupo": "grupos",
+      "grupo": "F",
+      "fecha": "2026-06-21",
+      "equipo1": "Tunisia",
+      "equipo2": "JAPÓN",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo H",
+      "faseGrupo": "grupos",
+      "grupo": "H",
+      "fecha": "2026-06-21",
+      "equipo1": "ESPAÑA",
+      "equipo2": "Saudi Arabia",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo G",
+      "faseGrupo": "grupos",
+      "grupo": "G",
+      "fecha": "2026-06-21",
+      "equipo1": "BÉLGICA",
+      "equipo2": "Iran",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo H",
+      "faseGrupo": "grupos",
+      "grupo": "H",
+      "fecha": "2026-06-21",
+      "equipo1": "URUGUAY",
+      "equipo2": "Cape Verde",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo G",
+      "faseGrupo": "grupos",
+      "grupo": "G",
+      "fecha": "2026-06-22",
+      "equipo1": "New Zealand",
+      "equipo2": "EGIPTO",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo J",
+      "faseGrupo": "grupos",
+      "grupo": "J",
+      "fecha": "2026-06-22",
+      "equipo1": "ARGENTINA",
+      "equipo2": "AUSTRIA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo I",
+      "faseGrupo": "grupos",
+      "grupo": "I",
+      "fecha": "2026-06-22",
+      "equipo1": "FRANCIA",
+      "equipo2": "Iraq",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo I",
+      "faseGrupo": "grupos",
+      "grupo": "I",
+      "fecha": "2026-06-23",
+      "equipo1": "NORUEGA",
+      "equipo2": "SENEGAL",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo J",
+      "faseGrupo": "grupos",
+      "grupo": "J",
+      "fecha": "2026-06-23",
+      "equipo1": "JORDANIA",
+      "equipo2": "Algeria",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo K",
+      "faseGrupo": "grupos",
+      "grupo": "K",
+      "fecha": "2026-06-23",
+      "equipo1": "PORTUGAL",
+      "equipo2": "Uzbekistan",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo L",
+      "faseGrupo": "grupos",
+      "grupo": "L",
+      "fecha": "2026-06-23",
+      "equipo1": "INGLATERRA",
+      "equipo2": "Ghana",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo L",
+      "faseGrupo": "grupos",
+      "grupo": "L",
+      "fecha": "2026-06-23",
+      "equipo1": "Panama",
+      "equipo2": "CROACIA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo K",
+      "faseGrupo": "grupos",
+      "grupo": "K",
+      "fecha": "2026-06-24",
+      "equipo1": "COLOMBIA",
+      "equipo2": "REP. del CONGO",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo B",
+      "faseGrupo": "grupos",
+      "grupo": "B",
+      "fecha": "2026-06-24",
+      "equipo1": "SUIZA",
+      "equipo2": "Canada",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo B",
+      "faseGrupo": "grupos",
+      "grupo": "B",
+      "fecha": "2026-06-24",
+      "equipo1": "Bosnia-H.",
+      "equipo2": "CATAR",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo C",
+      "faseGrupo": "grupos",
+      "grupo": "C",
+      "fecha": "2026-06-24",
+      "equipo1": "MARRUECOS",
+      "equipo2": "Haiti",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo C",
+      "faseGrupo": "grupos",
+      "grupo": "C",
+      "fecha": "2026-06-24",
+      "equipo1": "ESCOCIA",
+      "equipo2": "BRASIL",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo A",
+      "faseGrupo": "grupos",
+      "grupo": "A",
+      "fecha": "2026-06-25",
+      "equipo1": "REP. CHECA",
+      "equipo2": "MÉXICO",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo A",
+      "faseGrupo": "grupos",
+      "grupo": "A",
+      "fecha": "2026-06-25",
+      "equipo1": "SUDÁFRICA",
+      "equipo2": "Korea Republic",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo E",
+      "faseGrupo": "grupos",
+      "grupo": "E",
+      "fecha": "2026-06-25",
+      "equipo1": "ECUADOR",
+      "equipo2": "ALEMANIA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo E",
+      "faseGrupo": "grupos",
+      "grupo": "E",
+      "fecha": "2026-06-25",
+      "equipo1": "Curaçao",
+      "equipo2": "COSTA de MARFIL",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo F",
+      "faseGrupo": "grupos",
+      "grupo": "F",
+      "fecha": "2026-06-25",
+      "equipo1": "Tunisia",
+      "equipo2": "PAÍSES BAJOS",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo F",
+      "faseGrupo": "grupos",
+      "grupo": "F",
+      "fecha": "2026-06-25",
+      "equipo1": "JAPÓN",
+      "equipo2": "SUECIA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo D",
+      "faseGrupo": "grupos",
+      "grupo": "D",
+      "fecha": "2026-06-26",
+      "equipo1": "Turkey",
+      "equipo2": "ESTADOS UNIDOS",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo D",
+      "faseGrupo": "grupos",
+      "grupo": "D",
+      "fecha": "2026-06-26",
+      "equipo1": "PARAGUAY",
+      "equipo2": "Australia",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo I",
+      "faseGrupo": "grupos",
+      "grupo": "I",
+      "fecha": "2026-06-26",
+      "equipo1": "NORUEGA",
+      "equipo2": "FRANCIA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo I",
+      "faseGrupo": "grupos",
+      "grupo": "I",
+      "fecha": "2026-06-26",
+      "equipo1": "SENEGAL",
+      "equipo2": "Iraq",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo H",
+      "faseGrupo": "grupos",
+      "grupo": "H",
+      "fecha": "2026-06-27",
+      "equipo1": "URUGUAY",
+      "equipo2": "ESPAÑA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo H",
+      "faseGrupo": "grupos",
+      "grupo": "H",
+      "fecha": "2026-06-27",
+      "equipo1": "Cape Verde",
+      "equipo2": "Saudi Arabia",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo G",
+      "faseGrupo": "grupos",
+      "grupo": "G",
+      "fecha": "2026-06-27",
+      "equipo1": "New Zealand",
+      "equipo2": "BÉLGICA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo G",
+      "faseGrupo": "grupos",
+      "grupo": "G",
+      "fecha": "2026-06-27",
+      "equipo1": "EGIPTO",
+      "equipo2": "Iran",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo L",
+      "faseGrupo": "grupos",
+      "grupo": "L",
+      "fecha": "2026-06-27",
+      "equipo1": "Panama",
+      "equipo2": "INGLATERRA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo L",
+      "faseGrupo": "grupos",
+      "grupo": "L",
+      "fecha": "2026-06-27",
+      "equipo1": "CROACIA",
+      "equipo2": "Ghana",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo K",
+      "faseGrupo": "grupos",
+      "grupo": "K",
+      "fecha": "2026-06-27",
+      "equipo1": "COLOMBIA",
+      "equipo2": "PORTUGAL",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo K",
+      "faseGrupo": "grupos",
+      "grupo": "K",
+      "fecha": "2026-06-27",
+      "equipo1": "REP. del CONGO",
+      "equipo2": "Uzbekistan",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo J",
+      "faseGrupo": "grupos",
+      "grupo": "J",
+      "fecha": "2026-06-28",
+      "equipo1": "JORDANIA",
+      "equipo2": "ARGENTINA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Grupo J",
+      "faseGrupo": "grupos",
+      "grupo": "J",
+      "fecha": "2026-06-28",
+      "equipo1": "Algeria",
+      "equipo2": "AUSTRIA",
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    }
+  ],
   "partidos": [
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-06-28",
-      "equipo1": "REP. CHECA",
-      "equipo2": "CATAR",
-      "marcador": "2-1",
-      "pendiente": false,
-      "estadio": "Los Angeles"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-06-29",
-      "equipo1": "BRASIL",
-      "equipo2": "SUECIA",
-      "marcador": "1-0",
-      "pendiente": false,
-      "estadio": "Houston"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-06-29",
-      "equipo1": "ALEMANIA",
-      "equipo2": "PARAGUAY",
-      "marcador": "3-1",
-      "pendiente": false,
-      "estadio": "Boston"
-    },
-    {
-      "fase": "Dieciseisavos",
-      "faseGrupo": "dieciseisavos",
-      "fecha": "2026-06-29",
-      "equipo1": "PAÍSES BAJOS",
-      "equipo2": "MARRUECOS",
-      "marcador": "2-0",
-      "pendiente": false,
-      "estadio": "Monterrey"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-06-30",
-      "equipo1": "ECUADOR",
-      "equipo2": "NORUEGA",
-      "marcador": "0-1",
-      "pendiente": false,
-      "estadio": "Dallas"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-06-30",
-      "equipo1": "FRANCIA",
-      "equipo2": "JAPÓN",
-      "marcador": "2-1",
-      "pendiente": false,
-      "estadio": "N. York/N. Jersey"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-06-30",
-      "equipo1": "MÉXICO",
-      "equipo2": "ESCOCIA",
-      "marcador": "1-1",
-      "pendiente": false,
-      "estadio": "Ciudad de México"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-01",
-      "equipo1": "CROACIA",
-      "equipo2": "REP. del CONGO",
-      "marcador": "2-0",
-      "pendiente": false,
-      "estadio": "Atlanta"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-01",
-      "equipo1": "BÉLGICA",
-      "equipo2": "SUDÁFRICA",
-      "marcador": "4-1",
-      "pendiente": false,
-      "estadio": "Seattle"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-01",
-      "equipo1": "ESTADOS UNIDOS",
-      "equipo2": "COSTA de MARFIL",
-      "marcador": "3-2",
-      "pendiente": false,
-      "estadio": "San Francisco"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-02",
-      "equipo1": "ESPAÑA",
-      "equipo2": "AUSTRIA",
-      "marcador": "1-0",
-      "pendiente": false,
-      "estadio": "Los Angeles"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-02",
-      "equipo1": "PORTUGAL",
-      "equipo2": "INGLATERRA",
-      "marcador": "2-1",
-      "pendiente": false,
-      "estadio": "Toronto"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Dieciseisavos",
+      "faseGrupo": "dieciseisavos",
+      "fecha": "2026-07-02",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-03",
-      "equipo1": "SUIZA",
-      "equipo2": "JORDANIA",
-      "marcador": "3-0",
-      "pendiente": false,
-      "estadio": "Vancouver"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-03",
-      "equipo1": "PARAGUAY",
-      "equipo2": "EGIPTO",
-      "marcador": "1-0",
-      "pendiente": false,
-      "estadio": "Dallas"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-03",
-      "equipo1": "ARGENTINA",
-      "equipo2": "URUGUAY",
-      "marcador": "2-0",
-      "pendiente": false,
-      "estadio": "Miami"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
-      "fecha": "2026-07-03",
-      "equipo1": "COLOMBIA",
-      "equipo2": "SENEGAL",
-      "marcador": "1-2",
-      "pendiente": false,
-      "estadio": "Kansas City"
+      "fecha": "2026-07-04",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-04",
-      "equipo1": "REP. CHECA",
-      "equipo2": "PAÍSES BAJOS",
-      "marcador": "0-2",
-      "pendiente": false,
-      "estadio": "Houston"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-04",
-      "equipo1": "ALEMANIA",
-      "equipo2": "FRANCIA",
-      "marcador": "1-3",
-      "pendiente": false,
-      "estadio": "Filadelfia"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-05",
-      "equipo1": "BRASIL",
-      "equipo2": "NORUEGA",
-      "marcador": "2-1",
-      "pendiente": false,
-      "estadio": "N. York/N. Jersey"
-    },
-    {
-      "fase": "Octavos",
-      "faseGrupo": "octavos",
-      "fecha": "2026-07-05",
-      "equipo1": "MÉXICO",
-      "equipo2": "CROACIA",
-      "marcador": "0-1",
-      "pendiente": false,
-      "estadio": "Ciudad de México"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-06",
-      "equipo1": "PORTUGAL",
-      "equipo2": "ESPAÑA",
-      "marcador": "1-0",
-      "pendiente": false,
-      "estadio": "Dallas"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-06",
-      "equipo1": "ESTADOS UNIDOS",
-      "equipo2": "BÉLGICA",
-      "marcador": "2-2",
-      "pendiente": false,
-      "estadio": "Seattle"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-07",
-      "equipo1": "ARGENTINA",
-      "equipo2": "PARAGUAY",
-      "marcador": "3-0",
-      "pendiente": false,
-      "estadio": "Atlanta"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-07",
-      "equipo1": "SUIZA",
-      "equipo2": "SENEGAL",
-      "marcador": "1-2",
-      "pendiente": false,
-      "estadio": "Vancouver"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Octavos",
+      "faseGrupo": "octavos",
+      "fecha": "2026-07-07",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Cuartos",
       "faseGrupo": "cuartos",
       "fecha": "2026-07-09",
-      "equipo1": "FRANCIA",
-      "equipo2": "PAÍSES BAJOS",
-      "marcador": "1-2",
-      "pendiente": false,
-      "estadio": "Boston"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Cuartos",
       "faseGrupo": "cuartos",
       "fecha": "2026-07-10",
-      "equipo1": "PORTUGAL",
-      "equipo2": "BÉLGICA",
-      "marcador": "2-1",
-      "pendiente": false,
-      "estadio": "Los Angeles"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Cuartos",
       "faseGrupo": "cuartos",
       "fecha": "2026-07-11",
-      "equipo1": "BRASIL",
-      "equipo2": "CROACIA",
-      "marcador": "3-1",
-      "pendiente": false,
-      "estadio": "Miami"
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     },
     {
       "fase": "Cuartos",
       "faseGrupo": "cuartos",
-      "fecha": "2026-07-11",
-      "equipo1": "ARGENTINA",
-      "equipo2": "SENEGAL",
-      "marcador": "2-0",
-      "pendiente": false,
-      "estadio": "Kansas City"
+      "fecha": "2026-07-12",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Semifinales",
+      "faseGrupo": "semifinales",
+      "fecha": "2026-07-14",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "Semifinales",
+      "faseGrupo": "semifinales",
+      "fecha": "2026-07-15",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "TERCER PUESTO",
+      "faseGrupo": "final",
+      "fecha": "2026-07-18",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
+    },
+    {
+      "fase": "FINAL",
+      "faseGrupo": "final",
+      "fecha": "2026-07-19",
+      "equipo1": null,
+      "equipo2": null,
+      "marcador": null,
+      "pendiente": true,
+      "estadio": null
     }
   ],
   "resultadosFinales": {
@@ -289,10 +1695,11 @@
     "subcampeon": null,
     "tercerPuesto": null,
     "cuartoPuesto": null,
-    "goleador": "James"
+    "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-07-12T00:00:00.000Z",
-    "notas": "Ejemplo parcial. Agrega etapas a etapasConfirmadas cuando termine cada ronda."
+    "actualizadoEn": "2026-06-17T21:48:59.594Z",
+    "fuente": "football-data.org",
+    "notas": "Generado automáticamente desde la API WC."
   }
 }

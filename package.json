@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "add:jugador": "node scripts/add-jugador.js",
+    "add:participante": "node scripts/crear-participante.js",
     "update:jugador": "node scripts/add-jugador.js --update",
     "convert:resumen": "node scripts/convert-resumen.js",
     "setup:participantes": "node scripts/setup-participantes.js",
     "score": "node scripts/calcular-puntos.js",
     "sync:public": "node scripts/sync-public.js",
+    "sync:resultados": "node scripts/sync-resultados-api.js",
     "build": "npm run score && npm run sync:public",
     "dev": "npm run build && npx --yes serve public -l 3000",
     "test": "echo \"Error: no test specified\" && exit 1"

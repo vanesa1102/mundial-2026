@@ -5,5 +5,11 @@
     "1": 0.5,
     "2": 0.3,
     "3": 0.2
+  },
+  "footballData": {
+    "enabled": true,
+    "token": "",
+    "competition": "WC",
+    "season": 2026
   }
 }
