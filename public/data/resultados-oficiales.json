@@ -63,19 +63,19 @@
       "equipos": [
         {
           "posicion": 1,
-          "equipo": "Canada",
-          "pj": 1,
-          "g": 0,
+          "equipo": "SUIZA",
+          "pj": 2,
+          "g": 1,
           "e": 1,
           "p": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
-          "pts": 1
+          "gf": 5,
+          "gc": 2,
+          "dg": 3,
+          "pts": 4
         },
         {
           "posicion": 2,
-          "equipo": "Bosnia-H.",
+          "equipo": "Canada",
           "pj": 1,
           "g": 0,
           "e": 1,
@@ -99,14 +99,14 @@
         },
         {
           "posicion": 4,
-          "equipo": "SUIZA",
-          "pj": 1,
+          "equipo": "Bosnia-H.",
+          "pj": 2,
           "g": 0,
           "e": 1,
-          "p": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
+          "p": 1,
+          "gf": 2,
+          "gc": 5,
+          "dg": -3,
           "pts": 1
         }
       ]
@@ -935,8 +935,8 @@
       "fecha": "2026-06-18",
       "equipo1": "SUIZA",
       "equipo2": "Bosnia-H.",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "4-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-18T20:12:23.234Z",
+    "actualizadoEn": "2026-06-18T23:52:13.604Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
