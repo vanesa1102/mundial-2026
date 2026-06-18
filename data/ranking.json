@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-06-18T20:12:23.499Z",
+  "generadoEn": "2026-06-18T23:36:11.224Z",
   "config": {
     "inscripcion": 25000,
     "moneda": "COP",
@@ -15,8 +15,8 @@
       "season": 2026
     }
   },
-  "pozoTotal": 225000,
-  "totalJugadores": 9,
+  "pozoTotal": 350000,
+  "totalJugadores": 14,
   "etapasConfirmadas": [],
   "ultimaActualizacionOficial": "2026-06-18T20:12:23.234Z",
   "ranking": [
@@ -28,7 +28,7 @@
       "etapasConfirmadas": [],
       "ultimaActualizacionOficial": "2026-06-18T20:12:23.234Z",
       "posicion": 1,
-      "premio": 112500,
+      "premio": 175000,
       "premioPorcentaje": 0.5
     },
     {
@@ -39,7 +39,7 @@
       "etapasConfirmadas": [],
       "ultimaActualizacionOficial": "2026-06-18T20:12:23.234Z",
       "posicion": 2,
-      "premio": 67500,
+      "premio": 105000,
       "premioPorcentaje": 0.3
     },
     {
@@ -50,8 +50,41 @@
       "etapasConfirmadas": [],
       "ultimaActualizacionOficial": "2026-06-18T20:12:23.234Z",
       "posicion": 3,
-      "premio": 45000,
+      "premio": 70000,
       "premioPorcentaje": 0.2
+    },
+    {
+      "id": "harold-ocampo",
+      "participante": "Harold Ocampo",
+      "total": 0,
+      "desglose": [],
+      "etapasConfirmadas": [],
+      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "posicion": 4,
+      "premio": 0,
+      "premioPorcentaje": 0
+    },
+    {
+      "id": "juan-pablo-suarez",
+      "participante": "Juan Pablo Suarez",
+      "total": 0,
+      "desglose": [],
+      "etapasConfirmadas": [],
+      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "posicion": 5,
+      "premio": 0,
+      "premioPorcentaje": 0
+    },
+    {
+      "id": "maria-acevedo",
+      "participante": "Maria Acevedo",
+      "total": 0,
+      "desglose": [],
+      "etapasConfirmadas": [],
+      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "posicion": 6,
+      "premio": 0,
+      "premioPorcentaje": 0
     },
     {
       "id": "martha-garcia",
@@ -59,8 +92,8 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-18T20:12:23.234Z",
-      "posicion": 4,
+      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "posicion": 7,
       "premio": 0,
       "premioPorcentaje": 0
     },
@@ -70,8 +103,8 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-18T20:12:23.234Z",
-      "posicion": 5,
+      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "posicion": 8,
       "premio": 0,
       "premioPorcentaje": 0
     },
@@ -81,8 +114,8 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-18T20:12:23.234Z",
-      "posicion": 6,
+      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "posicion": 9,
       "premio": 0,
       "premioPorcentaje": 0
     },
@@ -92,8 +125,19 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-18T20:12:23.234Z",
-      "posicion": 7,
+      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "posicion": 10,
+      "premio": 0,
+      "premioPorcentaje": 0
+    },
+    {
+      "id": "santiago-silva",
+      "participante": "Santiago Silva",
+      "total": 0,
+      "desglose": [],
+      "etapasConfirmadas": [],
+      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "posicion": 11,
       "premio": 0,
       "premioPorcentaje": 0
     },
@@ -103,8 +147,19 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-18T20:12:23.234Z",
-      "posicion": 8,
+      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "posicion": 12,
+      "premio": 0,
+      "premioPorcentaje": 0
+    },
+    {
+      "id": "sebastian-rocha",
+      "participante": "Sebastian Rocha",
+      "total": 0,
+      "desglose": [],
+      "etapasConfirmadas": [],
+      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "posicion": 13,
       "premio": 0,
       "premioPorcentaje": 0
     },
@@ -114,8 +169,8 @@
       "total": 0,
       "desglose": [],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-18T20:12:23.234Z",
-      "posicion": 9,
+      "ultimaActualizacionOficial": "2026-06-17T21:48:59.594Z",
+      "posicion": 14,
       "premio": 0,
       "premioPorcentaje": 0
     }
