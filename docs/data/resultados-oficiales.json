@@ -591,6 +591,30 @@
         },
         {
           "posicion": 2,
+          "equipo": "Ghana",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 1,
+          "gc": 0,
+          "dg": 1,
+          "pts": 3
+        },
+        {
+          "posicion": 3,
+          "equipo": "Panama",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 0,
+          "gc": 1,
+          "dg": -1,
+          "pts": 0
+        },
+        {
+          "posicion": 4,
           "equipo": "CROACIA",
           "pj": 1,
           "g": 0,
@@ -854,8 +878,8 @@
       "fecha": "2026-06-17",
       "equipo1": "Ghana",
       "equipo2": "Panama",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "1-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1728,7 +1752,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-17T22:24:32.791Z",
+    "actualizadoEn": "2026-06-18T02:42:29.667Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
