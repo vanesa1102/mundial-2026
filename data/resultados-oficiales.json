@@ -34,26 +34,26 @@
         {
           "posicion": 3,
           "equipo": "REP. CHECA",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
-          "e": 0,
+          "e": 1,
           "p": 1,
-          "gf": 1,
-          "gc": 2,
+          "gf": 2,
+          "gc": 3,
           "dg": -1,
-          "pts": 0
+          "pts": 1
         },
         {
           "posicion": 4,
           "equipo": "SUDÁFRICA",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
-          "e": 0,
+          "e": 1,
           "p": 1,
-          "gf": 0,
-          "gc": 2,
+          "gf": 1,
+          "gc": 3,
           "dg": -2,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
@@ -924,8 +924,8 @@
       "fecha": "2026-06-18",
       "equipo1": "REP. CHECA",
       "equipo2": "SUDÁFRICA",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "1-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-18T14:48:05.541Z",
+    "actualizadoEn": "2026-06-18T20:12:23.234Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
