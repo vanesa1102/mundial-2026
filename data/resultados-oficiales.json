@@ -63,6 +63,18 @@
       "equipos": [
         {
           "posicion": 1,
+          "equipo": "Canada",
+          "pj": 2,
+          "g": 1,
+          "e": 1,
+          "p": 0,
+          "gf": 7,
+          "gc": 1,
+          "dg": 6,
+          "pts": 4
+        },
+        {
+          "posicion": 2,
           "equipo": "SUIZA",
           "pj": 2,
           "g": 1,
@@ -74,31 +86,7 @@
           "pts": 4
         },
         {
-          "posicion": 2,
-          "equipo": "Canada",
-          "pj": 1,
-          "g": 0,
-          "e": 1,
-          "p": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
-          "pts": 1
-        },
-        {
           "posicion": 3,
-          "equipo": "CATAR",
-          "pj": 1,
-          "g": 0,
-          "e": 1,
-          "p": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
-          "pts": 1
-        },
-        {
-          "posicion": 4,
           "equipo": "Bosnia-H.",
           "pj": 2,
           "g": 0,
@@ -107,6 +95,18 @@
           "gf": 2,
           "gc": 5,
           "dg": -3,
+          "pts": 1
+        },
+        {
+          "posicion": 4,
+          "equipo": "CATAR",
+          "pj": 2,
+          "g": 0,
+          "e": 1,
+          "p": 1,
+          "gf": 1,
+          "gc": 7,
+          "dg": -6,
           "pts": 1
         }
       ]
@@ -946,8 +946,8 @@
       "fecha": "2026-06-18",
       "equipo1": "Canada",
       "equipo2": "CATAR",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "6-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-18T23:52:13.604Z",
+    "actualizadoEn": "2026-06-19T02:59:20.637Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
