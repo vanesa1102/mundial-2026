@@ -117,6 +117,18 @@
       "equipos": [
         {
           "posicion": 1,
+          "equipo": "BRASIL",
+          "pj": 2,
+          "g": 1,
+          "e": 1,
+          "p": 0,
+          "gf": 4,
+          "gc": 1,
+          "dg": 3,
+          "pts": 4
+        },
+        {
+          "posicion": 2,
           "equipo": "MARRUECOS",
           "pj": 2,
           "g": 1,
@@ -128,7 +140,7 @@
           "pts": 4
         },
         {
-          "posicion": 2,
+          "posicion": 3,
           "equipo": "ESCOCIA",
           "pj": 2,
           "g": 1,
@@ -140,27 +152,15 @@
           "pts": 3
         },
         {
-          "posicion": 3,
-          "equipo": "BRASIL",
-          "pj": 1,
-          "g": 0,
-          "e": 1,
-          "p": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
-          "pts": 1
-        },
-        {
           "posicion": 4,
           "equipo": "Haiti",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
+          "p": 2,
           "gf": 0,
-          "gc": 1,
-          "dg": -1,
+          "gc": 4,
+          "dg": -4,
           "pts": 0
         }
       ]
@@ -195,25 +195,25 @@
         },
         {
           "posicion": 3,
-          "equipo": "Turkey",
-          "pj": 1,
-          "g": 0,
+          "equipo": "PARAGUAY",
+          "pj": 2,
+          "g": 1,
           "e": 0,
           "p": 1,
-          "gf": 0,
-          "gc": 2,
+          "gf": 2,
+          "gc": 4,
           "dg": -2,
-          "pts": 0
+          "pts": 3
         },
         {
           "posicion": 4,
-          "equipo": "PARAGUAY",
-          "pj": 1,
+          "equipo": "Turkey",
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
-          "gf": 1,
-          "gc": 4,
+          "p": 2,
+          "gf": 0,
+          "gc": 3,
           "dg": -3,
           "pts": 0
         }
@@ -990,8 +990,8 @@
       "fecha": "2026-06-20",
       "equipo1": "BRASIL",
       "equipo2": "Haiti",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "3-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1001,8 +1001,8 @@
       "fecha": "2026-06-20",
       "equipo1": "Turkey",
       "equipo2": "PARAGUAY",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "0-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-20T02:31:23.741Z",
+    "actualizadoEn": "2026-06-20T08:41:14.931Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
