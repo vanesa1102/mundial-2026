@@ -279,27 +279,27 @@
       "equipos": [
         {
           "posicion": 1,
-          "equipo": "SUECIA",
-          "pj": 1,
+          "equipo": "PAÍSES BAJOS",
+          "pj": 2,
           "g": 1,
-          "e": 0,
+          "e": 1,
           "p": 0,
-          "gf": 5,
-          "gc": 1,
+          "gf": 7,
+          "gc": 3,
           "dg": 4,
-          "pts": 3
+          "pts": 4
         },
         {
           "posicion": 2,
-          "equipo": "PAÍSES BAJOS",
-          "pj": 1,
-          "g": 0,
-          "e": 1,
-          "p": 0,
-          "gf": 2,
-          "gc": 2,
+          "equipo": "SUECIA",
+          "pj": 2,
+          "g": 1,
+          "e": 0,
+          "p": 1,
+          "gf": 6,
+          "gc": 6,
           "dg": 0,
-          "pts": 1
+          "pts": 3
         },
         {
           "posicion": 3,
@@ -1012,8 +1012,8 @@
       "fecha": "2026-06-20",
       "equipo1": "PAÍSES BAJOS",
       "equipo2": "SUECIA",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "5-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-20T13:28:39.407Z",
+    "actualizadoEn": "2026-06-20T19:10:06.811Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
