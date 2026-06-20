@@ -117,31 +117,31 @@
       "equipos": [
         {
           "posicion": 1,
-          "equipo": "ESCOCIA",
-          "pj": 1,
+          "equipo": "MARRUECOS",
+          "pj": 2,
           "g": 1,
-          "e": 0,
+          "e": 1,
           "p": 0,
-          "gf": 1,
-          "gc": 0,
+          "gf": 2,
+          "gc": 1,
           "dg": 1,
-          "pts": 3
+          "pts": 4
         },
         {
           "posicion": 2,
-          "equipo": "BRASIL",
-          "pj": 1,
-          "g": 0,
-          "e": 1,
-          "p": 0,
+          "equipo": "ESCOCIA",
+          "pj": 2,
+          "g": 1,
+          "e": 0,
+          "p": 1,
           "gf": 1,
           "gc": 1,
           "dg": 0,
-          "pts": 1
+          "pts": 3
         },
         {
           "posicion": 3,
-          "equipo": "MARRUECOS",
+          "equipo": "BRASIL",
           "pj": 1,
           "g": 0,
           "e": 1,
@@ -172,25 +172,25 @@
         {
           "posicion": 1,
           "equipo": "ESTADOS UNIDOS",
-          "pj": 1,
-          "g": 1,
+          "pj": 2,
+          "g": 2,
           "e": 0,
           "p": 0,
-          "gf": 4,
+          "gf": 6,
           "gc": 1,
-          "dg": 3,
-          "pts": 3
+          "dg": 5,
+          "pts": 6
         },
         {
           "posicion": 2,
           "equipo": "Australia",
-          "pj": 1,
+          "pj": 2,
           "g": 1,
           "e": 0,
-          "p": 0,
+          "p": 1,
           "gf": 2,
-          "gc": 0,
-          "dg": 2,
+          "gc": 2,
+          "dg": 0,
           "pts": 3
         },
         {
@@ -968,8 +968,8 @@
       "fecha": "2026-06-19",
       "equipo1": "ESTADOS UNIDOS",
       "equipo2": "Australia",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "2-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -979,8 +979,8 @@
       "fecha": "2026-06-19",
       "equipo1": "ESCOCIA",
       "equipo2": "MARRUECOS",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "0-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-19T19:26:23.730Z",
+    "actualizadoEn": "2026-06-20T02:31:23.741Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
