@@ -63,18 +63,6 @@
       "equipos": [
         {
           "posicion": 1,
-          "equipo": "Canada",
-          "pj": 2,
-          "g": 1,
-          "e": 1,
-          "p": 0,
-          "gf": 7,
-          "gc": 1,
-          "dg": 6,
-          "pts": 4
-        },
-        {
-          "posicion": 2,
           "equipo": "SUIZA",
           "pj": 2,
           "g": 1,
@@ -86,19 +74,19 @@
           "pts": 4
         },
         {
-          "posicion": 3,
-          "equipo": "Bosnia-H.",
-          "pj": 2,
-          "g": 0,
-          "e": 1,
-          "p": 1,
-          "gf": 2,
-          "gc": 5,
-          "dg": -3,
-          "pts": 1
+          "posicion": 2,
+          "equipo": "Canada",
+          "pj": 1,
+          "g": 1,
+          "e": 0,
+          "p": 0,
+          "gf": 6,
+          "gc": 0,
+          "dg": 6,
+          "pts": 3
         },
         {
-          "posicion": 4,
+          "posicion": 3,
           "equipo": "CATAR",
           "pj": 2,
           "g": 0,
@@ -108,6 +96,18 @@
           "gc": 7,
           "dg": -6,
           "pts": 1
+        },
+        {
+          "posicion": 4,
+          "equipo": "Bosnia-H.",
+          "pj": 1,
+          "g": 0,
+          "e": 0,
+          "p": 1,
+          "gf": 1,
+          "gc": 4,
+          "dg": -3,
+          "pts": 0
         }
       ]
     },
@@ -291,6 +291,18 @@
         },
         {
           "posicion": 2,
+          "equipo": "JAPÓN",
+          "pj": 2,
+          "g": 1,
+          "e": 1,
+          "p": 0,
+          "gf": 6,
+          "gc": 2,
+          "dg": 4,
+          "pts": 4
+        },
+        {
+          "posicion": 3,
           "equipo": "SUECIA",
           "pj": 2,
           "g": 1,
@@ -302,27 +314,15 @@
           "pts": 3
         },
         {
-          "posicion": 3,
-          "equipo": "JAPÓN",
-          "pj": 1,
-          "g": 0,
-          "e": 1,
-          "p": 0,
-          "gf": 2,
-          "gc": 2,
-          "dg": 0,
-          "pts": 1
-        },
-        {
           "posicion": 4,
           "equipo": "Tunisia",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
+          "p": 2,
           "gf": 1,
-          "gc": 5,
-          "dg": -4,
+          "gc": 9,
+          "dg": -8,
           "pts": 0
         }
       ]
@@ -682,7 +682,7 @@
       "fecha": "2026-06-12",
       "equipo1": "Canada",
       "equipo2": "Bosnia-H.",
-      "marcador": "1-1",
+      "marcador": null,
       "pendiente": false,
       "estadio": null
     },
@@ -1045,8 +1045,8 @@
       "fecha": "2026-06-21",
       "equipo1": "Tunisia",
       "equipo2": "JAPÓN",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "0-4",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Deniz Undav"
   },
   "meta": {
-    "actualizadoEn": "2026-06-21T02:46:45.243Z",
+    "actualizadoEn": "2026-06-21T09:36:37.601Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
