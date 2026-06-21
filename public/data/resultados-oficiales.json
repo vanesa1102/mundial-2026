@@ -63,6 +63,18 @@
       "equipos": [
         {
           "posicion": 1,
+          "equipo": "Canada",
+          "pj": 2,
+          "g": 1,
+          "e": 1,
+          "p": 0,
+          "gf": 7,
+          "gc": 1,
+          "dg": 6,
+          "pts": 4
+        },
+        {
+          "posicion": 2,
           "equipo": "SUIZA",
           "pj": 2,
           "g": 1,
@@ -74,19 +86,19 @@
           "pts": 4
         },
         {
-          "posicion": 2,
-          "equipo": "Canada",
-          "pj": 1,
-          "g": 1,
-          "e": 0,
-          "p": 0,
-          "gf": 6,
-          "gc": 0,
-          "dg": 6,
-          "pts": 3
+          "posicion": 3,
+          "equipo": "Bosnia-H.",
+          "pj": 2,
+          "g": 0,
+          "e": 1,
+          "p": 1,
+          "gf": 2,
+          "gc": 5,
+          "dg": -3,
+          "pts": 1
         },
         {
-          "posicion": 3,
+          "posicion": 4,
           "equipo": "CATAR",
           "pj": 2,
           "g": 0,
@@ -96,18 +108,6 @@
           "gc": 7,
           "dg": -6,
           "pts": 1
-        },
-        {
-          "posicion": 4,
-          "equipo": "Bosnia-H.",
-          "pj": 1,
-          "g": 0,
-          "e": 0,
-          "p": 1,
-          "gf": 1,
-          "gc": 4,
-          "dg": -3,
-          "pts": 0
         }
       ]
     },
@@ -682,7 +682,7 @@
       "fecha": "2026-06-12",
       "equipo1": "Canada",
       "equipo2": "Bosnia-H.",
-      "marcador": null,
+      "marcador": "1-1",
       "pendiente": false,
       "estadio": null
     },
@@ -1776,7 +1776,7 @@
     "goleador": "Deniz Undav"
   },
   "meta": {
-    "actualizadoEn": "2026-06-21T09:36:37.601Z",
+    "actualizadoEn": "2026-06-21T13:48:59.314Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
