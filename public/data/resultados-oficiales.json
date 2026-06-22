@@ -334,17 +334,29 @@
         {
           "posicion": 1,
           "equipo": "Iran",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
-          "e": 1,
+          "e": 2,
           "p": 0,
           "gf": 2,
           "gc": 2,
           "dg": 0,
-          "pts": 1
+          "pts": 2
         },
         {
           "posicion": 2,
+          "equipo": "BÉLGICA",
+          "pj": 2,
+          "g": 0,
+          "e": 2,
+          "p": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "pts": 2
+        },
+        {
+          "posicion": 3,
           "equipo": "New Zealand",
           "pj": 1,
           "g": 0,
@@ -352,18 +364,6 @@
           "p": 0,
           "gf": 2,
           "gc": 2,
-          "dg": 0,
-          "pts": 1
-        },
-        {
-          "posicion": 3,
-          "equipo": "BÉLGICA",
-          "pj": 1,
-          "g": 0,
-          "e": 1,
-          "p": 0,
-          "gf": 1,
-          "gc": 1,
           "dg": 0,
           "pts": 1
         },
@@ -392,34 +392,34 @@
           "g": 1,
           "e": 1,
           "p": 0,
-          "gf": 5,
+          "gf": 4,
           "gc": 0,
-          "dg": 5,
+          "dg": 4,
           "pts": 4
         },
         {
           "posicion": 2,
           "equipo": "URUGUAY",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
-          "e": 1,
+          "e": 2,
           "p": 0,
-          "gf": 1,
-          "gc": 1,
+          "gf": 3,
+          "gc": 3,
           "dg": 0,
-          "pts": 1
+          "pts": 2
         },
         {
           "posicion": 3,
           "equipo": "Cape Verde",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
-          "e": 1,
+          "e": 2,
           "p": 0,
-          "gf": 0,
-          "gc": 0,
+          "gf": 2,
+          "gc": 2,
           "dg": 0,
-          "pts": 1
+          "pts": 2
         },
         {
           "posicion": 4,
@@ -429,8 +429,8 @@
           "e": 1,
           "p": 1,
           "gf": 1,
-          "gc": 6,
-          "dg": -5,
+          "gc": 5,
+          "dg": -4,
           "pts": 1
         }
       ]
@@ -1056,7 +1056,7 @@
       "fecha": "2026-06-21",
       "equipo1": "ESPAÑA",
       "equipo2": "Saudi Arabia",
-      "marcador": "5-0",
+      "marcador": "4-0",
       "pendiente": false,
       "estadio": null
     },
@@ -1067,8 +1067,8 @@
       "fecha": "2026-06-21",
       "equipo1": "BÉLGICA",
       "equipo2": "Iran",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "0-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1078,8 +1078,8 @@
       "fecha": "2026-06-21",
       "equipo1": "URUGUAY",
       "equipo2": "Cape Verde",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "2-2",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Deniz Undav"
   },
   "meta": {
-    "actualizadoEn": "2026-06-21T19:15:56.741Z",
+    "actualizadoEn": "2026-06-22T02:49:10.068Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
