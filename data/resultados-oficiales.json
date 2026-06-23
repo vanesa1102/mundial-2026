@@ -549,6 +549,18 @@
       "equipos": [
         {
           "posicion": 1,
+          "equipo": "PORTUGAL",
+          "pj": 2,
+          "g": 1,
+          "e": 1,
+          "p": 0,
+          "gf": 6,
+          "gc": 1,
+          "dg": 5,
+          "pts": 4
+        },
+        {
+          "posicion": 2,
           "equipo": "COLOMBIA",
           "pj": 1,
           "g": 1,
@@ -558,18 +570,6 @@
           "gc": 1,
           "dg": 2,
           "pts": 3
-        },
-        {
-          "posicion": 2,
-          "equipo": "PORTUGAL",
-          "pj": 1,
-          "g": 0,
-          "e": 1,
-          "p": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
-          "pts": 1
         },
         {
           "posicion": 3,
@@ -586,13 +586,13 @@
         {
           "posicion": 4,
           "equipo": "Uzbekistan",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
+          "p": 2,
           "gf": 1,
-          "gc": 3,
-          "dg": -2,
+          "gc": 8,
+          "dg": -7,
           "pts": 0
         }
       ]
@@ -1144,8 +1144,8 @@
       "fecha": "2026-06-23",
       "equipo1": "PORTUGAL",
       "equipo2": "Uzbekistan",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "5-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-23T14:28:42.914Z",
+    "actualizadoEn": "2026-06-23T19:50:22.460Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
