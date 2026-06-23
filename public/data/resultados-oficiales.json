@@ -63,6 +63,18 @@
       "equipos": [
         {
           "posicion": 1,
+          "equipo": "Canada",
+          "pj": 2,
+          "g": 1,
+          "e": 1,
+          "p": 0,
+          "gf": 7,
+          "gc": 1,
+          "dg": 6,
+          "pts": 4
+        },
+        {
+          "posicion": 2,
           "equipo": "SUIZA",
           "pj": 2,
           "g": 1,
@@ -74,19 +86,19 @@
           "pts": 4
         },
         {
-          "posicion": 2,
-          "equipo": "Canada",
-          "pj": 1,
-          "g": 1,
-          "e": 0,
-          "p": 0,
-          "gf": 6,
-          "gc": 0,
-          "dg": 6,
-          "pts": 3
+          "posicion": 3,
+          "equipo": "Bosnia-H.",
+          "pj": 2,
+          "g": 0,
+          "e": 1,
+          "p": 1,
+          "gf": 2,
+          "gc": 5,
+          "dg": -3,
+          "pts": 1
         },
         {
-          "posicion": 3,
+          "posicion": 4,
           "equipo": "CATAR",
           "pj": 2,
           "g": 0,
@@ -96,18 +108,6 @@
           "gc": 7,
           "dg": -6,
           "pts": 1
-        },
-        {
-          "posicion": 4,
-          "equipo": "Bosnia-H.",
-          "pj": 1,
-          "g": 0,
-          "e": 0,
-          "p": 1,
-          "gf": 1,
-          "gc": 4,
-          "dg": -3,
-          "pts": 0
         }
       ]
     },
@@ -441,50 +441,50 @@
       "equipos": [
         {
           "posicion": 1,
-          "equipo": "NORUEGA",
-          "pj": 1,
-          "g": 1,
+          "equipo": "FRANCIA",
+          "pj": 2,
+          "g": 2,
           "e": 0,
           "p": 0,
-          "gf": 4,
+          "gf": 6,
           "gc": 1,
-          "dg": 3,
-          "pts": 3
+          "dg": 5,
+          "pts": 6
         },
         {
           "posicion": 2,
-          "equipo": "FRANCIA",
-          "pj": 1,
-          "g": 1,
+          "equipo": "NORUEGA",
+          "pj": 2,
+          "g": 2,
           "e": 0,
           "p": 0,
-          "gf": 3,
-          "gc": 1,
-          "dg": 2,
-          "pts": 3
+          "gf": 7,
+          "gc": 3,
+          "dg": 4,
+          "pts": 6
         },
         {
           "posicion": 3,
           "equipo": "SENEGAL",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
-          "gf": 1,
-          "gc": 3,
-          "dg": -2,
+          "p": 2,
+          "gf": 3,
+          "gc": 6,
+          "dg": -3,
           "pts": 0
         },
         {
           "posicion": 4,
           "equipo": "Iraq",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
+          "p": 2,
           "gf": 1,
-          "gc": 4,
-          "dg": -3,
+          "gc": 7,
+          "dg": -6,
           "pts": 0
         }
       ]
@@ -682,7 +682,7 @@
       "fecha": "2026-06-12",
       "equipo1": "Canada",
       "equipo2": "Bosnia-H.",
-      "marcador": null,
+      "marcador": "1-1",
       "pendiente": false,
       "estadio": null
     },
@@ -1111,8 +1111,8 @@
       "fecha": "2026-06-22",
       "equipo1": "FRANCIA",
       "equipo2": "Iraq",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "3-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1122,8 +1122,8 @@
       "fecha": "2026-06-23",
       "equipo1": "NORUEGA",
       "equipo2": "SENEGAL",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "3-2",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-22T20:34:31.181Z",
+    "actualizadoEn": "2026-06-23T02:14:54.786Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
