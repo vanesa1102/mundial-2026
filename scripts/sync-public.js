@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { buildAliasLookup, resolveTeamName } = require("../lib/team-aliases");
 
 const root = path.join(__dirname, "..");
 
@@ -45,6 +46,80 @@ function mirrorDirectory(sourceDir, targetDir) {
   }
 }
 
+function remapTeamName(name, lookup) {
+  if (!name) {
+    return name;
+  }
+
+  return resolveTeamName(name, lookup) ?? name;
+}
+
+function remapPartido(partido, lookup) {
+  return {
+    ...partido,
+    equipo1: remapTeamName(partido.equipo1, lookup),
+    equipo2: remapTeamName(partido.equipo2, lookup),
+  };
+}
+
+function remapResultadosOficiales(filePath) {
+  if (!fs.existsSync(filePath)) {
+    return;
+  }
+
+  const aliasesPath = path.join(root, "data", "team-aliases.json");
+  if (!fs.existsSync(aliasesPath)) {
+    return;
+  }
+
+  const lookup = buildAliasLookup(JSON.parse(fs.readFileSync(aliasesPath, "utf8")));
+  const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+
+  data.grupos = (data.grupos ?? []).map((grupo) => ({
+    ...grupo,
+    equipos: (grupo.equipos ?? []).map((row) => ({
+      ...row,
+      equipo: remapTeamName(row.equipo, lookup),
+    })),
+  }));
+
+  data.partidosGrupos = (data.partidosGrupos ?? []).map((partido) =>
+    remapPartido(partido, lookup)
+  );
+  data.partidos = (data.partidos ?? []).map((partido) => remapPartido(partido, lookup));
+
+  if (data.resultadosFinales) {
+    for (const key of Object.keys(data.resultadosFinales)) {
+      data.resultadosFinales[key] = remapTeamName(data.resultadosFinales[key], lookup);
+    }
+  }
+
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
+}
+
+function injectTeamAliasesIntoScoring() {
+  const aliasesPath = path.join(root, "data", "team-aliases.json");
+  const scoringPath = path.join(root, "public", "scoring.js");
+
+  if (!fs.existsSync(aliasesPath) || !fs.existsSync(scoringPath)) {
+    return;
+  }
+
+  const aliases = JSON.parse(fs.readFileSync(aliasesPath, "utf8"));
+  let scoring = fs.readFileSync(scoringPath, "utf8");
+  scoring = scoring.replace(
+    /^if \(typeof window !== "undefined"\) \{\n  window\.TEAM_ALIASES[\s\S]*?\n\}\n*/m,
+    ""
+  );
+  scoring = scoring.replace(
+    /\nif \(typeof window !== "undefined"\) \{\n  window\.TEAM_ALIASES[\s\S]*?\n\}\n?$/m,
+    ""
+  );
+
+  const prefix = `if (typeof window !== "undefined") {\n  window.TEAM_ALIASES = ${JSON.stringify(aliases)};\n}\n\n`;
+  fs.writeFileSync(scoringPath, prefix + scoring.trimEnd() + "\n", "utf8");
+}
+
 const files = [
   ["data/resultados-oficiales.json", "public/data/resultados-oficiales.json"],
   ["data/ranking.json", "public/data/ranking.json"],
@@ -59,6 +134,10 @@ for (const [source, target] of files) {
     copyFile(sourcePath, target);
   }
 }
+
+remapResultadosOficiales(path.join(root, "data", "resultados-oficiales.json"));
+remapResultadosOficiales(path.join(root, "public", "data", "resultados-oficiales.json"));
+injectTeamAliasesIntoScoring();
 
 const rankingPath = path.join(root, "data", "ranking.json");
 if (fs.existsSync(rankingPath)) {

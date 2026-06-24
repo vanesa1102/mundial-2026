@@ -71,7 +71,7 @@ function renderRankingTable(data, formatMoney, playerUrl) {
       const url = playerUrl(entry.id);
 
       return `
-        <tr class="ranking-row" data-href="${url}" tabindex="0" role="link">
+        <tr class="ranking-row" data-href="${url}" tabindex="0" role="link" aria-label="Ver apuesta de ${entry.participante}">
           <td class="ranking-row__pos">
             <span class="ranking-row__medal">${medal}</span>
             <span class="ranking-row__num">${entry.posicion}</span>
@@ -83,23 +83,33 @@ function renderRankingTable(data, formatMoney, playerUrl) {
           </td>
           <td class="ranking-row__pts">${entry.total}</td>
           <td class="ranking-row__prize">${premio}</td>
+          <td class="ranking-row__action">
+            <a class="ranking-row__btn" href="${url}">Ver detalle →</a>
+          </td>
         </tr>
       `;
     })
     .join("");
 
   return `
-    <table class="ranking-table">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Jugador</th>
-          <th>Puntos</th>
-          <th>Premio</th>
-        </tr>
-      </thead>
-      <tbody>${rows}</tbody>
-    </table>
+    <div class="ranking-section">
+      <div class="ranking-section__head">
+        <h2 class="ranking-section__title">Tabla de posiciones</h2>
+        <p class="ranking-section__hint">Toca un jugador o usa <strong>Ver detalle</strong> para ver su apuesta, puntos por fase y resultados.</p>
+      </div>
+      <table class="ranking-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Jugador</th>
+            <th>Puntos</th>
+            <th>Premio</th>
+            <th>Apuesta</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
   `;
 }
 

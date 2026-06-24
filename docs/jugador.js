@@ -39,6 +39,11 @@ async function loadPlayer() {
     const pronostico = await pronosticoRes.json();
     const oficial = await oficialRes.json();
     const rankingData = rankingRes.ok ? await rankingRes.json() : null;
+
+    if (!window.MundialScoring?.calcularPuntos) {
+      throw new Error("No se cargó el motor de puntos. Recarga con Ctrl+F5.");
+    }
+
     const resultado = window.MundialScoring.calcularPuntos(pronostico, oficial);
 
     const nombre = pronostico.participante?.nombre || "Participante";

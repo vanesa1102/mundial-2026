@@ -10,25 +10,25 @@
         {
           "posicion": 1,
           "equipo": "MÉXICO",
-          "pj": 1,
-          "g": 1,
+          "pj": 2,
+          "g": 2,
           "e": 0,
           "p": 0,
-          "gf": 2,
+          "gf": 3,
           "gc": 0,
-          "dg": 2,
-          "pts": 3
+          "dg": 3,
+          "pts": 6
         },
         {
           "posicion": 2,
-          "equipo": "Korea Republic",
-          "pj": 1,
+          "equipo": "COREA del SUR",
+          "pj": 2,
           "g": 1,
           "e": 0,
-          "p": 0,
+          "p": 1,
           "gf": 2,
-          "gc": 1,
-          "dg": 1,
+          "gc": 2,
+          "dg": 0,
           "pts": 3
         },
         {
@@ -64,49 +64,49 @@
         {
           "posicion": 1,
           "equipo": "SUIZA",
-          "pj": 2,
-          "g": 1,
+          "pj": 3,
+          "g": 2,
           "e": 1,
           "p": 0,
-          "gf": 5,
-          "gc": 2,
-          "dg": 3,
-          "pts": 4
+          "gf": 7,
+          "gc": 3,
+          "dg": 4,
+          "pts": 7
         },
         {
           "posicion": 2,
-          "equipo": "Canada",
-          "pj": 1,
-          "g": 0,
+          "equipo": "CANADÁ",
+          "pj": 3,
+          "g": 1,
           "e": 1,
-          "p": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
-          "pts": 1
+          "p": 1,
+          "gf": 8,
+          "gc": 3,
+          "dg": 5,
+          "pts": 4
         },
         {
           "posicion": 3,
-          "equipo": "CATAR",
-          "pj": 1,
-          "g": 0,
+          "equipo": "BOSNIA y HERZEG.",
+          "pj": 3,
+          "g": 1,
           "e": 1,
-          "p": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
-          "pts": 1
+          "p": 1,
+          "gf": 5,
+          "gc": 6,
+          "dg": -1,
+          "pts": 4
         },
         {
           "posicion": 4,
-          "equipo": "Bosnia-H.",
-          "pj": 2,
+          "equipo": "CATAR",
+          "pj": 3,
           "g": 0,
           "e": 1,
-          "p": 1,
+          "p": 2,
           "gf": 2,
-          "gc": 5,
-          "dg": -3,
+          "gc": 10,
+          "dg": -8,
           "pts": 1
         }
       ]
@@ -117,50 +117,50 @@
       "equipos": [
         {
           "posicion": 1,
-          "equipo": "ESCOCIA",
-          "pj": 1,
+          "equipo": "BRASIL",
+          "pj": 2,
           "g": 1,
-          "e": 0,
+          "e": 1,
           "p": 0,
-          "gf": 1,
-          "gc": 0,
-          "dg": 1,
-          "pts": 3
+          "gf": 4,
+          "gc": 1,
+          "dg": 3,
+          "pts": 4
         },
         {
           "posicion": 2,
-          "equipo": "BRASIL",
-          "pj": 1,
-          "g": 0,
+          "equipo": "MARRUECOS",
+          "pj": 2,
+          "g": 1,
           "e": 1,
           "p": 0,
-          "gf": 1,
+          "gf": 2,
           "gc": 1,
-          "dg": 0,
-          "pts": 1
+          "dg": 1,
+          "pts": 4
         },
         {
           "posicion": 3,
-          "equipo": "MARRUECOS",
-          "pj": 1,
-          "g": 0,
-          "e": 1,
-          "p": 0,
+          "equipo": "ESCOCIA",
+          "pj": 2,
+          "g": 1,
+          "e": 0,
+          "p": 1,
           "gf": 1,
           "gc": 1,
           "dg": 0,
-          "pts": 1
+          "pts": 3
         },
         {
           "posicion": 4,
-          "equipo": "Haiti",
-          "pj": 1,
+          "equipo": "HAITÍ",
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
+          "p": 2,
           "gf": 0,
-          "gc": 1,
-          "dg": -1,
+          "gc": 4,
+          "dg": -4,
           "pts": 0
         }
       ]
@@ -172,48 +172,48 @@
         {
           "posicion": 1,
           "equipo": "ESTADOS UNIDOS",
-          "pj": 1,
-          "g": 1,
+          "pj": 2,
+          "g": 2,
           "e": 0,
           "p": 0,
-          "gf": 4,
+          "gf": 6,
           "gc": 1,
-          "dg": 3,
-          "pts": 3
+          "dg": 5,
+          "pts": 6
         },
         {
           "posicion": 2,
-          "equipo": "Australia",
-          "pj": 1,
+          "equipo": "AUSTRALIA",
+          "pj": 2,
           "g": 1,
           "e": 0,
-          "p": 0,
+          "p": 1,
           "gf": 2,
-          "gc": 0,
-          "dg": 2,
+          "gc": 2,
+          "dg": 0,
           "pts": 3
         },
         {
           "posicion": 3,
-          "equipo": "Turkey",
-          "pj": 1,
-          "g": 0,
+          "equipo": "PARAGUAY",
+          "pj": 2,
+          "g": 1,
           "e": 0,
           "p": 1,
-          "gf": 0,
-          "gc": 2,
+          "gf": 2,
+          "gc": 4,
           "dg": -2,
-          "pts": 0
+          "pts": 3
         },
         {
           "posicion": 4,
-          "equipo": "PARAGUAY",
-          "pj": 1,
+          "equipo": "TURQUÍA",
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
-          "gf": 1,
-          "gc": 4,
+          "p": 2,
+          "gf": 0,
+          "gc": 3,
           "dg": -3,
           "pts": 0
         }
@@ -226,50 +226,50 @@
         {
           "posicion": 1,
           "equipo": "ALEMANIA",
-          "pj": 1,
-          "g": 1,
+          "pj": 2,
+          "g": 2,
           "e": 0,
           "p": 0,
-          "gf": 7,
-          "gc": 1,
-          "dg": 6,
-          "pts": 3
+          "gf": 9,
+          "gc": 2,
+          "dg": 7,
+          "pts": 6
         },
         {
           "posicion": 2,
           "equipo": "COSTA de MARFIL",
-          "pj": 1,
+          "pj": 2,
           "g": 1,
           "e": 0,
-          "p": 0,
-          "gf": 1,
-          "gc": 0,
-          "dg": 1,
+          "p": 1,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
           "pts": 3
         },
         {
           "posicion": 3,
           "equipo": "ECUADOR",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
-          "e": 0,
+          "e": 1,
           "p": 1,
           "gf": 0,
           "gc": 1,
           "dg": -1,
-          "pts": 0
+          "pts": 1
         },
         {
           "posicion": 4,
-          "equipo": "Curaçao",
-          "pj": 1,
+          "equipo": "CURAÇAO",
+          "pj": 2,
           "g": 0,
-          "e": 0,
+          "e": 1,
           "p": 1,
           "gf": 1,
           "gc": 7,
           "dg": -6,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
@@ -279,50 +279,50 @@
       "equipos": [
         {
           "posicion": 1,
-          "equipo": "SUECIA",
-          "pj": 1,
+          "equipo": "PAÍSES BAJOS",
+          "pj": 2,
           "g": 1,
-          "e": 0,
+          "e": 1,
           "p": 0,
-          "gf": 5,
-          "gc": 1,
+          "gf": 7,
+          "gc": 3,
           "dg": 4,
-          "pts": 3
+          "pts": 4
         },
         {
           "posicion": 2,
-          "equipo": "PAÍSES BAJOS",
-          "pj": 1,
-          "g": 0,
+          "equipo": "JAPÓN",
+          "pj": 2,
+          "g": 1,
           "e": 1,
           "p": 0,
-          "gf": 2,
+          "gf": 6,
           "gc": 2,
-          "dg": 0,
-          "pts": 1
+          "dg": 4,
+          "pts": 4
         },
         {
           "posicion": 3,
-          "equipo": "JAPÓN",
-          "pj": 1,
-          "g": 0,
-          "e": 1,
-          "p": 0,
-          "gf": 2,
-          "gc": 2,
+          "equipo": "SUECIA",
+          "pj": 2,
+          "g": 1,
+          "e": 0,
+          "p": 1,
+          "gf": 6,
+          "gc": 6,
           "dg": 0,
-          "pts": 1
+          "pts": 3
         },
         {
           "posicion": 4,
-          "equipo": "Tunisia",
-          "pj": 1,
+          "equipo": "TÚNEZ",
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
+          "p": 2,
           "gf": 1,
-          "gc": 5,
-          "dg": -4,
+          "gc": 9,
+          "dg": -8,
           "pts": 0
         }
       ]
@@ -333,50 +333,50 @@
       "equipos": [
         {
           "posicion": 1,
-          "equipo": "Iran",
-          "pj": 1,
-          "g": 0,
+          "equipo": "EGIPTO",
+          "pj": 2,
+          "g": 1,
           "e": 1,
           "p": 0,
-          "gf": 2,
+          "gf": 4,
           "gc": 2,
-          "dg": 0,
-          "pts": 1
+          "dg": 2,
+          "pts": 4
         },
         {
           "posicion": 2,
-          "equipo": "New Zealand",
-          "pj": 1,
+          "equipo": "IRÁN",
+          "pj": 2,
           "g": 0,
-          "e": 1,
+          "e": 2,
           "p": 0,
           "gf": 2,
           "gc": 2,
           "dg": 0,
-          "pts": 1
+          "pts": 2
         },
         {
           "posicion": 3,
           "equipo": "BÉLGICA",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
-          "e": 1,
+          "e": 2,
           "p": 0,
           "gf": 1,
           "gc": 1,
           "dg": 0,
-          "pts": 1
+          "pts": 2
         },
         {
           "posicion": 4,
-          "equipo": "EGIPTO",
-          "pj": 1,
+          "equipo": "NUEVA ZELANDA",
+          "pj": 2,
           "g": 0,
           "e": 1,
-          "p": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
+          "p": 1,
+          "gf": 3,
+          "gc": 5,
+          "dg": -2,
           "pts": 1
         }
       ]
@@ -387,50 +387,50 @@
       "equipos": [
         {
           "posicion": 1,
-          "equipo": "Saudi Arabia",
-          "pj": 1,
-          "g": 0,
+          "equipo": "ESPAÑA",
+          "pj": 2,
+          "g": 1,
           "e": 1,
           "p": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
-          "pts": 1
+          "gf": 4,
+          "gc": 0,
+          "dg": 4,
+          "pts": 4
         },
         {
           "posicion": 2,
           "equipo": "URUGUAY",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
-          "e": 1,
+          "e": 2,
           "p": 0,
-          "gf": 1,
-          "gc": 1,
+          "gf": 3,
+          "gc": 3,
           "dg": 0,
-          "pts": 1
+          "pts": 2
         },
         {
           "posicion": 3,
-          "equipo": "ESPAÑA",
-          "pj": 1,
+          "equipo": "CABO VERDE",
+          "pj": 2,
           "g": 0,
-          "e": 1,
+          "e": 2,
           "p": 0,
-          "gf": 0,
-          "gc": 0,
+          "gf": 2,
+          "gc": 2,
           "dg": 0,
-          "pts": 1
+          "pts": 2
         },
         {
           "posicion": 4,
-          "equipo": "Cape Verde",
-          "pj": 1,
+          "equipo": "ARABIA SAUDITA",
+          "pj": 2,
           "g": 0,
           "e": 1,
-          "p": 0,
-          "gf": 0,
-          "gc": 0,
-          "dg": 0,
+          "p": 1,
+          "gf": 1,
+          "gc": 5,
+          "dg": -4,
           "pts": 1
         }
       ]
@@ -441,50 +441,50 @@
       "equipos": [
         {
           "posicion": 1,
-          "equipo": "NORUEGA",
-          "pj": 1,
-          "g": 1,
+          "equipo": "FRANCIA",
+          "pj": 2,
+          "g": 2,
           "e": 0,
           "p": 0,
-          "gf": 4,
+          "gf": 6,
           "gc": 1,
-          "dg": 3,
-          "pts": 3
+          "dg": 5,
+          "pts": 6
         },
         {
           "posicion": 2,
-          "equipo": "FRANCIA",
-          "pj": 1,
-          "g": 1,
+          "equipo": "NORUEGA",
+          "pj": 2,
+          "g": 2,
           "e": 0,
           "p": 0,
-          "gf": 3,
-          "gc": 1,
-          "dg": 2,
-          "pts": 3
+          "gf": 7,
+          "gc": 3,
+          "dg": 4,
+          "pts": 6
         },
         {
           "posicion": 3,
           "equipo": "SENEGAL",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
-          "gf": 1,
-          "gc": 3,
-          "dg": -2,
+          "p": 2,
+          "gf": 3,
+          "gc": 6,
+          "dg": -3,
           "pts": 0
         },
         {
           "posicion": 4,
-          "equipo": "Iraq",
-          "pj": 1,
+          "equipo": "IRAK",
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
+          "p": 2,
           "gf": 1,
-          "gc": 4,
-          "dg": -3,
+          "gc": 7,
+          "dg": -6,
           "pts": 0
         }
       ]
@@ -496,48 +496,48 @@
         {
           "posicion": 1,
           "equipo": "ARGENTINA",
-          "pj": 1,
-          "g": 1,
+          "pj": 2,
+          "g": 2,
           "e": 0,
           "p": 0,
-          "gf": 3,
+          "gf": 5,
           "gc": 0,
-          "dg": 3,
-          "pts": 3
+          "dg": 5,
+          "pts": 6
         },
         {
           "posicion": 2,
           "equipo": "AUSTRIA",
-          "pj": 1,
+          "pj": 2,
           "g": 1,
           "e": 0,
-          "p": 0,
+          "p": 1,
           "gf": 3,
-          "gc": 1,
-          "dg": 2,
+          "gc": 3,
+          "dg": 0,
           "pts": 3
         },
         {
           "posicion": 3,
-          "equipo": "JORDANIA",
-          "pj": 1,
-          "g": 0,
+          "equipo": "ARGELIA",
+          "pj": 2,
+          "g": 1,
           "e": 0,
           "p": 1,
-          "gf": 1,
-          "gc": 3,
+          "gf": 2,
+          "gc": 4,
           "dg": -2,
-          "pts": 0
+          "pts": 3
         },
         {
           "posicion": 4,
-          "equipo": "Algeria",
-          "pj": 1,
+          "equipo": "JORDANIA",
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
-          "gf": 0,
-          "gc": 3,
+          "p": 2,
+          "gf": 2,
+          "gc": 5,
           "dg": -3,
           "pts": 0
         }
@@ -550,49 +550,49 @@
         {
           "posicion": 1,
           "equipo": "COLOMBIA",
-          "pj": 1,
-          "g": 1,
+          "pj": 2,
+          "g": 2,
           "e": 0,
           "p": 0,
-          "gf": 3,
+          "gf": 4,
           "gc": 1,
-          "dg": 2,
-          "pts": 3
+          "dg": 3,
+          "pts": 6
         },
         {
           "posicion": 2,
           "equipo": "PORTUGAL",
-          "pj": 1,
-          "g": 0,
+          "pj": 2,
+          "g": 1,
           "e": 1,
           "p": 0,
-          "gf": 1,
+          "gf": 6,
           "gc": 1,
-          "dg": 0,
-          "pts": 1
+          "dg": 5,
+          "pts": 4
         },
         {
           "posicion": 3,
           "equipo": "REP. del CONGO",
-          "pj": 1,
+          "pj": 2,
           "g": 0,
           "e": 1,
-          "p": 0,
+          "p": 1,
           "gf": 1,
-          "gc": 1,
-          "dg": 0,
+          "gc": 2,
+          "dg": -1,
           "pts": 1
         },
         {
           "posicion": 4,
-          "equipo": "Uzbekistan",
-          "pj": 1,
+          "equipo": "UZBEKISTÁN",
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
+          "p": 2,
           "gf": 1,
-          "gc": 3,
-          "dg": -2,
+          "gc": 8,
+          "dg": -7,
           "pts": 0
         }
       ]
@@ -604,48 +604,48 @@
         {
           "posicion": 1,
           "equipo": "INGLATERRA",
-          "pj": 1,
+          "pj": 2,
           "g": 1,
-          "e": 0,
+          "e": 1,
           "p": 0,
           "gf": 4,
           "gc": 2,
           "dg": 2,
-          "pts": 3
+          "pts": 4
         },
         {
           "posicion": 2,
-          "equipo": "Ghana",
-          "pj": 1,
+          "equipo": "GHANA",
+          "pj": 2,
           "g": 1,
-          "e": 0,
+          "e": 1,
           "p": 0,
           "gf": 1,
           "gc": 0,
           "dg": 1,
-          "pts": 3
+          "pts": 4
         },
         {
           "posicion": 3,
-          "equipo": "Panama",
-          "pj": 1,
-          "g": 0,
+          "equipo": "CROACIA",
+          "pj": 2,
+          "g": 1,
           "e": 0,
           "p": 1,
-          "gf": 0,
-          "gc": 1,
+          "gf": 3,
+          "gc": 4,
           "dg": -1,
-          "pts": 0
+          "pts": 3
         },
         {
           "posicion": 4,
-          "equipo": "CROACIA",
-          "pj": 1,
+          "equipo": "PANAMÁ",
+          "pj": 2,
           "g": 0,
           "e": 0,
-          "p": 1,
-          "gf": 2,
-          "gc": 4,
+          "p": 2,
+          "gf": 0,
+          "gc": 2,
           "dg": -2,
           "pts": 0
         }
@@ -669,7 +669,7 @@
       "faseGrupo": "grupos",
       "grupo": "A",
       "fecha": "2026-06-12",
-      "equipo1": "Korea Republic",
+      "equipo1": "COREA del SUR",
       "equipo2": "REP. CHECA",
       "marcador": "2-1",
       "pendiente": false,
@@ -680,8 +680,8 @@
       "faseGrupo": "grupos",
       "grupo": "B",
       "fecha": "2026-06-12",
-      "equipo1": "Canada",
-      "equipo2": "Bosnia-H.",
+      "equipo1": "CANADÁ",
+      "equipo2": "BOSNIA y HERZEG.",
       "marcador": "1-1",
       "pendiente": false,
       "estadio": null
@@ -724,7 +724,7 @@
       "faseGrupo": "grupos",
       "grupo": "C",
       "fecha": "2026-06-14",
-      "equipo1": "Haiti",
+      "equipo1": "HAITÍ",
       "equipo2": "ESCOCIA",
       "marcador": "0-1",
       "pendiente": false,
@@ -735,8 +735,8 @@
       "faseGrupo": "grupos",
       "grupo": "D",
       "fecha": "2026-06-14",
-      "equipo1": "Australia",
-      "equipo2": "Turkey",
+      "equipo1": "AUSTRALIA",
+      "equipo2": "TURQUÍA",
       "marcador": "2-0",
       "pendiente": false,
       "estadio": null
@@ -747,7 +747,7 @@
       "grupo": "E",
       "fecha": "2026-06-14",
       "equipo1": "ALEMANIA",
-      "equipo2": "Curaçao",
+      "equipo2": "CURAÇAO",
       "marcador": "7-1",
       "pendiente": false,
       "estadio": null
@@ -780,7 +780,7 @@
       "grupo": "F",
       "fecha": "2026-06-15",
       "equipo1": "SUECIA",
-      "equipo2": "Tunisia",
+      "equipo2": "TÚNEZ",
       "marcador": "5-1",
       "pendiente": false,
       "estadio": null
@@ -791,7 +791,7 @@
       "grupo": "H",
       "fecha": "2026-06-15",
       "equipo1": "ESPAÑA",
-      "equipo2": "Cape Verde",
+      "equipo2": "CABO VERDE",
       "marcador": "0-0",
       "pendiente": false,
       "estadio": null
@@ -812,7 +812,7 @@
       "faseGrupo": "grupos",
       "grupo": "H",
       "fecha": "2026-06-15",
-      "equipo1": "Saudi Arabia",
+      "equipo1": "ARABIA SAUDITA",
       "equipo2": "URUGUAY",
       "marcador": "1-1",
       "pendiente": false,
@@ -823,8 +823,8 @@
       "faseGrupo": "grupos",
       "grupo": "G",
       "fecha": "2026-06-16",
-      "equipo1": "Iran",
-      "equipo2": "New Zealand",
+      "equipo1": "IRÁN",
+      "equipo2": "NUEVA ZELANDA",
       "marcador": "2-2",
       "pendiente": false,
       "estadio": null
@@ -845,7 +845,7 @@
       "faseGrupo": "grupos",
       "grupo": "I",
       "fecha": "2026-06-16",
-      "equipo1": "Iraq",
+      "equipo1": "IRAK",
       "equipo2": "NORUEGA",
       "marcador": "1-4",
       "pendiente": false,
@@ -857,7 +857,7 @@
       "grupo": "J",
       "fecha": "2026-06-17",
       "equipo1": "ARGENTINA",
-      "equipo2": "Algeria",
+      "equipo2": "ARGELIA",
       "marcador": "3-0",
       "pendiente": false,
       "estadio": null
@@ -900,8 +900,8 @@
       "faseGrupo": "grupos",
       "grupo": "L",
       "fecha": "2026-06-17",
-      "equipo1": "Ghana",
-      "equipo2": "Panama",
+      "equipo1": "GHANA",
+      "equipo2": "PANAMÁ",
       "marcador": "1-0",
       "pendiente": false,
       "estadio": null
@@ -911,7 +911,7 @@
       "faseGrupo": "grupos",
       "grupo": "K",
       "fecha": "2026-06-18",
-      "equipo1": "Uzbekistan",
+      "equipo1": "UZBEKISTÁN",
       "equipo2": "COLOMBIA",
       "marcador": "1-3",
       "pendiente": false,
@@ -934,7 +934,7 @@
       "grupo": "B",
       "fecha": "2026-06-18",
       "equipo1": "SUIZA",
-      "equipo2": "Bosnia-H.",
+      "equipo2": "BOSNIA y HERZEG.",
       "marcador": "4-1",
       "pendiente": false,
       "estadio": null
@@ -944,10 +944,10 @@
       "faseGrupo": "grupos",
       "grupo": "B",
       "fecha": "2026-06-18",
-      "equipo1": "Canada",
+      "equipo1": "CANADÁ",
       "equipo2": "CATAR",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "6-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -956,9 +956,9 @@
       "grupo": "A",
       "fecha": "2026-06-19",
       "equipo1": "MÉXICO",
-      "equipo2": "Korea Republic",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "COREA del SUR",
+      "marcador": "1-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -967,9 +967,9 @@
       "grupo": "D",
       "fecha": "2026-06-19",
       "equipo1": "ESTADOS UNIDOS",
-      "equipo2": "Australia",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "AUSTRALIA",
+      "marcador": "2-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -979,8 +979,8 @@
       "fecha": "2026-06-19",
       "equipo1": "ESCOCIA",
       "equipo2": "MARRUECOS",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "0-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -989,9 +989,9 @@
       "grupo": "C",
       "fecha": "2026-06-20",
       "equipo1": "BRASIL",
-      "equipo2": "Haiti",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "HAITÍ",
+      "marcador": "3-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -999,10 +999,10 @@
       "faseGrupo": "grupos",
       "grupo": "D",
       "fecha": "2026-06-20",
-      "equipo1": "Turkey",
+      "equipo1": "TURQUÍA",
       "equipo2": "PARAGUAY",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "0-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1012,8 +1012,8 @@
       "fecha": "2026-06-20",
       "equipo1": "PAÍSES BAJOS",
       "equipo2": "SUECIA",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "5-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1023,8 +1023,8 @@
       "fecha": "2026-06-20",
       "equipo1": "ALEMANIA",
       "equipo2": "COSTA de MARFIL",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "2-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1033,9 +1033,9 @@
       "grupo": "E",
       "fecha": "2026-06-21",
       "equipo1": "ECUADOR",
-      "equipo2": "Curaçao",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "CURAÇAO",
+      "marcador": "0-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1043,10 +1043,10 @@
       "faseGrupo": "grupos",
       "grupo": "F",
       "fecha": "2026-06-21",
-      "equipo1": "Tunisia",
+      "equipo1": "TÚNEZ",
       "equipo2": "JAPÓN",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "0-4",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1055,9 +1055,9 @@
       "grupo": "H",
       "fecha": "2026-06-21",
       "equipo1": "ESPAÑA",
-      "equipo2": "Saudi Arabia",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "ARABIA SAUDITA",
+      "marcador": "4-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1066,9 +1066,9 @@
       "grupo": "G",
       "fecha": "2026-06-21",
       "equipo1": "BÉLGICA",
-      "equipo2": "Iran",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "IRÁN",
+      "marcador": "0-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1077,9 +1077,9 @@
       "grupo": "H",
       "fecha": "2026-06-21",
       "equipo1": "URUGUAY",
-      "equipo2": "Cape Verde",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "CABO VERDE",
+      "marcador": "2-2",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1087,10 +1087,10 @@
       "faseGrupo": "grupos",
       "grupo": "G",
       "fecha": "2026-06-22",
-      "equipo1": "New Zealand",
+      "equipo1": "NUEVA ZELANDA",
       "equipo2": "EGIPTO",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "1-3",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1100,8 +1100,8 @@
       "fecha": "2026-06-22",
       "equipo1": "ARGENTINA",
       "equipo2": "AUSTRIA",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "2-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1110,9 +1110,9 @@
       "grupo": "I",
       "fecha": "2026-06-22",
       "equipo1": "FRANCIA",
-      "equipo2": "Iraq",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "IRAK",
+      "marcador": "3-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1122,8 +1122,8 @@
       "fecha": "2026-06-23",
       "equipo1": "NORUEGA",
       "equipo2": "SENEGAL",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "3-2",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1132,9 +1132,9 @@
       "grupo": "J",
       "fecha": "2026-06-23",
       "equipo1": "JORDANIA",
-      "equipo2": "Algeria",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "ARGELIA",
+      "marcador": "1-2",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1143,9 +1143,9 @@
       "grupo": "K",
       "fecha": "2026-06-23",
       "equipo1": "PORTUGAL",
-      "equipo2": "Uzbekistan",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "UZBEKISTÁN",
+      "marcador": "5-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1154,9 +1154,9 @@
       "grupo": "L",
       "fecha": "2026-06-23",
       "equipo1": "INGLATERRA",
-      "equipo2": "Ghana",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "GHANA",
+      "marcador": "0-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1164,10 +1164,10 @@
       "faseGrupo": "grupos",
       "grupo": "L",
       "fecha": "2026-06-23",
-      "equipo1": "Panama",
+      "equipo1": "PANAMÁ",
       "equipo2": "CROACIA",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "0-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1177,8 +1177,8 @@
       "fecha": "2026-06-24",
       "equipo1": "COLOMBIA",
       "equipo2": "REP. del CONGO",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "1-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1187,9 +1187,9 @@
       "grupo": "B",
       "fecha": "2026-06-24",
       "equipo1": "SUIZA",
-      "equipo2": "Canada",
-      "marcador": null,
-      "pendiente": true,
+      "equipo2": "CANADÁ",
+      "marcador": "2-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1197,10 +1197,10 @@
       "faseGrupo": "grupos",
       "grupo": "B",
       "fecha": "2026-06-24",
-      "equipo1": "Bosnia-H.",
+      "equipo1": "BOSNIA y HERZEG.",
       "equipo2": "CATAR",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "3-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1209,7 +1209,7 @@
       "grupo": "C",
       "fecha": "2026-06-24",
       "equipo1": "MARRUECOS",
-      "equipo2": "Haiti",
+      "equipo2": "HAITÍ",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1242,7 +1242,7 @@
       "grupo": "A",
       "fecha": "2026-06-25",
       "equipo1": "SUDÁFRICA",
-      "equipo2": "Korea Republic",
+      "equipo2": "COREA del SUR",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1263,7 +1263,7 @@
       "faseGrupo": "grupos",
       "grupo": "E",
       "fecha": "2026-06-25",
-      "equipo1": "Curaçao",
+      "equipo1": "CURAÇAO",
       "equipo2": "COSTA de MARFIL",
       "marcador": null,
       "pendiente": true,
@@ -1274,7 +1274,7 @@
       "faseGrupo": "grupos",
       "grupo": "F",
       "fecha": "2026-06-25",
-      "equipo1": "Tunisia",
+      "equipo1": "TÚNEZ",
       "equipo2": "PAÍSES BAJOS",
       "marcador": null,
       "pendiente": true,
@@ -1296,7 +1296,7 @@
       "faseGrupo": "grupos",
       "grupo": "D",
       "fecha": "2026-06-26",
-      "equipo1": "Turkey",
+      "equipo1": "TURQUÍA",
       "equipo2": "ESTADOS UNIDOS",
       "marcador": null,
       "pendiente": true,
@@ -1308,7 +1308,7 @@
       "grupo": "D",
       "fecha": "2026-06-26",
       "equipo1": "PARAGUAY",
-      "equipo2": "Australia",
+      "equipo2": "AUSTRALIA",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1330,7 +1330,7 @@
       "grupo": "I",
       "fecha": "2026-06-26",
       "equipo1": "SENEGAL",
-      "equipo2": "Iraq",
+      "equipo2": "IRAK",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1351,8 +1351,8 @@
       "faseGrupo": "grupos",
       "grupo": "H",
       "fecha": "2026-06-27",
-      "equipo1": "Cape Verde",
-      "equipo2": "Saudi Arabia",
+      "equipo1": "CABO VERDE",
+      "equipo2": "ARABIA SAUDITA",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1362,7 +1362,7 @@
       "faseGrupo": "grupos",
       "grupo": "G",
       "fecha": "2026-06-27",
-      "equipo1": "New Zealand",
+      "equipo1": "NUEVA ZELANDA",
       "equipo2": "BÉLGICA",
       "marcador": null,
       "pendiente": true,
@@ -1374,7 +1374,7 @@
       "grupo": "G",
       "fecha": "2026-06-27",
       "equipo1": "EGIPTO",
-      "equipo2": "Iran",
+      "equipo2": "IRÁN",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1384,7 +1384,7 @@
       "faseGrupo": "grupos",
       "grupo": "L",
       "fecha": "2026-06-27",
-      "equipo1": "Panama",
+      "equipo1": "PANAMÁ",
       "equipo2": "INGLATERRA",
       "marcador": null,
       "pendiente": true,
@@ -1396,7 +1396,7 @@
       "grupo": "L",
       "fecha": "2026-06-27",
       "equipo1": "CROACIA",
-      "equipo2": "Ghana",
+      "equipo2": "GHANA",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1418,7 +1418,7 @@
       "grupo": "K",
       "fecha": "2026-06-27",
       "equipo1": "REP. del CONGO",
-      "equipo2": "Uzbekistan",
+      "equipo2": "UZBEKISTÁN",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1439,7 +1439,7 @@
       "faseGrupo": "grupos",
       "grupo": "J",
       "fecha": "2026-06-28",
-      "equipo1": "Algeria",
+      "equipo1": "ARGELIA",
       "equipo2": "AUSTRIA",
       "marcador": null,
       "pendiente": true,
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-18T23:52:13.604Z",
+    "actualizadoEn": "2026-06-24T21:49:45.183Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }

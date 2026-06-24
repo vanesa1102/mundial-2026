@@ -233,7 +233,7 @@ function renderPhases(partidos) {
 }
 
 function findOfficialMatch(partido, officialPartidos) {
-  const normalize = window.MundialScoring?.normalizeTeam ?? ((value) => String(value ?? "").toUpperCase());
+  const normalize = window.MundialScoring?.teamKey ?? window.MundialScoring?.normalizeTeam ?? ((value) => String(value ?? "").toUpperCase());
   const team1 = partido.equipo1 ? normalize(partido.equipo1) : null;
   const team2 = partido.equipo2 ? normalize(partido.equipo2) : null;
 
@@ -287,7 +287,7 @@ function getTeamPhaseClass(team, phaseEntry) {
     return "";
   }
 
-  const normalize = window.MundialScoring?.normalizeTeam ?? ((value) => String(value ?? "").toUpperCase());
+  const normalize = window.MundialScoring?.teamKey ?? window.MundialScoring?.normalizeTeam ?? ((value) => String(value ?? "").toUpperCase());
   const normalized = normalize(team);
 
   if (phaseEntry.aciertos?.some((entry) => normalize(entry) === normalized)) {

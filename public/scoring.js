@@ -1,3 +1,7 @@
+if (typeof window !== "undefined") {
+  window.TEAM_ALIASES = {"Algeria":"ARGELIA","Argentina":"ARGENTINA","Australia":"AUSTRALIA","Austria":"AUSTRIA","Belgium":"BÉLGICA","Bosnia-H.":"BOSNIA y HERZEG.","Bosnia-H":"BOSNIA y HERZEG.","Bosnia and Herzegovina":"BOSNIA y HERZEG.","Brazil":"BRASIL","Canada":"CANADÁ","Cape Verde":"CABO VERDE","Colombia":"COLOMBIA","Congo DR":"REP. del CONGO","Côte d'Ivoire":"COSTA de MARFIL","Croatia":"CROACIA","Curaçao":"CURAÇAO","Czech Republic":"REP. CHECA","Czechia":"REP. CHECA","DR Congo":"REP. del CONGO","Ecuador":"ECUADOR","Egypt":"EGIPTO","England":"INGLATERRA","France":"FRANCIA","Germany":"ALEMANIA","Ghana":"GHANA","Haiti":"HAITÍ","Iran":"IRÁN","Iraq":"IRAK","Ivory Coast":"COSTA de MARFIL","Japan":"JAPÓN","Jordan":"JORDANIA","Korea Republic":"COREA del SUR","Mexico":"MÉXICO","Morocco":"MARRUECOS","Netherlands":"PAÍSES BAJOS","New Zealand":"NUEVA ZELANDA","Norway":"NORUEGA","Panama":"PANAMÁ","Paraguay":"PARAGUAY","Portugal":"PORTUGAL","Qatar":"CATAR","Saudi Arabia":"ARABIA SAUDITA","Scotland":"ESCOCIA","Senegal":"SENEGAL","South Africa":"SUDÁFRICA","Spain":"ESPAÑA","Sweden":"SUECIA","Switzerland":"SUIZA","Tunisia":"TÚNEZ","Turkey":"TURQUÍA","United States":"ESTADOS UNIDOS","Uruguay":"URUGUAY","USA":"ESTADOS UNIDOS","Uzbekistan":"UZBEKISTÁN"};
+}
+
 const PUNTOS_POR_FASE = {
   dieciseisavos: 1,
   octavos: 2,
@@ -42,6 +46,87 @@ const EXPECTED_KNOCKOUT_MATCHES = {
   final: 2,
 };
 
+const BEST_THIRD_PLACES = 8;
+
+let aliasLookup = null;
+
+function normalizeAliasKey(value) {
+  return String(value ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
+}
+
+function buildAliasLookup(aliases) {
+  const lookup = new Map();
+
+  for (const [apiName, localName] of Object.entries(aliases ?? {})) {
+    lookup.set(normalizeAliasKey(apiName), localName);
+    lookup.set(normalizeAliasKey(localName), localName);
+  }
+
+  return lookup;
+}
+
+function resolveTeamName(name, lookup) {
+  if (!name) {
+    return null;
+  }
+
+  return lookup.get(normalizeAliasKey(name)) ?? name;
+}
+
+function canonicalKey(name, lookup) {
+  return normalizeAliasKey(resolveTeamName(name, lookup));
+}
+
+function loadAliasesFromDisk() {
+  if (typeof require === "undefined") {
+    return {};
+  }
+
+  try {
+    const fs = require("fs");
+    const path = require("path");
+    const candidates = [
+      path.join(__dirname, "data", "team-aliases.json"),
+      path.join(__dirname, "..", "data", "team-aliases.json"),
+    ];
+
+    for (const aliasesPath of candidates) {
+      if (fs.existsSync(aliasesPath)) {
+        return JSON.parse(fs.readFileSync(aliasesPath, "utf8"));
+      }
+    }
+  } catch {
+    return {};
+  }
+
+  return {};
+}
+
+function getAliasLookup() {
+  if (aliasLookup) {
+    return aliasLookup;
+  }
+
+  let aliases = {};
+  if (typeof window !== "undefined" && window.TEAM_ALIASES) {
+    aliases = window.TEAM_ALIASES;
+  } else {
+    aliases = loadAliasesFromDisk();
+  }
+
+  aliasLookup = buildAliasLookup(aliases);
+  return aliasLookup;
+}
+
+function teamKey(name) {
+  return canonicalKey(name, getAliasLookup());
+}
+
 function normalizeTeam(name) {
   return String(name ?? "")
     .normalize("NFD")
@@ -64,11 +149,11 @@ function getTeamsForPhase(partidos, faseGrupo) {
     }
 
     if (partido.equipo1) {
-      teams.add(normalizeTeam(partido.equipo1));
+      teams.add(teamKey(partido.equipo1));
     }
 
     if (partido.equipo2) {
-      teams.add(normalizeTeam(partido.equipo2));
+      teams.add(teamKey(partido.equipo2));
     }
   }
 
@@ -77,7 +162,7 @@ function getTeamsForPhase(partidos, faseGrupo) {
 
 function getDisplayName(originalNames, normalizedName) {
   for (const name of originalNames) {
-    if (normalizeTeam(name) === normalizedName) {
+    if (teamKey(name) === normalizedName) {
       return name;
     }
   }
@@ -120,11 +205,11 @@ function getOfficialTeamsInPhase(partidos, faseGrupo) {
     }
 
     if (partido.equipo1) {
-      teams.add(normalizeTeam(partido.equipo1));
+      teams.add(teamKey(partido.equipo1));
     }
 
     if (partido.equipo2) {
-      teams.add(normalizeTeam(partido.equipo2));
+      teams.add(teamKey(partido.equipo2));
     }
   }
 
@@ -167,14 +252,114 @@ function getWinnerFromPartido(partido) {
   }
 
   if (a > b) {
-    return normalizeTeam(partido.equipo1);
+    return teamKey(partido.equipo1);
   }
 
   if (b > a) {
-    return normalizeTeam(partido.equipo2);
+    return teamKey(partido.equipo2);
   }
 
   return null;
+}
+
+function isGroupComplete(grupoId, partidosGrupos) {
+  const groupMatches = partidosGrupos.filter((partido) => partido.grupo === grupoId);
+  if (!groupMatches.length) {
+    return false;
+  }
+
+  return groupMatches.every((partido) => !partido.pendiente);
+}
+
+function getFinishedThirdPlaceTeams(oficial) {
+  const grupos = oficial.grupos ?? [];
+  const partidosGrupos = oficial.partidosGrupos ?? [];
+  const candidates = [];
+
+  for (const grupo of grupos) {
+    if (!isGroupComplete(grupo.id, partidosGrupos)) {
+      continue;
+    }
+
+    const row = grupo.equipos?.find((entry) => entry.posicion === 3);
+    if (!row?.equipo) {
+      continue;
+    }
+
+    candidates.push({
+      teamKey: teamKey(row.equipo),
+      pts: row.pts ?? 0,
+      dg: row.dg ?? 0,
+      gf: row.gf ?? 0,
+    });
+  }
+
+  return candidates.sort((a, b) => b.pts - a.pts || b.dg - a.dg || b.gf - a.gf);
+}
+
+function getQualifiedThirdPlaceKeys(oficial) {
+  const grupos = oficial.grupos ?? [];
+  const partidosGrupos = oficial.partidosGrupos ?? [];
+
+  if (!grupos.length) {
+    return null;
+  }
+
+  const allGroupsFinished = grupos.every((grupo) => isGroupComplete(grupo.id, partidosGrupos));
+  if (!allGroupsFinished) {
+    return null;
+  }
+
+  const thirdPlaceTeams = getFinishedThirdPlaceTeams(oficial);
+  if (thirdPlaceTeams.length < grupos.length) {
+    return null;
+  }
+
+  return new Set(thirdPlaceTeams.slice(0, BEST_THIRD_PLACES).map((entry) => entry.teamKey));
+}
+
+function getGroupQualificationStatus(teamNorm, oficial) {
+  const grupos = oficial.grupos ?? [];
+  const partidosGrupos = oficial.partidosGrupos ?? [];
+
+  for (const grupo of grupos) {
+    const row = grupo.equipos?.find((entry) => teamKey(entry.equipo) === teamNorm);
+    if (!row) {
+      continue;
+    }
+
+    if (!isGroupComplete(grupo.id, partidosGrupos)) {
+      return "pending";
+    }
+
+    if (row.posicion <= 2) {
+      return "qualified";
+    }
+
+    if (row.posicion >= 4) {
+      return "eliminated";
+    }
+
+    const qualifiedThirds = getQualifiedThirdPlaceKeys(oficial);
+    if (!qualifiedThirds) {
+      return "pending";
+    }
+
+    return qualifiedThirds.has(teamNorm) ? "qualified" : "eliminated";
+  }
+
+  return "unknown";
+}
+
+function isGroupStageComplete(oficial) {
+  const grupos = oficial.grupos ?? [];
+  const partidosGrupos = oficial.partidosGrupos ?? [];
+
+  if (!grupos.length || !partidosGrupos.length) {
+    return false;
+  }
+
+  return grupos.every((grupo) => isGroupComplete(grupo.id, partidosGrupos));
 }
 
 function getKnockoutMatchStatus(teamNorm, partidos, faseGrupo) {
@@ -187,8 +372,8 @@ function getKnockoutMatchStatus(teamNorm, partidos, faseGrupo) {
       continue;
     }
 
-    const team1 = partido.equipo1 ? normalizeTeam(partido.equipo1) : null;
-    const team2 = partido.equipo2 ? normalizeTeam(partido.equipo2) : null;
+    const team1 = partido.equipo1 ? teamKey(partido.equipo1) : null;
+    const team2 = partido.equipo2 ? teamKey(partido.equipo2) : null;
 
     if (team1 !== teamNorm && team2 !== teamNorm) {
       continue;
@@ -209,16 +394,21 @@ function getTeamProgressStatus(teamNorm, faseGrupo, oficial) {
   const partidos = oficial.partidos ?? [];
 
   if (faseGrupo === "dieciseisavos") {
-    const officialTeams = getOfficialTeamsInPhase(partidos, faseGrupo);
-
-    if (officialTeams.has(teamNorm)) {
+    const groupStatus = getGroupQualificationStatus(teamNorm, oficial);
+    if (groupStatus === "qualified") {
       return "hit";
     }
-
-    if (isKnockoutBracketComplete("dieciseisavos", partidos)) {
+    if (groupStatus === "eliminated") {
       return "miss";
     }
+    return "pending";
+  }
 
+  const groupStatus = getGroupQualificationStatus(teamNorm, oficial);
+  if (groupStatus === "eliminated") {
+    return "miss";
+  }
+  if (groupStatus === "pending") {
     return "pending";
   }
 
@@ -233,18 +423,7 @@ function getTeamProgressStatus(teamNorm, faseGrupo, oficial) {
     return "miss";
   }
 
-  const officialTeams = getOfficialTeamsInPhase(partidos, faseGrupo);
-  if (officialTeams.has(teamNorm)) {
-    return "hit";
-  }
-
-  if (isKnockoutPhaseComplete(previousPhase, partidos)) {
-    if (previousResult === "not_found") {
-      return "miss";
-    }
-  }
-
-  if (isKnockoutBracketComplete(faseGrupo, partidos) && !officialTeams.has(teamNorm)) {
+  if (isKnockoutPhaseComplete(previousPhase, partidos) && previousResult === "not_found") {
     return "miss";
   }
 
@@ -265,14 +444,12 @@ function isKnockoutPhaseComplete(faseGrupo, partidos) {
 }
 
 function isPhaseFullyResolved(faseGrupo, oficial) {
-  const partidos = oficial.partidos ?? [];
-
   if (faseGrupo === "dieciseisavos") {
-    return isKnockoutPhaseComplete("dieciseisavos", partidos);
+    return isGroupStageComplete(oficial);
   }
 
   const previousPhase = PREVIOUS_KNOCKOUT_PHASE[faseGrupo];
-  return isKnockoutPhaseComplete(previousPhase, partidos);
+  return isKnockoutPhaseComplete(previousPhase, oficial.partidos ?? []);
 }
 
 function scorePhaseProgressive(predictedPartidos, oficial, faseGrupo, puntosPorEquipo, allNames) {
@@ -318,8 +495,8 @@ function scoreSpecialField(
   puntos,
   allNames
 ) {
-  const predicted = normalizeTeam(predictedValue);
-  const official = normalizeTeam(officialValue);
+  const predicted = teamKey(predictedValue);
+  const official = teamKey(officialValue);
 
   if (!official) {
     return {
@@ -448,6 +625,7 @@ const scoringApi = {
   PUNTOS_GOLEADOR,
   FASES_LABELS,
   normalizeTeam,
+  teamKey,
   evaluarFase,
   evaluarTodasLasFases,
   calcularPuntos,
