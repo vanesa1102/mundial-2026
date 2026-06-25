@@ -1471,7 +1471,7 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-06-29",
-      "equipo1": null,
+      "equipo1": "ALEMANIA",
       "equipo2": null,
       "marcador": null,
       "pendiente": true,
@@ -1511,7 +1511,7 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-01",
-      "equipo1": null,
+      "equipo1": "MÉXICO",
       "equipo2": null,
       "marcador": null,
       "pendiente": true,
@@ -1541,7 +1541,7 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-02",
-      "equipo1": null,
+      "equipo1": "ESTADOS UNIDOS",
       "equipo2": null,
       "marcador": null,
       "pendiente": true,
@@ -1591,7 +1591,7 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-03",
-      "equipo1": null,
+      "equipo1": "ARGENTINA",
       "equipo2": null,
       "marcador": null,
       "pendiente": true,
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-25T03:54:49.884Z",
+    "actualizadoEn": "2026-06-25T07:53:51.088Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
