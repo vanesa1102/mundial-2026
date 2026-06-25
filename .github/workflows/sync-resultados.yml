@@ -2,10 +2,16 @@ name: Sync resultados
 
 on:
   schedule:
-    # Evitar :00 UTC (cola máxima en GitHub; a veces salta runs enteros).
-    - cron: "17 * * * *"
-    - cron: "47 * * * *"
+    # Cada 2 h en :17 UTC (~cada 2 h Colombia). El cron horario de GitHub
+    # dejó de disparar en este repo; cada 6 h sí funcionaba antes.
+    - cron: "17 */2 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**"
+      - "public/**"
+      - "docs/**"
 
 permissions:
   contents: write
