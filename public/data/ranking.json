@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-06-25T21:52:48.562Z",
+  "generadoEn": "2026-06-25T23:43:37.719Z",
   "config": {
     "inscripcion": 25000,
     "moneda": "COP",
@@ -18,12 +18,12 @@
   "pozoTotal": 350000,
   "totalJugadores": 14,
   "etapasConfirmadas": [],
-  "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+  "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
   "ranking": [
     {
       "id": "daniel-vargas",
       "participante": "Daniel Vargas",
-      "total": 5,
+      "total": 7,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -33,7 +33,9 @@
           "aciertos": [
             "SUIZA",
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "MÉXICO",
             "CANADÁ"
           ],
@@ -43,10 +45,8 @@
           "pendientes": [
             "COREA del SUR",
             "JAPÓN",
-            "ALEMANIA",
             "TURQUÍA",
             "PAÍSES BAJOS",
-            "COSTA de MARFIL",
             "NORUEGA",
             "FRANCIA",
             "SUECIA",
@@ -68,13 +68,13 @@
             "COLOMBIA",
             "ECUADOR"
           ],
-          "puntos": 5,
+          "puntos": 7,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 1,
       "premio": 175000,
       "premioPorcentaje": 0.5
@@ -82,7 +82,7 @@
     {
       "id": "estiben-cuellar",
       "participante": "Estiben Cuellar",
-      "total": 5,
+      "total": 7,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -92,7 +92,9 @@
           "aciertos": [
             "CANADÁ",
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "MÉXICO",
             "SUIZA"
           ],
@@ -103,9 +105,7 @@
           "pendientes": [
             "COREA del SUR",
             "PAÍSES BAJOS",
-            "ALEMANIA",
             "SUECIA",
-            "COSTA de MARFIL",
             "NORUEGA",
             "FRANCIA",
             "ARABIA SAUDITA",
@@ -126,13 +126,13 @@
             "COLOMBIA",
             "SENEGAL"
           ],
-          "puntos": 5,
+          "puntos": 7,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 2,
       "premio": 105000,
       "premioPorcentaje": 0.3
@@ -140,7 +140,7 @@
     {
       "id": "harold-ocampo",
       "participante": "Harold Ocampo",
-      "total": 5,
+      "total": 7,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -150,7 +150,9 @@
           "aciertos": [
             "CANADÁ",
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "MÉXICO",
             "SUIZA"
           ],
@@ -160,10 +162,8 @@
           "pendientes": [
             "COREA del SUR",
             "PAÍSES BAJOS",
-            "ALEMANIA",
             "TURQUÍA",
             "SUECIA",
-            "COSTA de MARFIL",
             "NORUEGA",
             "FRANCIA",
             "JAPÓN",
@@ -185,13 +185,13 @@
             "COLOMBIA",
             "GHANA"
           ],
-          "puntos": 5,
+          "puntos": 7,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 3,
       "premio": 70000,
       "premioPorcentaje": 0.2
@@ -199,7 +199,7 @@
     {
       "id": "juan-pablo-suarez",
       "participante": "Juan Pablo Suarez",
-      "total": 5,
+      "total": 7,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -210,7 +210,9 @@
             "MÉXICO",
             "CANADÁ",
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "SUIZA"
           ],
           "fallos": [
@@ -218,10 +220,8 @@
           ],
           "pendientes": [
             "PAÍSES BAJOS",
-            "ALEMANIA",
             "ESCOCIA",
             "SUECIA",
-            "COSTA de MARFIL",
             "NORUEGA",
             "FRANCIA",
             "JAPÓN",
@@ -244,13 +244,13 @@
             "COLOMBIA",
             "SENEGAL"
           ],
-          "puntos": 5,
+          "puntos": 7,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 4,
       "premio": 0,
       "premioPorcentaje": 0
@@ -258,7 +258,7 @@
     {
       "id": "maria-acevedo",
       "participante": "Maria Acevedo",
-      "total": 5,
+      "total": 7,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -268,7 +268,9 @@
           "aciertos": [
             "MÉXICO",
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "SUIZA",
             "CANADÁ"
           ],
@@ -278,10 +280,8 @@
           "pendientes": [
             "BOSNIA y HERZEG.",
             "SUECIA",
-            "ALEMANIA",
             "AUSTRALIA",
             "PAÍSES BAJOS",
-            "COSTA de MARFIL",
             "NORUEGA",
             "FRANCIA",
             "JAPÓN",
@@ -303,13 +303,13 @@
             "COLOMBIA",
             "SENEGAL"
           ],
-          "puntos": 5,
+          "puntos": 7,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 5,
       "premio": 0,
       "premioPorcentaje": 0
@@ -317,7 +317,7 @@
     {
       "id": "martha-garcia",
       "participante": "Martha Garcia",
-      "total": 5,
+      "total": 7,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -327,7 +327,9 @@
           "aciertos": [
             "SUIZA",
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "MÉXICO",
             "CANADÁ"
           ],
@@ -337,10 +339,8 @@
           "pendientes": [
             "COREA del SUR",
             "JAPÓN",
-            "ALEMANIA",
             "PARAGUAY",
             "PAÍSES BAJOS",
-            "COSTA de MARFIL",
             "FRANCIA",
             "NORUEGA",
             "SUECIA",
@@ -362,13 +362,13 @@
             "COLOMBIA",
             "SENEGAL"
           ],
-          "puntos": 5,
+          "puntos": 7,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 6,
       "premio": 0,
       "premioPorcentaje": 0
@@ -376,7 +376,7 @@
     {
       "id": "mauricio-trivino",
       "participante": "Mauricio Triviño",
-      "total": 5,
+      "total": 7,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -385,7 +385,9 @@
           "equiposPronosticados": 32,
           "aciertos": [
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "MÉXICO",
             "SUDÁFRICA",
             "SUIZA"
@@ -395,10 +397,8 @@
             "COREA del SUR",
             "BOSNIA y HERZEG.",
             "PAÍSES BAJOS",
-            "ALEMANIA",
             "ESCOCIA",
             "SUECIA",
-            "COSTA de MARFIL",
             "NORUEGA",
             "FRANCIA",
             "JAPÓN",
@@ -420,13 +420,13 @@
             "COLOMBIA",
             "GHANA"
           ],
-          "puntos": 5,
+          "puntos": 7,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 7,
       "premio": 0,
       "premioPorcentaje": 0
@@ -434,7 +434,7 @@
     {
       "id": "paola-trivino",
       "participante": "Paola Triviño",
-      "total": 5,
+      "total": 7,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -444,7 +444,9 @@
           "aciertos": [
             "SUIZA",
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "MÉXICO",
             "CANADÁ"
           ],
@@ -454,10 +456,8 @@
           "pendientes": [
             "COREA del SUR",
             "JAPÓN",
-            "ALEMANIA",
             "PARAGUAY",
             "PAÍSES BAJOS",
-            "COSTA de MARFIL",
             "NORUEGA",
             "FRANCIA",
             "SUECIA",
@@ -479,13 +479,13 @@
             "COLOMBIA",
             "SENEGAL"
           ],
-          "puntos": 5,
+          "puntos": 7,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 8,
       "premio": 0,
       "premioPorcentaje": 0
@@ -493,7 +493,7 @@
     {
       "id": "santiago-silva",
       "participante": "Santiago Silva",
-      "total": 5,
+      "total": 7,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -504,7 +504,9 @@
             "MÉXICO",
             "SUIZA",
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "CANADÁ"
           ],
           "fallos": [
@@ -512,10 +514,8 @@
           ],
           "pendientes": [
             "JAPÓN",
-            "ALEMANIA",
             "AUSTRALIA",
             "PAÍSES BAJOS",
-            "COSTA de MARFIL",
             "NORUEGA",
             "FRANCIA",
             "SUECIA",
@@ -538,13 +538,13 @@
             "COLOMBIA",
             "ECUADOR"
           ],
-          "puntos": 5,
+          "puntos": 7,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 9,
       "premio": 0,
       "premioPorcentaje": 0
@@ -552,7 +552,7 @@
     {
       "id": "sebastian-rocha",
       "participante": "Sebastian Rocha",
-      "total": 5,
+      "total": 7,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -563,7 +563,9 @@
             "MÉXICO",
             "CANADÁ",
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "SUIZA"
           ],
           "fallos": [
@@ -571,10 +573,8 @@
           ],
           "pendientes": [
             "JAPÓN",
-            "ALEMANIA",
             "PARAGUAY",
             "PAÍSES BAJOS",
-            "COSTA de MARFIL",
             "FRANCIA",
             "NORUEGA",
             "SUECIA",
@@ -597,13 +597,13 @@
             "COLOMBIA",
             "SENEGAL"
           ],
-          "puntos": 5,
+          "puntos": 7,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 10,
       "premio": 0,
       "premioPorcentaje": 0
@@ -611,7 +611,7 @@
     {
       "id": "david-mahecha",
       "participante": "David Mahecha",
-      "total": 4,
+      "total": 6,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -621,7 +621,9 @@
           "aciertos": [
             "SUIZA",
             "MARRUECOS",
+            "ALEMANIA",
             "BRASIL",
+            "COSTA de MARFIL",
             "MÉXICO"
           ],
           "fallos": [
@@ -631,7 +633,6 @@
           "pendientes": [
             "COREA del SUR",
             "PAÍSES BAJOS",
-            "ALEMANIA",
             "TURQUÍA",
             "JAPÓN",
             "ECUADOR",
@@ -640,7 +641,6 @@
             "SUECIA",
             "ESCOCIA",
             "CROACIA",
-            "COSTA de MARFIL",
             "BÉLGICA",
             "PARAGUAY",
             "ESPAÑA",
@@ -656,7 +656,7 @@
             "PORTUGAL",
             "GHANA"
           ],
-          "puntos": 4,
+          "puntos": 6,
           "pendiente": true,
           "parcial": true
         },
@@ -692,7 +692,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 11,
       "premio": 0,
       "premioPorcentaje": 0
@@ -700,7 +700,7 @@
     {
       "id": "mateo-quintero",
       "participante": "Mateo Quintero",
-      "total": 4,
+      "total": 6,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -709,7 +709,9 @@
           "equiposPronosticados": 32,
           "aciertos": [
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "MÉXICO",
             "CANADÁ"
           ],
@@ -719,10 +721,8 @@
           "pendientes": [
             "BOSNIA y HERZEG.",
             "JAPÓN",
-            "ALEMANIA",
             "PARAGUAY",
             "PAÍSES BAJOS",
-            "COSTA de MARFIL",
             "SENEGAL",
             "FRANCIA",
             "SUECIA",
@@ -745,7 +745,7 @@
             "COLOMBIA",
             "NORUEGA"
           ],
-          "puntos": 4,
+          "puntos": 6,
           "pendiente": true,
           "parcial": true
         },
@@ -781,7 +781,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 12,
       "premio": 0,
       "premioPorcentaje": 0
@@ -789,7 +789,7 @@
     {
       "id": "sebastian-martinez",
       "participante": "Sebastian Martinez",
-      "total": 4,
+      "total": 6,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -798,9 +798,11 @@
           "equiposPronosticados": 32,
           "aciertos": [
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
             "MÉXICO",
-            "SUIZA"
+            "SUIZA",
+            "COSTA de MARFIL"
           ],
           "fallos": [
             "REP. CHECA",
@@ -810,7 +812,6 @@
             "COREA del SUR",
             "BOSNIA y HERZEG.",
             "PAÍSES BAJOS",
-            "ALEMANIA",
             "AUSTRALIA",
             "SUECIA",
             "ECUADOR",
@@ -826,7 +827,6 @@
             "AUSTRIA",
             "PORTUGAL",
             "CROACIA",
-            "COSTA de MARFIL",
             "PARAGUAY",
             "EGIPTO",
             "ARGENTINA",
@@ -834,13 +834,13 @@
             "COLOMBIA",
             "SENEGAL"
           ],
-          "puntos": 4,
+          "puntos": 6,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 13,
       "premio": 0,
       "premioPorcentaje": 0
@@ -848,7 +848,7 @@
     {
       "id": "vanessa-trivino",
       "participante": "Vanessa Triviño",
-      "total": 3,
+      "total": 5,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -857,7 +857,9 @@
           "equiposPronosticados": 32,
           "aciertos": [
             "BRASIL",
+            "ALEMANIA",
             "MARRUECOS",
+            "COSTA de MARFIL",
             "MÉXICO"
           ],
           "fallos": [
@@ -866,10 +868,8 @@
           "pendientes": [
             "COREA del SUR",
             "TÚNEZ",
-            "ALEMANIA",
             "PARAGUAY",
             "SUECIA",
-            "COSTA de MARFIL",
             "NORUEGA",
             "FRANCIA",
             "PAÍSES BAJOS",
@@ -893,13 +893,13 @@
             "COLOMBIA",
             "GHANA"
           ],
-          "puntos": 3,
+          "puntos": 5,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T21:52:48.252Z",
+      "ultimaActualizacionOficial": "2026-06-25T23:43:37.395Z",
       "posicion": 14,
       "premio": 0,
       "premioPorcentaje": 0

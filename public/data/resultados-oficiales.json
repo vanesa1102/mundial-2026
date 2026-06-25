@@ -76,26 +76,26 @@
         {
           "posicion": 2,
           "equipo": "CANADÁ",
-          "pj": 3,
+          "pj": 2,
           "g": 1,
-          "e": 1,
+          "e": 0,
           "p": 1,
-          "gf": 8,
-          "gc": 3,
+          "gf": 7,
+          "gc": 2,
           "dg": 5,
-          "pts": 4
+          "pts": 3
         },
         {
           "posicion": 3,
           "equipo": "BOSNIA y HERZEG.",
-          "pj": 3,
+          "pj": 2,
           "g": 1,
-          "e": 1,
+          "e": 0,
           "p": 1,
-          "gf": 5,
-          "gc": 6,
+          "gf": 4,
+          "gc": 5,
           "dg": -1,
-          "pts": 4
+          "pts": 3
         },
         {
           "posicion": 4,
@@ -226,49 +226,49 @@
         {
           "posicion": 1,
           "equipo": "ALEMANIA",
-          "pj": 2,
+          "pj": 3,
           "g": 2,
           "e": 0,
-          "p": 0,
-          "gf": 9,
-          "gc": 2,
-          "dg": 7,
+          "p": 1,
+          "gf": 10,
+          "gc": 4,
+          "dg": 6,
           "pts": 6
         },
         {
           "posicion": 2,
           "equipo": "COSTA de MARFIL",
-          "pj": 2,
-          "g": 1,
+          "pj": 3,
+          "g": 2,
           "e": 0,
           "p": 1,
-          "gf": 2,
+          "gf": 4,
           "gc": 2,
-          "dg": 0,
-          "pts": 3
+          "dg": 2,
+          "pts": 6
         },
         {
           "posicion": 3,
           "equipo": "ECUADOR",
-          "pj": 2,
-          "g": 0,
+          "pj": 3,
+          "g": 1,
           "e": 1,
           "p": 1,
-          "gf": 0,
-          "gc": 1,
-          "dg": -1,
-          "pts": 1
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "pts": 4
         },
         {
           "posicion": 4,
           "equipo": "CURAÇAO",
-          "pj": 2,
+          "pj": 3,
           "g": 0,
           "e": 1,
-          "p": 1,
+          "p": 2,
           "gf": 1,
-          "gc": 7,
-          "dg": -6,
+          "gc": 9,
+          "dg": -8,
           "pts": 1
         }
       ]
@@ -682,7 +682,7 @@
       "fecha": "2026-06-12",
       "equipo1": "CANADÁ",
       "equipo2": "BOSNIA y HERZEG.",
-      "marcador": "1-1",
+      "marcador": null,
       "pendiente": false,
       "estadio": null
     },
@@ -1254,8 +1254,8 @@
       "fecha": "2026-06-25",
       "equipo1": "ECUADOR",
       "equipo2": "ALEMANIA",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "2-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1265,8 +1265,8 @@
       "fecha": "2026-06-25",
       "equipo1": "CURAÇAO",
       "equipo2": "COSTA de MARFIL",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "0-2",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-25T21:52:48.252Z",
+    "actualizadoEn": "2026-06-25T23:43:37.395Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
