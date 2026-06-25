@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-06-25T15:10:53.044Z",
+  "generadoEn": "2026-06-25T18:24:45.863Z",
   "config": {
     "inscripcion": 25000,
     "moneda": "COP",
@@ -18,7 +18,7 @@
   "pozoTotal": 350000,
   "totalJugadores": 14,
   "etapasConfirmadas": [],
-  "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+  "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
   "ranking": [
     {
       "id": "daniel-vargas",
@@ -74,7 +74,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 1,
       "premio": 175000,
       "premioPorcentaje": 0.5
@@ -132,7 +132,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 2,
       "premio": 105000,
       "premioPorcentaje": 0.3
@@ -191,7 +191,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 3,
       "premio": 70000,
       "premioPorcentaje": 0.2
@@ -250,7 +250,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 4,
       "premio": 0,
       "premioPorcentaje": 0
@@ -309,7 +309,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 5,
       "premio": 0,
       "premioPorcentaje": 0
@@ -368,7 +368,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 6,
       "premio": 0,
       "premioPorcentaje": 0
@@ -426,7 +426,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 7,
       "premio": 0,
       "premioPorcentaje": 0
@@ -485,7 +485,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 8,
       "premio": 0,
       "premioPorcentaje": 0
@@ -544,7 +544,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 9,
       "premio": 0,
       "premioPorcentaje": 0
@@ -603,7 +603,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 10,
       "premio": 0,
       "premioPorcentaje": 0
@@ -692,7 +692,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 11,
       "premio": 0,
       "premioPorcentaje": 0
@@ -781,7 +781,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 12,
       "premio": 0,
       "premioPorcentaje": 0
@@ -840,7 +840,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 13,
       "premio": 0,
       "premioPorcentaje": 0
@@ -899,7 +899,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-25T15:10:52.685Z",
+      "ultimaActualizacionOficial": "2026-06-25T18:24:45.540Z",
       "posicion": 14,
       "premio": 0,
       "premioPorcentaje": 0
