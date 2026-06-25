@@ -2,7 +2,9 @@ name: Sync resultados
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    # Evitar :00 UTC (cola máxima en GitHub; a veces salta runs enteros).
+    - cron: "17 * * * *"
+    - cron: "47 * * * *"
   workflow_dispatch:
 
 permissions:
