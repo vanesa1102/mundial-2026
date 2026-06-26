@@ -442,49 +442,49 @@
         {
           "posicion": 1,
           "equipo": "FRANCIA",
-          "pj": 2,
-          "g": 2,
+          "pj": 3,
+          "g": 3,
           "e": 0,
           "p": 0,
-          "gf": 6,
-          "gc": 1,
-          "dg": 5,
-          "pts": 6
+          "gf": 10,
+          "gc": 2,
+          "dg": 8,
+          "pts": 9
         },
         {
           "posicion": 2,
           "equipo": "NORUEGA",
-          "pj": 2,
+          "pj": 3,
           "g": 2,
           "e": 0,
-          "p": 0,
-          "gf": 7,
-          "gc": 3,
-          "dg": 4,
+          "p": 1,
+          "gf": 8,
+          "gc": 7,
+          "dg": 1,
           "pts": 6
         },
         {
           "posicion": 3,
           "equipo": "SENEGAL",
-          "pj": 2,
-          "g": 0,
+          "pj": 3,
+          "g": 1,
           "e": 0,
           "p": 2,
-          "gf": 3,
+          "gf": 8,
           "gc": 6,
-          "dg": -3,
-          "pts": 0
+          "dg": 2,
+          "pts": 3
         },
         {
           "posicion": 4,
           "equipo": "IRAK",
-          "pj": 2,
+          "pj": 3,
           "g": 0,
           "e": 0,
-          "p": 2,
+          "p": 3,
           "gf": 1,
-          "gc": 7,
-          "dg": -6,
+          "gc": 12,
+          "dg": -11,
           "pts": 0
         }
       ]
@@ -1320,8 +1320,8 @@
       "fecha": "2026-06-26",
       "equipo1": "NORUEGA",
       "equipo2": "FRANCIA",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "1-4",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1331,8 +1331,8 @@
       "fecha": "2026-06-26",
       "equipo1": "SENEGAL",
       "equipo2": "IRAK",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "5-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-26T20:07:18.500Z",
+    "actualizadoEn": "2026-06-26T21:39:34.561Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
