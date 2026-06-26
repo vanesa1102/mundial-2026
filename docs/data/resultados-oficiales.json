@@ -10,49 +10,49 @@
         {
           "posicion": 1,
           "equipo": "MÉXICO",
-          "pj": 3,
-          "g": 3,
+          "pj": 2,
+          "g": 2,
           "e": 0,
           "p": 0,
-          "gf": 6,
+          "gf": 3,
           "gc": 0,
-          "dg": 6,
-          "pts": 9
+          "dg": 3,
+          "pts": 6
         },
         {
           "posicion": 2,
-          "equipo": "SUDÁFRICA",
-          "pj": 3,
+          "equipo": "COREA del SUR",
+          "pj": 2,
           "g": 1,
+          "e": 0,
+          "p": 1,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "pts": 3
+        },
+        {
+          "posicion": 3,
+          "equipo": "REP. CHECA",
+          "pj": 2,
+          "g": 0,
           "e": 1,
           "p": 1,
           "gf": 2,
           "gc": 3,
           "dg": -1,
-          "pts": 4
-        },
-        {
-          "posicion": 3,
-          "equipo": "COREA del SUR",
-          "pj": 3,
-          "g": 1,
-          "e": 0,
-          "p": 2,
-          "gf": 2,
-          "gc": 3,
-          "dg": -1,
-          "pts": 3
+          "pts": 1
         },
         {
           "posicion": 4,
-          "equipo": "REP. CHECA",
-          "pj": 3,
+          "equipo": "SUDÁFRICA",
+          "pj": 2,
           "g": 0,
           "e": 1,
-          "p": 2,
-          "gf": 2,
-          "gc": 6,
-          "dg": -4,
+          "p": 1,
+          "gf": 1,
+          "gc": 3,
+          "dg": -2,
           "pts": 1
         }
       ]
@@ -76,26 +76,26 @@
         {
           "posicion": 2,
           "equipo": "CANADÁ",
-          "pj": 2,
+          "pj": 3,
           "g": 1,
-          "e": 0,
+          "e": 1,
           "p": 1,
-          "gf": 7,
-          "gc": 2,
+          "gf": 8,
+          "gc": 3,
           "dg": 5,
-          "pts": 3
+          "pts": 4
         },
         {
           "posicion": 3,
           "equipo": "BOSNIA y HERZEG.",
-          "pj": 2,
+          "pj": 3,
           "g": 1,
-          "e": 0,
+          "e": 1,
           "p": 1,
-          "gf": 4,
-          "gc": 5,
+          "gf": 5,
+          "gc": 6,
           "dg": -1,
-          "pts": 3
+          "pts": 4
         },
         {
           "posicion": 4,
@@ -172,84 +172,18 @@
         {
           "posicion": 1,
           "equipo": "ESTADOS UNIDOS",
-          "pj": 2,
+          "pj": 3,
           "g": 2,
           "e": 0,
-          "p": 0,
-          "gf": 6,
-          "gc": 1,
-          "dg": 5,
+          "p": 1,
+          "gf": 8,
+          "gc": 4,
+          "dg": 4,
           "pts": 6
         },
         {
           "posicion": 2,
           "equipo": "AUSTRALIA",
-          "pj": 2,
-          "g": 1,
-          "e": 0,
-          "p": 1,
-          "gf": 2,
-          "gc": 2,
-          "dg": 0,
-          "pts": 3
-        },
-        {
-          "posicion": 3,
-          "equipo": "PARAGUAY",
-          "pj": 2,
-          "g": 1,
-          "e": 0,
-          "p": 1,
-          "gf": 2,
-          "gc": 4,
-          "dg": -2,
-          "pts": 3
-        },
-        {
-          "posicion": 4,
-          "equipo": "TURQUÍA",
-          "pj": 2,
-          "g": 0,
-          "e": 0,
-          "p": 2,
-          "gf": 0,
-          "gc": 3,
-          "dg": -3,
-          "pts": 0
-        }
-      ]
-    },
-    {
-      "id": "E",
-      "nombre": "Grupo E",
-      "equipos": [
-        {
-          "posicion": 1,
-          "equipo": "ALEMANIA",
-          "pj": 3,
-          "g": 2,
-          "e": 0,
-          "p": 1,
-          "gf": 10,
-          "gc": 4,
-          "dg": 6,
-          "pts": 6
-        },
-        {
-          "posicion": 2,
-          "equipo": "COSTA de MARFIL",
-          "pj": 3,
-          "g": 2,
-          "e": 0,
-          "p": 1,
-          "gf": 4,
-          "gc": 2,
-          "dg": 2,
-          "pts": 6
-        },
-        {
-          "posicion": 3,
-          "equipo": "ECUADOR",
           "pj": 3,
           "g": 1,
           "e": 1,
@@ -260,15 +194,81 @@
           "pts": 4
         },
         {
-          "posicion": 4,
-          "equipo": "CURAÇAO",
+          "posicion": 3,
+          "equipo": "PARAGUAY",
           "pj": 3,
+          "g": 1,
+          "e": 1,
+          "p": 1,
+          "gf": 2,
+          "gc": 4,
+          "dg": -2,
+          "pts": 4
+        },
+        {
+          "posicion": 4,
+          "equipo": "TURQUÍA",
+          "pj": 3,
+          "g": 1,
+          "e": 0,
+          "p": 2,
+          "gf": 3,
+          "gc": 5,
+          "dg": -2,
+          "pts": 3
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "nombre": "Grupo E",
+      "equipos": [
+        {
+          "posicion": 1,
+          "equipo": "ALEMANIA",
+          "pj": 2,
+          "g": 2,
+          "e": 0,
+          "p": 0,
+          "gf": 9,
+          "gc": 2,
+          "dg": 7,
+          "pts": 6
+        },
+        {
+          "posicion": 2,
+          "equipo": "COSTA de MARFIL",
+          "pj": 2,
+          "g": 1,
+          "e": 0,
+          "p": 1,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "pts": 3
+        },
+        {
+          "posicion": 3,
+          "equipo": "ECUADOR",
+          "pj": 2,
           "g": 0,
           "e": 1,
-          "p": 2,
+          "p": 1,
+          "gf": 0,
+          "gc": 1,
+          "dg": -1,
+          "pts": 1
+        },
+        {
+          "posicion": 4,
+          "equipo": "CURAÇAO",
+          "pj": 2,
+          "g": 0,
+          "e": 1,
+          "p": 1,
           "gf": 1,
-          "gc": 9,
-          "dg": -8,
+          "gc": 7,
+          "dg": -6,
           "pts": 1
         }
       ]
@@ -682,7 +682,7 @@
       "fecha": "2026-06-12",
       "equipo1": "CANADÁ",
       "equipo2": "BOSNIA y HERZEG.",
-      "marcador": null,
+      "marcador": "1-1",
       "pendiente": false,
       "estadio": null
     },
@@ -1232,8 +1232,8 @@
       "fecha": "2026-06-25",
       "equipo1": "REP. CHECA",
       "equipo2": "MÉXICO",
-      "marcador": "0-3",
-      "pendiente": false,
+      "marcador": null,
+      "pendiente": true,
       "estadio": null
     },
     {
@@ -1243,8 +1243,8 @@
       "fecha": "2026-06-25",
       "equipo1": "SUDÁFRICA",
       "equipo2": "COREA del SUR",
-      "marcador": "1-0",
-      "pendiente": false,
+      "marcador": null,
+      "pendiente": true,
       "estadio": null
     },
     {
@@ -1254,8 +1254,8 @@
       "fecha": "2026-06-25",
       "equipo1": "ECUADOR",
       "equipo2": "ALEMANIA",
-      "marcador": "2-1",
-      "pendiente": false,
+      "marcador": null,
+      "pendiente": true,
       "estadio": null
     },
     {
@@ -1265,8 +1265,8 @@
       "fecha": "2026-06-25",
       "equipo1": "CURAÇAO",
       "equipo2": "COSTA de MARFIL",
-      "marcador": "0-2",
-      "pendiente": false,
+      "marcador": null,
+      "pendiente": true,
       "estadio": null
     },
     {
@@ -1298,8 +1298,8 @@
       "fecha": "2026-06-26",
       "equipo1": "TURQUÍA",
       "equipo2": "ESTADOS UNIDOS",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "3-2",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1309,8 +1309,8 @@
       "fecha": "2026-06-26",
       "equipo1": "PARAGUAY",
       "equipo2": "AUSTRALIA",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "0-0",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1471,7 +1471,7 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-06-29",
-      "equipo1": null,
+      "equipo1": "ALEMANIA",
       "equipo2": null,
       "marcador": null,
       "pendiente": true,
@@ -1511,7 +1511,7 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-01",
-      "equipo1": null,
+      "equipo1": "MÉXICO",
       "equipo2": null,
       "marcador": null,
       "pendiente": true,
@@ -1541,7 +1541,7 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-02",
-      "equipo1": null,
+      "equipo1": "ESTADOS UNIDOS",
       "equipo2": null,
       "marcador": null,
       "pendiente": true,
@@ -1591,7 +1591,7 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-03",
-      "equipo1": null,
+      "equipo1": "ARGENTINA",
       "equipo2": null,
       "marcador": null,
       "pendiente": true,
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-25T23:43:37.395Z",
+    "actualizadoEn": "2026-06-26T04:38:14.357Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
