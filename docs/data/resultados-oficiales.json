@@ -1472,7 +1472,7 @@
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-06-29",
       "equipo1": "ALEMANIA",
-      "equipo2": null,
+      "equipo2": "PARAGUAY",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1492,7 +1492,7 @@
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-06-30",
       "equipo1": "COSTA de MARFIL",
-      "equipo2": null,
+      "equipo2": "NORUEGA",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1501,8 +1501,8 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-06-30",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "FRANCIA",
+      "equipo2": "SUECIA",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1512,7 +1512,7 @@
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-01",
       "equipo1": "MÉXICO",
-      "equipo2": null,
+      "equipo2": "ECUADOR",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1521,8 +1521,8 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-01",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "INGLATERRA",
+      "equipo2": "REP. del CONGO",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1531,8 +1531,8 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-01",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "BÉLGICA",
+      "equipo2": "SENEGAL",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1551,8 +1551,8 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-02",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "ESPAÑA",
+      "equipo2": "AUSTRIA",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1561,8 +1561,8 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-02",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "PORTUGAL",
+      "equipo2": "CROACIA",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1572,7 +1572,7 @@
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-03",
       "equipo1": "SUIZA",
-      "equipo2": null,
+      "equipo2": "ARGELIA",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1582,7 +1582,7 @@
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-03",
       "equipo1": "AUSTRALIA",
-      "equipo2": null,
+      "equipo2": "EGIPTO",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1592,7 +1592,7 @@
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-03",
       "equipo1": "ARGENTINA",
-      "equipo2": null,
+      "equipo2": "CABO VERDE",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1601,8 +1601,8 @@
       "fase": "Dieciseisavos",
       "faseGrupo": "dieciseisavos",
       "fecha": "2026-07-04",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "COLOMBIA",
+      "equipo2": "GHANA",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-28T04:48:18.334Z",
+    "actualizadoEn": "2026-06-28T09:31:08.309Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
