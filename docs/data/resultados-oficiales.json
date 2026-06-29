@@ -1463,8 +1463,8 @@
       "fecha": "2026-06-29",
       "equipo1": "BRASIL",
       "equipo2": "JAPÓN",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "2-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-29T18:21:37.736Z",
+    "actualizadoEn": "2026-06-29T21:43:31.511Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
