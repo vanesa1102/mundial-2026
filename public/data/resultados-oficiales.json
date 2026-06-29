@@ -1611,7 +1611,7 @@
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-04",
-      "equipo1": null,
+      "equipo1": "CANADÁ",
       "equipo2": null,
       "marcador": null,
       "pendiente": true,
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-29T04:57:39.187Z",
+    "actualizadoEn": "2026-06-29T11:22:51.525Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
