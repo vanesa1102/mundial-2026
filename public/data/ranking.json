@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-06-30T13:43:33.611Z",
+  "generadoEn": "2026-06-30T13:52:48.031Z",
   "config": {
     "inscripcion": 25000,
     "moneda": "COP",
@@ -188,6 +188,62 @@
             "COLOMBIA"
           ],
           "puntos": 6,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "MARRUECOS",
+            "ESPAÑA",
+            "ESTADOS UNIDOS",
+            "NORUEGA",
+            "INGLATERRA",
+            "ARGENTINA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "semifinales",
+          "label": "Semifinales",
+          "puntosPorEquipo": 5,
+          "equiposPronosticados": 4,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "ESPAÑA",
+            "INGLATERRA",
+            "ARGENTINA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "final",
+          "label": "Final",
+          "puntosPorEquipo": 8,
+          "equiposPronosticados": 2,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 0,
           "pendiente": true,
           "parcial": true
         }
@@ -456,6 +512,62 @@
           "puntos": 6,
           "pendiente": true,
           "parcial": true
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "MARRUECOS",
+            "ESPAÑA",
+            "ESTADOS UNIDOS",
+            "BRASIL",
+            "INGLATERRA",
+            "ARGENTINA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "semifinales",
+          "label": "Semifinales",
+          "puntosPorEquipo": 5,
+          "equiposPronosticados": 4,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "ESPAÑA",
+            "BRASIL",
+            "ARGENTINA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "final",
+          "label": "Final",
+          "puntosPorEquipo": 8,
+          "equiposPronosticados": 2,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "ARGENTINA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
         }
       ],
       "etapasConfirmadas": [],
@@ -543,6 +655,28 @@
             "COLOMBIA"
           ],
           "puntos": 4,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [],
+          "fallos": [
+            "PAÍSES BAJOS"
+          ],
+          "pendientes": [
+            "FRANCIA",
+            "MARRUECOS",
+            "PORTUGAL",
+            "BÉLGICA",
+            "INGLATERRA",
+            "ARGENTINA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
           "pendiente": true,
           "parcial": true
         }
@@ -834,6 +968,62 @@
           "puntos": 2,
           "pendiente": true,
           "parcial": true
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA",
+            "PAÍSES BAJOS"
+          ],
+          "pendientes": [
+            "ESPAÑA",
+            "ESTADOS UNIDOS",
+            "BRASIL",
+            "INGLATERRA",
+            "ARGENTINA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "semifinales",
+          "label": "Semifinales",
+          "puntosPorEquipo": 5,
+          "equiposPronosticados": 4,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "ESPAÑA",
+            "INGLATERRA",
+            "ARGENTINA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "final",
+          "label": "Final",
+          "puntosPorEquipo": 8,
+          "equiposPronosticados": 2,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
         }
       ],
       "etapasConfirmadas": [],
@@ -921,6 +1111,28 @@
             "COLOMBIA"
           ],
           "puntos": 2,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [],
+          "fallos": [
+            "PAÍSES BAJOS"
+          ],
+          "pendientes": [
+            "FRANCIA",
+            "PORTUGAL",
+            "BÉLGICA",
+            "NORUEGA",
+            "INGLATERRA",
+            "ARGENTINA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
           "pendiente": true,
           "parcial": true
         }
@@ -1012,6 +1224,62 @@
           "puntos": 4,
           "pendiente": true,
           "parcial": true
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [],
+          "fallos": [
+            "PAÍSES BAJOS"
+          ],
+          "pendientes": [
+            "FRANCIA",
+            "BRASIL",
+            "INGLATERRA",
+            "BÉLGICA",
+            "CROACIA",
+            "ARGENTINA",
+            "PORTUGAL"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "semifinales",
+          "label": "Semifinales",
+          "puntosPorEquipo": 5,
+          "equiposPronosticados": 4,
+          "aciertos": [],
+          "fallos": [
+            "PAÍSES BAJOS"
+          ],
+          "pendientes": [
+            "FRANCIA",
+            "INGLATERRA",
+            "ARGENTINA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "final",
+          "label": "Final",
+          "puntosPorEquipo": 8,
+          "equiposPronosticados": 2,
+          "aciertos": [],
+          "fallos": [
+            "PAÍSES BAJOS"
+          ],
+          "pendientes": [
+            "FRANCIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
         }
       ],
       "etapasConfirmadas": [],
@@ -1101,6 +1369,62 @@
           "puntos": 2,
           "pendiente": true,
           "parcial": true
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA",
+            "PAÍSES BAJOS"
+          ],
+          "pendientes": [
+            "ESPAÑA",
+            "BÉLGICA",
+            "FRANCIA",
+            "INGLATERRA",
+            "ARGENTINA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "semifinales",
+          "label": "Semifinales",
+          "puntosPorEquipo": 5,
+          "equiposPronosticados": 4,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "ESPAÑA",
+            "INGLATERRA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "final",
+          "label": "Final",
+          "puntosPorEquipo": 8,
+          "equiposPronosticados": 2,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
         }
       ],
       "etapasConfirmadas": [],
@@ -1188,6 +1512,62 @@
             "COLOMBIA"
           ],
           "puntos": 2,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "SUECIA",
+            "ESPAÑA",
+            "ESTADOS UNIDOS",
+            "BRASIL",
+            "INGLATERRA",
+            "ARGENTINA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "semifinales",
+          "label": "Semifinales",
+          "puntosPorEquipo": 5,
+          "equiposPronosticados": 4,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "ESPAÑA",
+            "BRASIL",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "final",
+          "label": "Final",
+          "puntosPorEquipo": 8,
+          "equiposPronosticados": 2,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "COLOMBIA"
+          ],
+          "puntos": 0,
           "pendiente": true,
           "parcial": true
         }
