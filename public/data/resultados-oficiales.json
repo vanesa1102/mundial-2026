@@ -1612,7 +1612,7 @@
       "faseGrupo": "octavos",
       "fecha": "2026-07-04",
       "equipo1": "CANADÁ",
-      "equipo2": null,
+      "equipo2": "MARRUECOS",
       "marcador": null,
       "pendiente": true,
       "estadio": null
@@ -1621,7 +1621,7 @@
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-04",
-      "equipo1": null,
+      "equipo1": "PARAGUAY",
       "equipo2": null,
       "marcador": null,
       "pendiente": true,
@@ -1631,7 +1631,7 @@
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-05",
-      "equipo1": null,
+      "equipo1": "BRASIL",
       "equipo2": null,
       "marcador": null,
       "pendiente": true,
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-30T04:33:05.038Z",
+    "actualizadoEn": "2026-06-30T09:59:41.282Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
