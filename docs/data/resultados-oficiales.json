@@ -1501,10 +1501,10 @@
       "fecha": "2026-06-30",
       "equipo1": "COSTA de MARFIL",
       "equipo2": "NORUEGA",
-      "marcador": null,
+      "marcador": "1-2",
       "marcadorPenales": null,
-      "ganador": null,
-      "pendiente": true,
+      "ganador": "NORUEGA",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1840,7 +1840,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-30T16:30:47.199Z",
+    "actualizadoEn": "2026-06-30T20:17:49.557Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
