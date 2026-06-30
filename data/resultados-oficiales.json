@@ -1483,8 +1483,8 @@
       "fecha": "2026-06-30",
       "equipo1": "PAÍSES BAJOS",
       "equipo2": "MARRUECOS",
-      "marcador": null,
-      "pendiente": true,
+      "marcador": "1-1",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1776,7 +1776,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-30T03:08:55.270Z",
+    "actualizadoEn": "2026-06-30T04:01:29.296Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }

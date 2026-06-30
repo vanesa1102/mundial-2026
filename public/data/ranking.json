@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-06-30T03:08:55.592Z",
+  "generadoEn": "2026-06-30T04:01:29.627Z",
   "config": {
     "inscripcion": 25000,
     "moneda": "COP",
@@ -18,7 +18,7 @@
   "pozoTotal": 350000,
   "totalJugadores": 14,
   "etapasConfirmadas": [],
-  "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+  "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
   "ranking": [
     {
       "id": "harold-ocampo",
@@ -81,10 +81,10 @@
             "BRASIL"
           ],
           "fallos": [
+            "MARRUECOS",
             "ALEMANIA"
           ],
           "pendientes": [
-            "MARRUECOS",
             "FRANCIA",
             "NORUEGA",
             "MÉXICO",
@@ -104,7 +104,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 1,
       "premio": 175000,
       "premioPorcentaje": 0.5
@@ -170,11 +170,11 @@
             "CANADÁ"
           ],
           "fallos": [
+            "MARRUECOS",
             "ALEMANIA"
           ],
           "pendientes": [
             "SUIZA",
-            "MARRUECOS",
             "FRANCIA",
             "NORUEGA",
             "MÉXICO",
@@ -193,7 +193,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 2,
       "premio": 105000,
       "premioPorcentaje": 0.3
@@ -258,12 +258,12 @@
             "BRASIL"
           ],
           "fallos": [
+            "MARRUECOS",
             "ALEMANIA",
             "URUGUAY"
           ],
           "pendientes": [
             "MÉXICO",
-            "MARRUECOS",
             "NORUEGA",
             "FRANCIA",
             "ESPAÑA",
@@ -282,7 +282,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 3,
       "premio": 70000,
       "premioPorcentaje": 0.2
@@ -347,10 +347,10 @@
             "BRASIL"
           ],
           "fallos": [
+            "MARRUECOS",
             "ALEMANIA"
           ],
           "pendientes": [
-            "MARRUECOS",
             "FRANCIA",
             "NORUEGA",
             "ECUADOR",
@@ -370,7 +370,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 4,
       "premio": 0,
       "premioPorcentaje": 0
@@ -435,12 +435,12 @@
             "CANADÁ"
           ],
           "fallos": [
-            "ALEMANIA"
+            "MARRUECOS",
+            "ALEMANIA",
+            "PAÍSES BAJOS"
           ],
           "pendientes": [
-            "MARRUECOS",
             "FRANCIA",
-            "PAÍSES BAJOS",
             "COSTA de MARFIL",
             "ECUADOR",
             "INGLATERRA",
@@ -459,7 +459,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 5,
       "premio": 0,
       "premioPorcentaje": 0
@@ -524,12 +524,12 @@
             "BRASIL"
           ],
           "fallos": [
+            "MARRUECOS",
             "ALEMANIA",
             "COREA del SUR"
           ],
           "pendientes": [
             "MÉXICO",
-            "MARRUECOS",
             "FRANCIA",
             "NORUEGA",
             "INGLATERRA",
@@ -548,7 +548,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 6,
       "premio": 0,
       "premioPorcentaje": 0
@@ -614,11 +614,11 @@
           ],
           "fallos": [
             "REP. CHECA",
+            "PAÍSES BAJOS",
             "ALEMANIA",
             "COREA del SUR"
           ],
           "pendientes": [
-            "PAÍSES BAJOS",
             "FRANCIA",
             "SENEGAL",
             "INGLATERRA",
@@ -637,7 +637,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 7,
       "premio": 0,
       "premioPorcentaje": 0
@@ -703,11 +703,11 @@
           ],
           "fallos": [
             "COREA del SUR",
+            "PAÍSES BAJOS",
             "ALEMANIA",
             "URUGUAY"
           ],
           "pendientes": [
-            "PAÍSES BAJOS",
             "FRANCIA",
             "NORUEGA",
             "MÉXICO",
@@ -726,7 +726,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 8,
       "premio": 0,
       "premioPorcentaje": 0
@@ -791,13 +791,13 @@
             "BRASIL"
           ],
           "fallos": [
+            "MARRUECOS",
             "ALEMANIA",
             "COREA del SUR",
             "PARAGUAY"
           ],
           "pendientes": [
             "MÉXICO",
-            "MARRUECOS",
             "FRANCIA",
             "NORUEGA",
             "INGLATERRA",
@@ -815,7 +815,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 9,
       "premio": 0,
       "premioPorcentaje": 0
@@ -881,11 +881,11 @@
           ],
           "fallos": [
             "COREA del SUR",
+            "MARRUECOS",
             "ALEMANIA",
             "URUGUAY"
           ],
           "pendientes": [
-            "MARRUECOS",
             "FRANCIA",
             "ECUADOR",
             "MÉXICO",
@@ -926,7 +926,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 10,
       "premio": 0,
       "premioPorcentaje": 0
@@ -991,11 +991,11 @@
             "BRASIL"
           ],
           "fallos": [
+            "PAÍSES BAJOS",
             "ALEMANIA"
           ],
           "pendientes": [
             "SUIZA",
-            "PAÍSES BAJOS",
             "NORUEGA",
             "FRANCIA",
             "MÉXICO",
@@ -1015,7 +1015,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 11,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1104,7 +1104,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 12,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1193,7 +1193,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 13,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1259,13 +1259,13 @@
           ],
           "fallos": [
             "ALEMANIA",
+            "PAÍSES BAJOS",
             "REP. CHECA",
             "PARAGUAY"
           ],
           "pendientes": [
             "SUIZA",
             "FRANCIA",
-            "PAÍSES BAJOS",
             "ECUADOR",
             "CROACIA",
             "INGLATERRA",
@@ -1282,7 +1282,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-06-30T03:08:55.270Z",
+      "ultimaActualizacionOficial": "2026-06-30T04:01:29.296Z",
       "posicion": 14,
       "premio": 0,
       "premioPorcentaje": 0
