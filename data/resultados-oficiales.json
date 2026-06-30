@@ -1513,10 +1513,10 @@
       "fecha": "2026-06-30",
       "equipo1": "FRANCIA",
       "equipo2": "SUECIA",
-      "marcador": null,
+      "marcador": "3-0",
       "marcadorPenales": null,
-      "ganador": null,
-      "pendiente": true,
+      "ganador": "FRANCIA",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1837,10 +1837,10 @@
     "subcampeon": null,
     "tercerPuesto": null,
     "cuartoPuesto": null,
-    "goleador": "Lionel Messi"
+    "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-06-30T20:17:49.557Z",
+    "actualizadoEn": "2026-06-30T23:36:54.167Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
