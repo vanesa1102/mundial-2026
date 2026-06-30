@@ -1454,6 +1454,8 @@
       "equipo1": "SUDÁFRICA",
       "equipo2": "CANADÁ",
       "marcador": "0-1",
+      "marcadorPenales": null,
+      "ganador": "CANADÁ",
       "pendiente": false,
       "estadio": null
     },
@@ -1464,6 +1466,8 @@
       "equipo1": "BRASIL",
       "equipo2": "JAPÓN",
       "marcador": "2-1",
+      "marcadorPenales": null,
+      "ganador": "BRASIL",
       "pendiente": false,
       "estadio": null
     },
@@ -1474,6 +1478,8 @@
       "equipo1": "ALEMANIA",
       "equipo2": "PARAGUAY",
       "marcador": "1-1",
+      "marcadorPenales": "3-4",
+      "ganador": "PARAGUAY",
       "pendiente": false,
       "estadio": null
     },
@@ -1484,6 +1490,8 @@
       "equipo1": "PAÍSES BAJOS",
       "equipo2": "MARRUECOS",
       "marcador": "1-1",
+      "marcadorPenales": "2-3",
+      "ganador": "MARRUECOS",
       "pendiente": false,
       "estadio": null
     },
@@ -1494,6 +1502,8 @@
       "equipo1": "COSTA de MARFIL",
       "equipo2": "NORUEGA",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1504,6 +1514,8 @@
       "equipo1": "FRANCIA",
       "equipo2": "SUECIA",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1514,6 +1526,8 @@
       "equipo1": "MÉXICO",
       "equipo2": "ECUADOR",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1524,6 +1538,8 @@
       "equipo1": "INGLATERRA",
       "equipo2": "REP. del CONGO",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1534,6 +1550,8 @@
       "equipo1": "BÉLGICA",
       "equipo2": "SENEGAL",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1544,6 +1562,8 @@
       "equipo1": "ESTADOS UNIDOS",
       "equipo2": "BOSNIA y HERZEG.",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1554,6 +1574,8 @@
       "equipo1": "ESPAÑA",
       "equipo2": "AUSTRIA",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1564,6 +1586,8 @@
       "equipo1": "PORTUGAL",
       "equipo2": "CROACIA",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1574,6 +1598,8 @@
       "equipo1": "SUIZA",
       "equipo2": "ARGELIA",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1584,6 +1610,8 @@
       "equipo1": "AUSTRALIA",
       "equipo2": "EGIPTO",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1594,6 +1622,8 @@
       "equipo1": "ARGENTINA",
       "equipo2": "CABO VERDE",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1604,6 +1634,8 @@
       "equipo1": "COLOMBIA",
       "equipo2": "GHANA",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1614,6 +1646,8 @@
       "equipo1": "CANADÁ",
       "equipo2": "MARRUECOS",
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1624,6 +1658,8 @@
       "equipo1": "PARAGUAY",
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1634,6 +1670,8 @@
       "equipo1": "BRASIL",
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1644,6 +1682,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1654,6 +1694,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1664,6 +1706,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1674,6 +1718,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1684,6 +1730,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1694,6 +1742,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1704,6 +1754,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1714,6 +1766,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1724,6 +1778,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1734,6 +1790,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1744,6 +1802,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1754,6 +1814,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1764,6 +1826,8 @@
       "equipo1": null,
       "equipo2": null,
       "marcador": null,
+      "marcadorPenales": null,
+      "ganador": null,
       "pendiente": true,
       "estadio": null
     }
@@ -1776,7 +1840,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-06-30T12:23:12.223Z",
+    "actualizadoEn": "2026-06-30T13:42:40.128Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }

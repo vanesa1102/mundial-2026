@@ -574,7 +574,13 @@ body {
 }
 
 .match__team--winner {
-  color: var(--win);
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.match__team--loser {
+  color: var(--text-muted);
+  opacity: 0.72;
 }
 
 .match__team--hit {
@@ -600,6 +606,13 @@ body {
   min-width: 5.5rem;
 }
 
+.match__score-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+}
+
 .match__score {
   display: inline-flex;
   align-items: center;
@@ -616,6 +629,20 @@ body {
 .match__score--pending {
   background: rgba(148, 163, 184, 0.12);
   color: var(--pending);
+}
+
+.match__penalties {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  opacity: 0.9;
+}
+
+.match--decided .match__team--winner::after {
+  content: " ✓";
+  font-size: 0.85em;
+  color: var(--accent);
 }
 
 .match__meta {

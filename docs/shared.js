@@ -54,7 +54,27 @@ function parseScore(marcador) {
   return { a, b };
 }
 
+function normalizeTeamKey(value) {
+  return String(value ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .trim()
+    .toUpperCase();
+}
+
+function teamsEqual(teamA, teamB) {
+  if (!teamA || !teamB) {
+    return false;
+  }
+
+  return normalizeTeamKey(teamA) === normalizeTeamKey(teamB);
+}
+
 function getWinner(partido) {
+  if (partido.ganador) {
+    return partido.ganador;
+  }
+
   const score = parseScore(partido.marcador);
   if (!score) {
     return null;
@@ -71,20 +91,63 @@ function getWinner(partido) {
   return null;
 }
 
-function renderMatch(partido) {
-  const winner = getWinner(partido);
-  const scoreClass = partido.pendiente ? "match__score--pending" : "";
-  const scoreText = partido.pendiente ? "Por jugar" : partido.marcador;
-  const team1 = partido.equipo1 ?? "Por definir";
-  const team2 = partido.equipo2 ?? "Por definir";
+function renderMatchScore(partido) {
+  if (partido.pendiente) {
+    return `<span class="match__score match__score--pending">Por jugar</span>`;
+  }
 
-  const teamClass = (team) => (winner && team === winner ? "match__team--winner" : "");
+  if (!partido.marcador) {
+    return `<span class="match__score">—</span>`;
+  }
+
+  const penalties = partido.marcadorPenales
+    ? `<span class="match__penalties">Pen. ${partido.marcadorPenales}</span>`
+    : "";
 
   return `
-    <article class="match">
+    <div class="match__score-block">
+      <span class="match__score">${partido.marcador}</span>
+      ${penalties}
+    </div>
+  `;
+}
+
+function formatOfficialResult(officialPartido) {
+  if (!officialPartido || officialPartido.pendiente || !officialPartido.marcador) {
+    return "";
+  }
+
+  let text = `Real: ${officialPartido.marcador}`;
+  if (officialPartido.marcadorPenales) {
+    text += ` · Pen. ${officialPartido.marcadorPenales}`;
+  }
+
+  return text;
+}
+
+function renderMatch(partido) {
+  const winner = getWinner(partido);
+  const team1 = partido.equipo1 ?? "Por definir";
+  const team2 = partido.equipo2 ?? "Por definir";
+  const finished = !partido.pendiente && Boolean(winner);
+
+  const teamClass = (team) => {
+    if (!finished || !team || team === "Por definir") {
+      return "";
+    }
+
+    if (teamsEqual(team, winner)) {
+      return "match__team--winner";
+    }
+
+    return "match__team--loser";
+  };
+
+  return `
+    <article class="match${finished ? " match--decided" : ""}">
       <div class="match__team match__team--left ${teamClass(partido.equipo1)}">${team1}</div>
       <div class="match__center">
-        <span class="match__score ${scoreClass}">${scoreText}</span>
+        ${renderMatchScore(partido)}
         <span class="match__meta">${formatDate(partido.fecha)}${partido.estadio ? ` · ${partido.estadio}` : ""}</span>
       </div>
       <div class="match__team ${teamClass(partido.equipo2)}">${team2}</div>
@@ -307,8 +370,6 @@ function getTeamPhaseClass(team, phaseEntry) {
 
 function renderPlayerMatch(partido, officialPartido, phaseEntry) {
   const winner = getWinner(partido);
-  const scoreClass = partido.pendiente ? "match__score--pending" : "";
-  const scoreText = partido.pendiente ? "Por jugar" : partido.marcador;
   const team1 = partido.equipo1 ?? "Por definir";
   const team2 = partido.equipo2 ?? "Por definir";
   const teamClass = (team) => {
@@ -317,19 +378,18 @@ function renderPlayerMatch(partido, officialPartido, phaseEntry) {
       return statusClass;
     }
 
-    return winner && team === winner ? "match__team--winner" : "";
+    return winner && teamsEqual(team, winner) ? "match__team--winner" : "";
   };
 
-  const officialScore =
-    officialPartido && !officialPartido.pendiente && officialPartido.marcador
-      ? `<span class="match__official">Real: ${officialPartido.marcador}</span>`
-      : "";
+  const officialScore = formatOfficialResult(officialPartido)
+    ? `<span class="match__official">${formatOfficialResult(officialPartido)}</span>`
+    : "";
 
   return `
     <article class="match">
       <div class="match__team match__team--left ${teamClass(partido.equipo1)}">${team1}</div>
       <div class="match__center">
-        <span class="match__score ${scoreClass}">${scoreText}</span>
+        ${renderMatchScore(partido)}
         ${officialScore}
         <span class="match__meta">${formatDate(partido.fecha)}${partido.estadio ? ` · ${partido.estadio}` : ""}</span>
       </div>

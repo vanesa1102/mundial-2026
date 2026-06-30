@@ -242,7 +242,15 @@ function isKnockoutBracketComplete(faseGrupo, partidos) {
 }
 
 function getWinnerFromPartido(partido) {
-  if (partido.pendiente || !partido.marcador) {
+  if (partido.pendiente) {
+    return null;
+  }
+
+  if (partido.ganador) {
+    return teamKey(partido.ganador);
+  }
+
+  if (!partido.marcador) {
     return null;
   }
 
@@ -384,6 +392,10 @@ function getKnockoutMatchStatus(teamNorm, partidos, faseGrupo) {
     }
 
     const winner = getWinnerFromPartido(partido);
+    if (!winner) {
+      return "pending";
+    }
+
     return winner === teamNorm ? "won" : "lost";
   }
 
