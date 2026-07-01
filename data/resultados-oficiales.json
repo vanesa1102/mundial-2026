@@ -1525,10 +1525,10 @@
       "fecha": "2026-07-01",
       "equipo1": "MÉXICO",
       "equipo2": "ECUADOR",
-      "marcador": null,
+      "marcador": "2-0",
       "marcadorPenales": null,
-      "ganador": null,
-      "pendiente": true,
+      "ganador": "MÉXICO",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1840,7 +1840,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-06-30T23:36:54.167Z",
+    "actualizadoEn": "2026-07-01T04:52:19.254Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
