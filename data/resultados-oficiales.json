@@ -1656,7 +1656,7 @@
       "faseGrupo": "octavos",
       "fecha": "2026-07-04",
       "equipo1": "PARAGUAY",
-      "equipo2": null,
+      "equipo2": "FRANCIA",
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
@@ -1668,7 +1668,7 @@
       "faseGrupo": "octavos",
       "fecha": "2026-07-05",
       "equipo1": "BRASIL",
-      "equipo2": null,
+      "equipo2": "NORUEGA",
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
@@ -1840,7 +1840,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-01T04:52:19.254Z",
+    "actualizadoEn": "2026-07-01T10:11:08.147Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
