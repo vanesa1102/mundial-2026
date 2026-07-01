@@ -1537,10 +1537,10 @@
       "fecha": "2026-07-01",
       "equipo1": "INGLATERRA",
       "equipo2": "REP. del CONGO",
-      "marcador": null,
+      "marcador": "2-1",
       "marcadorPenales": null,
-      "ganador": null,
-      "pendiente": true,
+      "ganador": "INGLATERRA",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1840,7 +1840,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-01T16:38:41.816Z",
+    "actualizadoEn": "2026-07-01T20:12:11.586Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
