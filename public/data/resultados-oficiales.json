@@ -1456,6 +1456,7 @@
       "marcador": "0-1",
       "marcadorPenales": null,
       "ganador": "CANADÁ",
+      "definicion": null,
       "pendiente": false,
       "estadio": null
     },
@@ -1468,6 +1469,7 @@
       "marcador": "2-1",
       "marcadorPenales": null,
       "ganador": "BRASIL",
+      "definicion": null,
       "pendiente": false,
       "estadio": null
     },
@@ -1480,6 +1482,7 @@
       "marcador": "1-1",
       "marcadorPenales": "3-4",
       "ganador": "PARAGUAY",
+      "definicion": "penales",
       "pendiente": false,
       "estadio": null
     },
@@ -1492,6 +1495,7 @@
       "marcador": "1-1",
       "marcadorPenales": "2-3",
       "ganador": "MARRUECOS",
+      "definicion": "penales",
       "pendiente": false,
       "estadio": null
     },
@@ -1504,6 +1508,7 @@
       "marcador": "1-2",
       "marcadorPenales": null,
       "ganador": "NORUEGA",
+      "definicion": null,
       "pendiente": false,
       "estadio": null
     },
@@ -1516,6 +1521,7 @@
       "marcador": "3-0",
       "marcadorPenales": null,
       "ganador": "FRANCIA",
+      "definicion": null,
       "pendiente": false,
       "estadio": null
     },
@@ -1528,6 +1534,7 @@
       "marcador": "2-0",
       "marcadorPenales": null,
       "ganador": "MÉXICO",
+      "definicion": null,
       "pendiente": false,
       "estadio": null
     },
@@ -1540,6 +1547,7 @@
       "marcador": "2-1",
       "marcadorPenales": null,
       "ganador": "INGLATERRA",
+      "definicion": null,
       "pendiente": false,
       "estadio": null
     },
@@ -1549,9 +1557,10 @@
       "fecha": "2026-07-01",
       "equipo1": "BÉLGICA",
       "equipo2": "SENEGAL",
-      "marcador": null,
+      "marcador": "3-2",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "BÉLGICA",
+      "definicion": "prorroga",
       "pendiente": false,
       "estadio": null
     },
@@ -1564,6 +1573,7 @@
       "marcador": "2-0",
       "marcadorPenales": null,
       "ganador": "ESTADOS UNIDOS",
+      "definicion": null,
       "pendiente": false,
       "estadio": null
     },
@@ -1576,6 +1586,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1588,6 +1599,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1600,6 +1612,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1612,6 +1625,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1624,6 +1638,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1636,6 +1651,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1648,6 +1664,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1660,6 +1677,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1672,6 +1690,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1684,6 +1703,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1696,6 +1716,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1708,6 +1729,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1720,6 +1742,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1732,6 +1755,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1744,6 +1768,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1756,6 +1781,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1768,6 +1794,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1780,6 +1807,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1792,6 +1820,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1804,6 +1833,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1816,6 +1846,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     },
@@ -1828,6 +1859,7 @@
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
+      "definicion": null,
       "pendiente": true,
       "estadio": null
     }
@@ -1840,7 +1872,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-02T03:08:10.235Z",
+    "actualizadoEn": "2026-07-02T03:23:04.249Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }

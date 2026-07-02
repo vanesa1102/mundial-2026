@@ -102,7 +102,9 @@ function renderMatchScore(partido) {
 
   const penalties = partido.marcadorPenales
     ? `<span class="match__penalties">Pen. ${partido.marcadorPenales}</span>`
-    : "";
+    : partido.definicion === "prorroga"
+      ? `<span class="match__penalties">Prór.</span>`
+      : "";
 
   return `
     <div class="match__score-block">
@@ -120,6 +122,8 @@ function formatOfficialResult(officialPartido) {
   let text = `Real: ${officialPartido.marcador}`;
   if (officialPartido.marcadorPenales) {
     text += ` · Pen. ${officialPartido.marcadorPenales}`;
+  } else if (officialPartido.definicion === "prorroga") {
+    text += " · Prór.";
   }
 
   return text;
