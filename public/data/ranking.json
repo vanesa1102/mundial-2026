@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-07-02T19:49:57.090Z",
+  "generadoEn": "2026-07-02T21:31:04.423Z",
   "config": {
     "inscripcion": 25000,
     "moneda": "COP",
@@ -18,12 +18,12 @@
   "pozoTotal": 350000,
   "totalJugadores": 14,
   "etapasConfirmadas": [],
-  "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
+  "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
   "ranking": [
     {
       "id": "harold-ocampo",
       "participante": "Harold Ocampo",
-      "total": 46,
+      "total": 48,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -84,6 +84,7 @@
             "NORUEGA",
             "MÉXICO",
             "INGLATERRA",
+            "ESPAÑA",
             "ESTADOS UNIDOS",
             "BÉLGICA"
           ],
@@ -92,19 +93,18 @@
           ],
           "pendientes": [
             "PORTUGAL",
-            "ESPAÑA",
             "ARGENTINA",
             "EGIPTO",
             "SUIZA",
             "COLOMBIA"
           ],
-          "puntos": 18,
+          "puntos": 20,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
       "posicion": 1,
       "premio": 175000,
       "premioPorcentaje": 0.5
@@ -112,7 +112,7 @@
     {
       "id": "santiago-silva",
       "participante": "Santiago Silva",
-      "total": 46,
+      "total": 48,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -172,6 +172,7 @@
             "BRASIL",
             "NORUEGA",
             "INGLATERRA",
+            "ESPAÑA",
             "ESTADOS UNIDOS",
             "BÉLGICA",
             "PARAGUAY"
@@ -182,12 +183,11 @@
           ],
           "pendientes": [
             "CROACIA",
-            "ESPAÑA",
             "ARGENTINA",
             "ARGELIA",
             "COLOMBIA"
           ],
-          "puntos": 18,
+          "puntos": 20,
           "pendiente": true,
           "parcial": true
         },
@@ -249,7 +249,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
       "posicion": 2,
       "premio": 105000,
       "premioPorcentaje": 0.3
@@ -257,7 +257,7 @@
     {
       "id": "daniel-vargas",
       "participante": "Daniel Vargas",
-      "total": 45,
+      "total": 47,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -317,6 +317,7 @@
             "NORUEGA",
             "MÉXICO",
             "INGLATERRA",
+            "ESPAÑA",
             "ESTADOS UNIDOS",
             "BÉLGICA",
             "CANADÁ"
@@ -327,18 +328,17 @@
           "pendientes": [
             "SUIZA",
             "PORTUGAL",
-            "ESPAÑA",
             "ARGENTINA",
             "AUSTRALIA",
             "COLOMBIA"
           ],
-          "puntos": 18,
+          "puntos": 20,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
       "posicion": 3,
       "premio": 70000,
       "premioPorcentaje": 0.2
@@ -346,7 +346,7 @@
     {
       "id": "sebastian-rocha",
       "participante": "Sebastian Rocha",
-      "total": 45,
+      "total": 47,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -405,6 +405,7 @@
             "NORUEGA",
             "BRASIL",
             "FRANCIA",
+            "ESPAÑA",
             "INGLATERRA",
             "ESTADOS UNIDOS",
             "BÉLGICA"
@@ -415,19 +416,18 @@
             "ECUADOR"
           ],
           "pendientes": [
-            "ESPAÑA",
             "PORTUGAL",
             "EGIPTO",
             "ARGENTINA",
             "COLOMBIA"
           ],
-          "puntos": 16,
+          "puntos": 18,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
       "posicion": 4,
       "premio": 0,
       "premioPorcentaje": 0
@@ -435,7 +435,7 @@
     {
       "id": "maria-acevedo",
       "participante": "Maria Acevedo",
-      "total": 44,
+      "total": 46,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -495,6 +495,7 @@
             "BRASIL",
             "NORUEGA",
             "INGLATERRA",
+            "ESPAÑA",
             "ESTADOS UNIDOS",
             "BÉLGICA"
           ],
@@ -505,18 +506,17 @@
           ],
           "pendientes": [
             "CROACIA",
-            "ESPAÑA",
             "ARGENTINA",
             "EGIPTO",
             "COLOMBIA"
           ],
-          "puntos": 16,
+          "puntos": 18,
           "pendiente": true,
           "parcial": true
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
       "posicion": 5,
       "premio": 0,
       "premioPorcentaje": 0
@@ -524,7 +524,7 @@
     {
       "id": "estiben-cuellar",
       "participante": "Estiben Cuellar",
-      "total": 42,
+      "total": 44,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -583,22 +583,22 @@
             "BRASIL",
             "NORUEGA",
             "INGLATERRA",
+            "ESPAÑA",
             "ESTADOS UNIDOS",
             "BÉLGICA"
           ],
           "fallos": [
             "ALEMANIA",
-            "ECUADOR"
+            "ECUADOR",
+            "AUSTRIA"
           ],
           "pendientes": [
             "PORTUGAL",
-            "ESPAÑA",
             "ARGENTINA",
             "EGIPTO",
-            "AUSTRIA",
             "COLOMBIA"
           ],
-          "puntos": 16,
+          "puntos": 18,
           "pendiente": true,
           "parcial": true
         },
@@ -660,8 +660,409 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
       "posicion": 6,
+      "premio": 0,
+      "premioPorcentaje": 0
+    },
+    {
+      "id": "martha-garcia",
+      "participante": "Martha Garcia",
+      "total": 43,
+      "desglose": [
+        {
+          "fase": "dieciseisavos",
+          "label": "Dieciseisavos",
+          "puntosPorEquipo": 1,
+          "equiposPronosticados": 32,
+          "aciertos": [
+            "SUIZA",
+            "BRASIL",
+            "JAPÓN",
+            "ALEMANIA",
+            "PARAGUAY",
+            "PAÍSES BAJOS",
+            "MARRUECOS",
+            "COSTA de MARFIL",
+            "FRANCIA",
+            "NORUEGA",
+            "SUECIA",
+            "MÉXICO",
+            "INGLATERRA",
+            "BÉLGICA",
+            "ESTADOS UNIDOS",
+            "CANADÁ",
+            "ESPAÑA",
+            "AUSTRIA",
+            "PORTUGAL",
+            "CROACIA",
+            "BOSNIA y HERZEG.",
+            "ECUADOR",
+            "AUSTRALIA",
+            "EGIPTO",
+            "ARGENTINA",
+            "COLOMBIA",
+            "SENEGAL"
+          ],
+          "fallos": [
+            "COREA del SUR",
+            "ESCOCIA",
+            "UZBEKISTÁN",
+            "REP. CHECA",
+            "URUGUAY"
+          ],
+          "pendientes": [],
+          "puntos": 27,
+          "pendiente": false,
+          "parcial": false
+        },
+        {
+          "fase": "octavos",
+          "label": "Octavos",
+          "puntosPorEquipo": 2,
+          "equiposPronosticados": 16,
+          "aciertos": [
+            "NORUEGA",
+            "BRASIL",
+            "FRANCIA",
+            "MÉXICO",
+            "INGLATERRA",
+            "ESPAÑA",
+            "ESTADOS UNIDOS",
+            "BÉLGICA"
+          ],
+          "fallos": [
+            "PAÍSES BAJOS",
+            "ALEMANIA",
+            "BOSNIA y HERZEG."
+          ],
+          "pendientes": [
+            "SUIZA",
+            "PORTUGAL",
+            "ARGENTINA",
+            "EGIPTO",
+            "COLOMBIA"
+          ],
+          "puntos": 16,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA",
+            "PAÍSES BAJOS"
+          ],
+          "pendientes": [
+            "ESPAÑA",
+            "BÉLGICA",
+            "FRANCIA",
+            "INGLATERRA",
+            "ARGENTINA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "semifinales",
+          "label": "Semifinales",
+          "puntosPorEquipo": 5,
+          "equiposPronosticados": 4,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "ESPAÑA",
+            "INGLATERRA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "final",
+          "label": "Final",
+          "puntosPorEquipo": 8,
+          "equiposPronosticados": 2,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        }
+      ],
+      "etapasConfirmadas": [],
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
+      "posicion": 7,
+      "premio": 0,
+      "premioPorcentaje": 0
+    },
+    {
+      "id": "mauricio-trivino",
+      "participante": "Mauricio Triviño",
+      "total": 43,
+      "desglose": [
+        {
+          "fase": "dieciseisavos",
+          "label": "Dieciseisavos",
+          "puntosPorEquipo": 1,
+          "equiposPronosticados": 32,
+          "aciertos": [
+            "BOSNIA y HERZEG.",
+            "BRASIL",
+            "PAÍSES BAJOS",
+            "ALEMANIA",
+            "SUECIA",
+            "MARRUECOS",
+            "COSTA de MARFIL",
+            "NORUEGA",
+            "FRANCIA",
+            "JAPÓN",
+            "MÉXICO",
+            "ECUADOR",
+            "INGLATERRA",
+            "SENEGAL",
+            "BÉLGICA",
+            "SUDÁFRICA",
+            "ESTADOS UNIDOS",
+            "ARGELIA",
+            "ESPAÑA",
+            "AUSTRIA",
+            "PORTUGAL",
+            "CROACIA",
+            "SUIZA",
+            "AUSTRALIA",
+            "ARGENTINA",
+            "COLOMBIA",
+            "GHANA"
+          ],
+          "fallos": [
+            "COREA del SUR",
+            "ESCOCIA",
+            "IRÁN",
+            "NUEVA ZELANDA",
+            "URUGUAY"
+          ],
+          "pendientes": [],
+          "puntos": 27,
+          "pendiente": false,
+          "parcial": false
+        },
+        {
+          "fase": "octavos",
+          "label": "Octavos",
+          "puntosPorEquipo": 2,
+          "equiposPronosticados": 16,
+          "aciertos": [
+            "FRANCIA",
+            "BRASIL",
+            "NORUEGA",
+            "MÉXICO",
+            "INGLATERRA",
+            "ESPAÑA",
+            "ESTADOS UNIDOS",
+            "BÉLGICA"
+          ],
+          "fallos": [
+            "COREA del SUR",
+            "SUECIA",
+            "ALEMANIA",
+            "IRÁN"
+          ],
+          "pendientes": [
+            "PORTUGAL",
+            "ARGENTINA",
+            "AUSTRALIA",
+            "COLOMBIA"
+          ],
+          "puntos": 16,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA",
+            "SUECIA"
+          ],
+          "pendientes": [
+            "ESPAÑA",
+            "ESTADOS UNIDOS",
+            "BRASIL",
+            "INGLATERRA",
+            "ARGENTINA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "semifinales",
+          "label": "Semifinales",
+          "puntosPorEquipo": 5,
+          "equiposPronosticados": 4,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "ESPAÑA",
+            "BRASIL",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "final",
+          "label": "Final",
+          "puntosPorEquipo": 8,
+          "equiposPronosticados": 2,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        }
+      ],
+      "etapasConfirmadas": [],
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
+      "posicion": 8,
+      "premio": 0,
+      "premioPorcentaje": 0
+    },
+    {
+      "id": "juan-pablo-suarez",
+      "participante": "Juan Pablo Suarez",
+      "total": 42,
+      "desglose": [
+        {
+          "fase": "dieciseisavos",
+          "label": "Dieciseisavos",
+          "puntosPorEquipo": 1,
+          "equiposPronosticados": 32,
+          "aciertos": [
+            "MÉXICO",
+            "CANADÁ",
+            "BRASIL",
+            "PAÍSES BAJOS",
+            "ALEMANIA",
+            "SUECIA",
+            "MARRUECOS",
+            "COSTA de MARFIL",
+            "NORUEGA",
+            "FRANCIA",
+            "JAPÓN",
+            "ECUADOR",
+            "INGLATERRA",
+            "REP. del CONGO",
+            "BÉLGICA",
+            "ESTADOS UNIDOS",
+            "BOSNIA y HERZEG.",
+            "ESPAÑA",
+            "AUSTRIA",
+            "PORTUGAL",
+            "CROACIA",
+            "SUIZA",
+            "ARGELIA",
+            "AUSTRALIA",
+            "EGIPTO",
+            "ARGENTINA",
+            "COLOMBIA",
+            "SENEGAL"
+          ],
+          "fallos": [
+            "ESCOCIA",
+            "COREA del SUR",
+            "REP. CHECA",
+            "URUGUAY"
+          ],
+          "pendientes": [],
+          "puntos": 28,
+          "pendiente": false,
+          "parcial": false
+        },
+        {
+          "fase": "octavos",
+          "label": "Octavos",
+          "puntosPorEquipo": 2,
+          "equiposPronosticados": 16,
+          "aciertos": [
+            "CANADÁ",
+            "MARRUECOS",
+            "FRANCIA",
+            "INGLATERRA",
+            "ESPAÑA",
+            "ESTADOS UNIDOS",
+            "BÉLGICA"
+          ],
+          "fallos": [
+            "ALEMANIA",
+            "PAÍSES BAJOS",
+            "COSTA de MARFIL",
+            "ECUADOR"
+          ],
+          "pendientes": [
+            "PORTUGAL",
+            "ARGENTINA",
+            "EGIPTO",
+            "SUIZA",
+            "COLOMBIA"
+          ],
+          "puntos": 14,
+          "pendiente": true,
+          "parcial": true
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [],
+          "fallos": [
+            "PAÍSES BAJOS"
+          ],
+          "pendientes": [
+            "FRANCIA",
+            "MARRUECOS",
+            "PORTUGAL",
+            "BÉLGICA",
+            "INGLATERRA",
+            "ARGENTINA",
+            "COLOMBIA"
+          ],
+          "puntos": 0,
+          "pendiente": true,
+          "parcial": true
+        }
+      ],
+      "etapasConfirmadas": [],
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
+      "posicion": 9,
       "premio": 0,
       "premioPorcentaje": 0
     },
@@ -771,8 +1172,8 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
-      "posicion": 7,
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
+      "posicion": 10,
       "premio": 0,
       "premioPorcentaje": 0
     },
@@ -882,408 +1283,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
-      "posicion": 8,
-      "premio": 0,
-      "premioPorcentaje": 0
-    },
-    {
-      "id": "martha-garcia",
-      "participante": "Martha Garcia",
-      "total": 41,
-      "desglose": [
-        {
-          "fase": "dieciseisavos",
-          "label": "Dieciseisavos",
-          "puntosPorEquipo": 1,
-          "equiposPronosticados": 32,
-          "aciertos": [
-            "SUIZA",
-            "BRASIL",
-            "JAPÓN",
-            "ALEMANIA",
-            "PARAGUAY",
-            "PAÍSES BAJOS",
-            "MARRUECOS",
-            "COSTA de MARFIL",
-            "FRANCIA",
-            "NORUEGA",
-            "SUECIA",
-            "MÉXICO",
-            "INGLATERRA",
-            "BÉLGICA",
-            "ESTADOS UNIDOS",
-            "CANADÁ",
-            "ESPAÑA",
-            "AUSTRIA",
-            "PORTUGAL",
-            "CROACIA",
-            "BOSNIA y HERZEG.",
-            "ECUADOR",
-            "AUSTRALIA",
-            "EGIPTO",
-            "ARGENTINA",
-            "COLOMBIA",
-            "SENEGAL"
-          ],
-          "fallos": [
-            "COREA del SUR",
-            "ESCOCIA",
-            "UZBEKISTÁN",
-            "REP. CHECA",
-            "URUGUAY"
-          ],
-          "pendientes": [],
-          "puntos": 27,
-          "pendiente": false,
-          "parcial": false
-        },
-        {
-          "fase": "octavos",
-          "label": "Octavos",
-          "puntosPorEquipo": 2,
-          "equiposPronosticados": 16,
-          "aciertos": [
-            "NORUEGA",
-            "BRASIL",
-            "FRANCIA",
-            "MÉXICO",
-            "INGLATERRA",
-            "ESTADOS UNIDOS",
-            "BÉLGICA"
-          ],
-          "fallos": [
-            "PAÍSES BAJOS",
-            "ALEMANIA",
-            "BOSNIA y HERZEG."
-          ],
-          "pendientes": [
-            "SUIZA",
-            "PORTUGAL",
-            "ESPAÑA",
-            "ARGENTINA",
-            "EGIPTO",
-            "COLOMBIA"
-          ],
-          "puntos": 14,
-          "pendiente": true,
-          "parcial": true
-        },
-        {
-          "fase": "cuartos",
-          "label": "Cuartos",
-          "puntosPorEquipo": 3,
-          "equiposPronosticados": 8,
-          "aciertos": [],
-          "fallos": [
-            "ALEMANIA",
-            "PAÍSES BAJOS"
-          ],
-          "pendientes": [
-            "ESPAÑA",
-            "BÉLGICA",
-            "FRANCIA",
-            "INGLATERRA",
-            "ARGENTINA",
-            "COLOMBIA"
-          ],
-          "puntos": 0,
-          "pendiente": true,
-          "parcial": true
-        },
-        {
-          "fase": "semifinales",
-          "label": "Semifinales",
-          "puntosPorEquipo": 5,
-          "equiposPronosticados": 4,
-          "aciertos": [],
-          "fallos": [
-            "ALEMANIA"
-          ],
-          "pendientes": [
-            "ESPAÑA",
-            "INGLATERRA",
-            "COLOMBIA"
-          ],
-          "puntos": 0,
-          "pendiente": true,
-          "parcial": true
-        },
-        {
-          "fase": "final",
-          "label": "Final",
-          "puntosPorEquipo": 8,
-          "equiposPronosticados": 2,
-          "aciertos": [],
-          "fallos": [
-            "ALEMANIA"
-          ],
-          "pendientes": [
-            "INGLATERRA"
-          ],
-          "puntos": 0,
-          "pendiente": true,
-          "parcial": true
-        }
-      ],
-      "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
-      "posicion": 9,
-      "premio": 0,
-      "premioPorcentaje": 0
-    },
-    {
-      "id": "mauricio-trivino",
-      "participante": "Mauricio Triviño",
-      "total": 41,
-      "desglose": [
-        {
-          "fase": "dieciseisavos",
-          "label": "Dieciseisavos",
-          "puntosPorEquipo": 1,
-          "equiposPronosticados": 32,
-          "aciertos": [
-            "BOSNIA y HERZEG.",
-            "BRASIL",
-            "PAÍSES BAJOS",
-            "ALEMANIA",
-            "SUECIA",
-            "MARRUECOS",
-            "COSTA de MARFIL",
-            "NORUEGA",
-            "FRANCIA",
-            "JAPÓN",
-            "MÉXICO",
-            "ECUADOR",
-            "INGLATERRA",
-            "SENEGAL",
-            "BÉLGICA",
-            "SUDÁFRICA",
-            "ESTADOS UNIDOS",
-            "ARGELIA",
-            "ESPAÑA",
-            "AUSTRIA",
-            "PORTUGAL",
-            "CROACIA",
-            "SUIZA",
-            "AUSTRALIA",
-            "ARGENTINA",
-            "COLOMBIA",
-            "GHANA"
-          ],
-          "fallos": [
-            "COREA del SUR",
-            "ESCOCIA",
-            "IRÁN",
-            "NUEVA ZELANDA",
-            "URUGUAY"
-          ],
-          "pendientes": [],
-          "puntos": 27,
-          "pendiente": false,
-          "parcial": false
-        },
-        {
-          "fase": "octavos",
-          "label": "Octavos",
-          "puntosPorEquipo": 2,
-          "equiposPronosticados": 16,
-          "aciertos": [
-            "FRANCIA",
-            "BRASIL",
-            "NORUEGA",
-            "MÉXICO",
-            "INGLATERRA",
-            "ESTADOS UNIDOS",
-            "BÉLGICA"
-          ],
-          "fallos": [
-            "COREA del SUR",
-            "SUECIA",
-            "ALEMANIA",
-            "IRÁN"
-          ],
-          "pendientes": [
-            "PORTUGAL",
-            "ESPAÑA",
-            "ARGENTINA",
-            "AUSTRALIA",
-            "COLOMBIA"
-          ],
-          "puntos": 14,
-          "pendiente": true,
-          "parcial": true
-        },
-        {
-          "fase": "cuartos",
-          "label": "Cuartos",
-          "puntosPorEquipo": 3,
-          "equiposPronosticados": 8,
-          "aciertos": [],
-          "fallos": [
-            "ALEMANIA",
-            "SUECIA"
-          ],
-          "pendientes": [
-            "ESPAÑA",
-            "ESTADOS UNIDOS",
-            "BRASIL",
-            "INGLATERRA",
-            "ARGENTINA",
-            "COLOMBIA"
-          ],
-          "puntos": 0,
-          "pendiente": true,
-          "parcial": true
-        },
-        {
-          "fase": "semifinales",
-          "label": "Semifinales",
-          "puntosPorEquipo": 5,
-          "equiposPronosticados": 4,
-          "aciertos": [],
-          "fallos": [
-            "ALEMANIA"
-          ],
-          "pendientes": [
-            "ESPAÑA",
-            "BRASIL",
-            "COLOMBIA"
-          ],
-          "puntos": 0,
-          "pendiente": true,
-          "parcial": true
-        },
-        {
-          "fase": "final",
-          "label": "Final",
-          "puntosPorEquipo": 8,
-          "equiposPronosticados": 2,
-          "aciertos": [],
-          "fallos": [
-            "ALEMANIA"
-          ],
-          "pendientes": [
-            "COLOMBIA"
-          ],
-          "puntos": 0,
-          "pendiente": true,
-          "parcial": true
-        }
-      ],
-      "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
-      "posicion": 10,
-      "premio": 0,
-      "premioPorcentaje": 0
-    },
-    {
-      "id": "juan-pablo-suarez",
-      "participante": "Juan Pablo Suarez",
-      "total": 40,
-      "desglose": [
-        {
-          "fase": "dieciseisavos",
-          "label": "Dieciseisavos",
-          "puntosPorEquipo": 1,
-          "equiposPronosticados": 32,
-          "aciertos": [
-            "MÉXICO",
-            "CANADÁ",
-            "BRASIL",
-            "PAÍSES BAJOS",
-            "ALEMANIA",
-            "SUECIA",
-            "MARRUECOS",
-            "COSTA de MARFIL",
-            "NORUEGA",
-            "FRANCIA",
-            "JAPÓN",
-            "ECUADOR",
-            "INGLATERRA",
-            "REP. del CONGO",
-            "BÉLGICA",
-            "ESTADOS UNIDOS",
-            "BOSNIA y HERZEG.",
-            "ESPAÑA",
-            "AUSTRIA",
-            "PORTUGAL",
-            "CROACIA",
-            "SUIZA",
-            "ARGELIA",
-            "AUSTRALIA",
-            "EGIPTO",
-            "ARGENTINA",
-            "COLOMBIA",
-            "SENEGAL"
-          ],
-          "fallos": [
-            "ESCOCIA",
-            "COREA del SUR",
-            "REP. CHECA",
-            "URUGUAY"
-          ],
-          "pendientes": [],
-          "puntos": 28,
-          "pendiente": false,
-          "parcial": false
-        },
-        {
-          "fase": "octavos",
-          "label": "Octavos",
-          "puntosPorEquipo": 2,
-          "equiposPronosticados": 16,
-          "aciertos": [
-            "CANADÁ",
-            "MARRUECOS",
-            "FRANCIA",
-            "INGLATERRA",
-            "ESTADOS UNIDOS",
-            "BÉLGICA"
-          ],
-          "fallos": [
-            "ALEMANIA",
-            "PAÍSES BAJOS",
-            "COSTA de MARFIL",
-            "ECUADOR"
-          ],
-          "pendientes": [
-            "PORTUGAL",
-            "ESPAÑA",
-            "ARGENTINA",
-            "EGIPTO",
-            "SUIZA",
-            "COLOMBIA"
-          ],
-          "puntos": 12,
-          "pendiente": true,
-          "parcial": true
-        },
-        {
-          "fase": "cuartos",
-          "label": "Cuartos",
-          "puntosPorEquipo": 3,
-          "equiposPronosticados": 8,
-          "aciertos": [],
-          "fallos": [
-            "PAÍSES BAJOS"
-          ],
-          "pendientes": [
-            "FRANCIA",
-            "MARRUECOS",
-            "PORTUGAL",
-            "BÉLGICA",
-            "INGLATERRA",
-            "ARGENTINA",
-            "COLOMBIA"
-          ],
-          "puntos": 0,
-          "pendiente": true,
-          "parcial": true
-        }
-      ],
-      "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
       "posicion": 11,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1291,7 +1291,7 @@
     {
       "id": "mateo-quintero",
       "participante": "Mateo Quintero",
-      "total": 38,
+      "total": 40,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -1348,6 +1348,7 @@
             "FRANCIA",
             "BRASIL",
             "INGLATERRA",
+            "ESPAÑA",
             "ESTADOS UNIDOS",
             "BÉLGICA"
           ],
@@ -1360,13 +1361,12 @@
           ],
           "pendientes": [
             "PORTUGAL",
-            "ESPAÑA",
             "ARGENTINA",
             "AUSTRALIA",
             "ARGELIA",
             "COLOMBIA"
           ],
-          "puntos": 10,
+          "puntos": 12,
           "pendiente": true,
           "parcial": true
         },
@@ -1428,7 +1428,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
       "posicion": 12,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1436,7 +1436,7 @@
     {
       "id": "david-mahecha",
       "participante": "David Mahecha",
-      "total": 37,
+      "total": 39,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -1493,6 +1493,7 @@
             "BRASIL",
             "FRANCIA",
             "INGLATERRA",
+            "ESPAÑA",
             "PARAGUAY",
             "BÉLGICA",
             "ESTADOS UNIDOS"
@@ -1507,11 +1508,10 @@
           "pendientes": [
             "SUIZA",
             "CROACIA",
-            "ESPAÑA",
             "ARGENTINA",
             "PORTUGAL"
           ],
-          "puntos": 12,
+          "puntos": 14,
           "pendiente": true,
           "parcial": true
         },
@@ -1573,7 +1573,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
       "posicion": 13,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1581,7 +1581,7 @@
     {
       "id": "vanessa-trivino",
       "participante": "Vanessa Triviño",
-      "total": 36,
+      "total": 38,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -1639,6 +1639,7 @@
             "BRASIL",
             "MÉXICO",
             "INGLATERRA",
+            "ESPAÑA",
             "BÉLGICA"
           ],
           "fallos": [
@@ -1651,12 +1652,11 @@
           ],
           "pendientes": [
             "CROACIA",
-            "ESPAÑA",
             "EGIPTO",
             "ARGENTINA",
             "COLOMBIA"
           ],
-          "puntos": 10,
+          "puntos": 12,
           "pendiente": true,
           "parcial": true
         },
@@ -1684,7 +1684,7 @@
         }
       ],
       "etapasConfirmadas": [],
-      "ultimaActualizacionOficial": "2026-07-02T19:49:56.730Z",
+      "ultimaActualizacionOficial": "2026-07-02T21:31:04.086Z",
       "posicion": 14,
       "premio": 0,
       "premioPorcentaje": 0
