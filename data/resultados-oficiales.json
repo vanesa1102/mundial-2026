@@ -1557,7 +1557,7 @@
       "fecha": "2026-07-01",
       "equipo1": "BÉLGICA",
       "equipo2": "SENEGAL",
-      "marcador": "3-2",
+      "marcador": "2-2",
       "marcadorPenales": null,
       "ganador": "BÉLGICA",
       "definicion": "prorroga",
@@ -1698,8 +1698,8 @@
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-06",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "MÉXICO",
+      "equipo2": "INGLATERRA",
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
@@ -1724,8 +1724,8 @@
       "fase": "Octavos",
       "faseGrupo": "octavos",
       "fecha": "2026-07-07",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "ESTADOS UNIDOS",
+      "equipo2": "BÉLGICA",
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
@@ -1872,7 +1872,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-02T04:19:49.390Z",
+    "actualizadoEn": "2026-07-02T09:30:30.934Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
