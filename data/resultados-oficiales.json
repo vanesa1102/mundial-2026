@@ -1596,11 +1596,11 @@
       "fecha": "2026-07-02",
       "equipo1": "PORTUGAL",
       "equipo2": "CROACIA",
-      "marcador": null,
+      "marcador": "2-1",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "PORTUGAL",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1872,7 +1872,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-02T23:20:42.316Z",
+    "actualizadoEn": "2026-07-03T04:06:26.074Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
