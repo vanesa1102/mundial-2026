@@ -1609,11 +1609,11 @@
       "fecha": "2026-07-03",
       "equipo1": "SUIZA",
       "equipo2": "ARGELIA",
-      "marcador": null,
+      "marcador": "2-0",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "SUIZA",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1872,7 +1872,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-03T04:06:26.074Z",
+    "actualizadoEn": "2026-07-03T07:34:28.695Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
