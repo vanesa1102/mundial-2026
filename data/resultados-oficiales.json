@@ -1622,11 +1622,11 @@
       "fecha": "2026-07-03",
       "equipo1": "AUSTRALIA",
       "equipo2": "EGIPTO",
-      "marcador": null,
-      "marcadorPenales": null,
+      "marcador": "1-1",
+      "marcadorPenales": "4-4",
       "ganador": null,
-      "definicion": null,
-      "pendiente": true,
+      "definicion": "penales",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1872,7 +1872,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-03T19:47:33.086Z",
+    "actualizadoEn": "2026-07-03T21:22:19.421Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
