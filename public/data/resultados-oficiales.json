@@ -1,7 +1,9 @@
 {
   "version": 1,
   "titulo": "Resultados oficiales Mundial 2026",
-  "etapasConfirmadas": [],
+  "etapasConfirmadas": [
+    "dieciseisavos"
+  ],
   "grupos": [
     {
       "id": "A",
@@ -1635,11 +1637,11 @@
       "fecha": "2026-07-03",
       "equipo1": "ARGENTINA",
       "equipo2": "CABO VERDE",
-      "marcador": null,
+      "marcador": "3-2",
       "marcadorPenales": null,
-      "ganador": null,
-      "definicion": null,
-      "pendiente": true,
+      "ganador": "ARGENTINA",
+      "definicion": "prorroga",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1648,11 +1650,11 @@
       "fecha": "2026-07-04",
       "equipo1": "COLOMBIA",
       "equipo2": "GHANA",
-      "marcador": null,
+      "marcador": "1-0",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "COLOMBIA",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1872,7 +1874,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-07-04T00:09:05.624Z",
+    "actualizadoEn": "2026-07-04T03:59:28.829Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
