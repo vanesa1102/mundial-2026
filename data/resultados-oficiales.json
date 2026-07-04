@@ -1663,11 +1663,11 @@
       "fecha": "2026-07-04",
       "equipo1": "CANADÁ",
       "equipo2": "MARRUECOS",
-      "marcador": null,
+      "marcador": "0-3",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "MARRUECOS",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1874,7 +1874,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-07-04T17:17:34.765Z",
+    "actualizadoEn": "2026-07-04T19:34:46.835Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
