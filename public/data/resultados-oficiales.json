@@ -1676,11 +1676,11 @@
       "fecha": "2026-07-04",
       "equipo1": "PARAGUAY",
       "equipo2": "FRANCIA",
-      "marcador": null,
+      "marcador": "0-1",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "FRANCIA",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1871,10 +1871,10 @@
     "subcampeon": null,
     "tercerPuesto": null,
     "cuartoPuesto": null,
-    "goleador": "Lionel Messi"
+    "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-04T21:12:36.127Z",
+    "actualizadoEn": "2026-07-04T23:11:35.494Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
