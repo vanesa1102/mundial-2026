@@ -1689,11 +1689,11 @@
       "fecha": "2026-07-05",
       "equipo1": "BRASIL",
       "equipo2": "NORUEGA",
-      "marcador": null,
+      "marcador": "1-2",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "NORUEGA",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1874,7 +1874,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-05T21:18:17.995Z",
+    "actualizadoEn": "2026-07-05T22:48:58.087Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
