@@ -1702,11 +1702,11 @@
       "fecha": "2026-07-06",
       "equipo1": "MÉXICO",
       "equipo2": "INGLATERRA",
-      "marcador": null,
+      "marcador": "2-3",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "INGLATERRA",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1874,7 +1874,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-05T23:16:14.215Z",
+    "actualizadoEn": "2026-07-06T03:25:50.002Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
