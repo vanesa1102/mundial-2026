@@ -1715,11 +1715,11 @@
       "fecha": "2026-07-06",
       "equipo1": "PORTUGAL",
       "equipo2": "ESPAÑA",
-      "marcador": null,
+      "marcador": "0-1",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "ESPAÑA",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1874,7 +1874,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-06T18:20:00.667Z",
+    "actualizadoEn": "2026-07-06T21:45:40.205Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
