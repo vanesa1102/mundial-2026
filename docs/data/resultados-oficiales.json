@@ -1728,11 +1728,11 @@
       "fecha": "2026-07-07",
       "equipo1": "ESTADOS UNIDOS",
       "equipo2": "BÉLGICA",
-      "marcador": null,
+      "marcador": "1-4",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "BÉLGICA",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1874,7 +1874,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-06T23:22:16.808Z",
+    "actualizadoEn": "2026-07-07T02:20:56.627Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
