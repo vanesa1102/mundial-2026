@@ -2,7 +2,8 @@
   "version": 1,
   "titulo": "Resultados oficiales Mundial 2026",
   "etapasConfirmadas": [
-    "dieciseisavos"
+    "dieciseisavos",
+    "octavos"
   ],
   "grupos": [
     {
@@ -1754,11 +1755,11 @@
       "fecha": "2026-07-07",
       "equipo1": "SUIZA",
       "equipo2": "COLOMBIA",
-      "marcador": null,
-      "marcadorPenales": null,
+      "marcador": "0-0",
+      "marcadorPenales": "3-3",
       "ganador": null,
-      "definicion": null,
-      "pendiente": true,
+      "definicion": "penales",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1874,7 +1875,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-07-07T21:39:56.711Z",
+    "actualizadoEn": "2026-07-07T23:13:43.664Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
