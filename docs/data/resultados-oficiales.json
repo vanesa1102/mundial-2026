@@ -1741,11 +1741,11 @@
       "fecha": "2026-07-07",
       "equipo1": "ARGENTINA",
       "equipo2": "EGIPTO",
-      "marcador": null,
+      "marcador": "3-2",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "ARGENTINA",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1871,10 +1871,10 @@
     "subcampeon": null,
     "tercerPuesto": null,
     "cuartoPuesto": null,
-    "goleador": "Kylian Mbappé"
+    "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-07-07T15:12:04.335Z",
+    "actualizadoEn": "2026-07-07T18:18:30.382Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
