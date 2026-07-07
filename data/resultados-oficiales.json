@@ -1778,8 +1778,8 @@
       "fase": "Cuartos",
       "faseGrupo": "cuartos",
       "fecha": "2026-07-10",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "ESPAÑA",
+      "equipo2": "BÉLGICA",
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
@@ -1874,7 +1874,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-07T04:15:21.187Z",
+    "actualizadoEn": "2026-07-07T07:52:43.871Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
