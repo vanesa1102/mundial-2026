@@ -1756,8 +1756,8 @@
       "equipo1": "SUIZA",
       "equipo2": "COLOMBIA",
       "marcador": "0-0",
-      "marcadorPenales": "3-3",
-      "ganador": null,
+      "marcadorPenales": "4-3",
+      "ganador": "SUIZA",
       "definicion": "penales",
       "pendiente": false,
       "estadio": null
@@ -1805,8 +1805,8 @@
       "fase": "Cuartos",
       "faseGrupo": "cuartos",
       "fecha": "2026-07-12",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "ARGENTINA",
+      "equipo2": "SUIZA",
       "marcador": null,
       "marcadorPenales": null,
       "ganador": null,
@@ -1875,7 +1875,7 @@
     "goleador": "Lionel Messi"
   },
   "meta": {
-    "actualizadoEn": "2026-07-08T03:41:39.186Z",
+    "actualizadoEn": "2026-07-08T06:37:30.997Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
