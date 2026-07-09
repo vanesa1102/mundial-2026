@@ -1768,11 +1768,11 @@
       "fecha": "2026-07-09",
       "equipo1": "FRANCIA",
       "equipo2": "MARRUECOS",
-      "marcador": null,
+      "marcador": "2-0",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "FRANCIA",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1875,7 +1875,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-09T21:42:06.694Z",
+    "actualizadoEn": "2026-07-09T23:01:24.383Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
