@@ -1781,11 +1781,11 @@
       "fecha": "2026-07-10",
       "equipo1": "ESPAÑA",
       "equipo2": "BÉLGICA",
-      "marcador": null,
+      "marcador": "2-1",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "ESPAÑA",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1875,7 +1875,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-10T19:49:11.260Z",
+    "actualizadoEn": "2026-07-10T21:19:15.159Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
