@@ -1818,7 +1818,7 @@
       "fase": "Semifinales",
       "faseGrupo": "semifinales",
       "fecha": "2026-07-14",
-      "equipo1": null,
+      "equipo1": "FRANCIA",
       "equipo2": null,
       "marcador": null,
       "marcadorPenales": null,
@@ -1875,7 +1875,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-10T04:12:10.825Z",
+    "actualizadoEn": "2026-07-10T07:50:11.035Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
