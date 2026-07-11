@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-07-11T21:02:49.360Z",
+  "generadoEn": "2026-07-11T23:08:55.412Z",
   "config": {
     "inscripcion": 25000,
     "moneda": "COP",
@@ -18,15 +18,14 @@
   "pozoTotal": 350000,
   "totalJugadores": 14,
   "etapasConfirmadas": [
-    "dieciseisavos",
-    "octavos"
+    "dieciseisavos"
   ],
-  "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+  "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
   "ranking": [
     {
       "id": "harold-ocampo",
       "participante": "Harold Ocampo",
-      "total": 86,
+      "total": 83,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -114,17 +113,18 @@
             "MARRUECOS",
             "ESPAÑA",
             "BÉLGICA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
             "BRASIL",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 18,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 15,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -146,10 +146,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 1,
       "premio": 175000,
       "premioPorcentaje": 0.5
@@ -157,7 +156,7 @@
     {
       "id": "daniel-vargas",
       "participante": "Daniel Vargas",
-      "total": 83,
+      "total": 80,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -245,17 +244,18 @@
             "MARRUECOS",
             "ESPAÑA",
             "NORUEGA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
             "ESTADOS UNIDOS",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 18,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 15,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -277,10 +277,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 2,
       "premio": 105000,
       "premioPorcentaje": 0.3
@@ -288,7 +287,7 @@
     {
       "id": "maria-acevedo",
       "participante": "Maria Acevedo",
-      "total": 80,
+      "total": 77,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -376,17 +375,18 @@
             "MARRUECOS",
             "ESPAÑA",
             "BÉLGICA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
             "BRASIL",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 18,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 15,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -408,10 +408,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 3,
       "premio": 70000,
       "premioPorcentaje": 0.2
@@ -419,7 +418,7 @@
     {
       "id": "martha-garcia",
       "participante": "Martha Garcia",
-      "total": 73,
+      "total": 70,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -506,7 +505,6 @@
             "ESPAÑA",
             "BÉLGICA",
             "FRANCIA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
@@ -514,10 +512,12 @@
             "PAÍSES BAJOS",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 15,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 12,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -556,10 +556,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 4,
       "premio": 0,
       "premioPorcentaje": 0
@@ -567,7 +566,7 @@
     {
       "id": "juan-pablo-suarez",
       "participante": "Juan Pablo Suarez",
-      "total": 72,
+      "total": 69,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -654,7 +653,6 @@
             "FRANCIA",
             "MARRUECOS",
             "BÉLGICA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
@@ -662,10 +660,12 @@
             "PAÍSES BAJOS",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 15,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 12,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -704,10 +704,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 5,
       "premio": 0,
       "premioPorcentaje": 0
@@ -715,7 +714,7 @@
     {
       "id": "santiago-silva",
       "participante": "Santiago Silva",
-      "total": 72,
+      "total": 69,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -802,7 +801,6 @@
             "MARRUECOS",
             "ESPAÑA",
             "NORUEGA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
@@ -810,10 +808,12 @@
             "ESTADOS UNIDOS",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 15,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 12,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -852,10 +852,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 6,
       "premio": 0,
       "premioPorcentaje": 0
@@ -863,7 +862,7 @@
     {
       "id": "paola-trivino",
       "participante": "Paola Triviño",
-      "total": 70,
+      "total": 67,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -950,7 +949,6 @@
             "FRANCIA",
             "BÉLGICA",
             "NORUEGA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
@@ -958,10 +956,12 @@
             "PORTUGAL",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 15,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 12,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -984,10 +984,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 7,
       "premio": 0,
       "premioPorcentaje": 0
@@ -995,7 +994,7 @@
     {
       "id": "sebastian-rocha",
       "participante": "Sebastian Rocha",
-      "total": 70,
+      "total": 67,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -1082,7 +1081,6 @@
             "NORUEGA",
             "MARRUECOS",
             "FRANCIA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
@@ -1090,10 +1088,12 @@
             "ESTADOS UNIDOS",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 15,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 12,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -1131,10 +1131,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 8,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1142,7 +1141,7 @@
     {
       "id": "estiben-cuellar",
       "participante": "Estiben Cuellar",
-      "total": 69,
+      "total": 66,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -1227,7 +1226,6 @@
           "aciertos": [
             "MARRUECOS",
             "ESPAÑA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
@@ -1236,10 +1234,12 @@
             "BRASIL",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 12,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 9,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -1278,10 +1278,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 9,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1289,7 +1288,7 @@
     {
       "id": "sebastian-martinez",
       "participante": "Sebastian Martinez",
-      "total": 67,
+      "total": 64,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -1375,7 +1374,6 @@
           "aciertos": [
             "FRANCIA",
             "MARRUECOS",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
@@ -1384,10 +1382,12 @@
             "BRASIL",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 12,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 9,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -1410,10 +1410,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 10,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1421,7 +1420,7 @@
     {
       "id": "mauricio-trivino",
       "participante": "Mauricio Triviño",
-      "total": 63,
+      "total": 60,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -1506,7 +1505,6 @@
           "equiposPronosticados": 8,
           "aciertos": [
             "ESPAÑA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
@@ -1516,10 +1514,12 @@
             "BRASIL",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 9,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 6,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -1556,10 +1556,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 11,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1567,7 +1566,7 @@
     {
       "id": "david-mahecha",
       "participante": "David Mahecha",
-      "total": 62,
+      "total": 59,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -1652,7 +1651,6 @@
           "equiposPronosticados": 8,
           "aciertos": [
             "FRANCIA",
-            "INGLATERRA",
             "BÉLGICA",
             "ARGENTINA"
           ],
@@ -1662,10 +1660,12 @@
             "CROACIA",
             "PORTUGAL"
           ],
-          "pendientes": [],
-          "puntos": 12,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 9,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -1704,10 +1704,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 12,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1715,7 +1714,7 @@
     {
       "id": "mateo-quintero",
       "participante": "Mateo Quintero",
-      "total": 60,
+      "total": 57,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -1800,7 +1799,6 @@
           "equiposPronosticados": 8,
           "aciertos": [
             "ESPAÑA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
@@ -1810,10 +1808,12 @@
             "BRASIL",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 9,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 6,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -1852,10 +1852,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 13,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1863,7 +1862,7 @@
     {
       "id": "vanessa-trivino",
       "participante": "Vanessa Triviño",
-      "total": 58,
+      "total": 55,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -1948,7 +1947,6 @@
           "equiposPronosticados": 8,
           "aciertos": [
             "FRANCIA",
-            "INGLATERRA",
             "ARGENTINA"
           ],
           "fallos": [
@@ -1958,10 +1956,12 @@
             "BRASIL",
             "COLOMBIA"
           ],
-          "pendientes": [],
-          "puntos": 9,
-          "pendiente": false,
-          "parcial": false
+          "pendientes": [
+            "INGLATERRA"
+          ],
+          "puntos": 6,
+          "pendiente": true,
+          "parcial": true
         },
         {
           "fase": "semifinales",
@@ -1984,10 +1984,9 @@
         }
       ],
       "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos"
+        "dieciseisavos"
       ],
-      "ultimaActualizacionOficial": "2026-07-11T21:02:49.011Z",
+      "ultimaActualizacionOficial": "2026-07-11T23:08:55.047Z",
       "posicion": 14,
       "premio": 0,
       "premioPorcentaje": 0
