@@ -2,7 +2,8 @@
   "version": 1,
   "titulo": "Resultados oficiales Mundial 2026",
   "etapasConfirmadas": [
-    "dieciseisavos"
+    "dieciseisavos",
+    "cuartos"
   ],
   "grupos": [
     {
@@ -1793,11 +1794,11 @@
       "fecha": "2026-07-11",
       "equipo1": "NORUEGA",
       "equipo2": "INGLATERRA",
-      "marcador": null,
+      "marcador": "1-2",
       "marcadorPenales": null,
-      "ganador": null,
-      "definicion": null,
-      "pendiente": true,
+      "ganador": "INGLATERRA",
+      "definicion": "prorroga",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1806,11 +1807,11 @@
       "fecha": "2026-07-12",
       "equipo1": "ARGENTINA",
       "equipo2": "SUIZA",
-      "marcador": null,
+      "marcador": "3-1",
       "marcadorPenales": null,
-      "ganador": null,
-      "definicion": null,
-      "pendiente": true,
+      "ganador": "ARGENTINA",
+      "definicion": "prorroga",
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1874,7 +1875,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-11T23:08:55.047Z",
+    "actualizadoEn": "2026-07-12T03:54:04.699Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
