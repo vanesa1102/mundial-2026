@@ -4,7 +4,8 @@
   "etapasConfirmadas": [
     "dieciseisavos",
     "octavos",
-    "cuartos"
+    "cuartos",
+    "semifinales"
   ],
   "grupos": [
     {
@@ -1834,11 +1835,11 @@
       "fecha": "2026-07-15",
       "equipo1": "INGLATERRA",
       "equipo2": "ARGENTINA",
-      "marcador": null,
+      "marcador": "1-2",
       "marcadorPenales": null,
-      "ganador": null,
+      "ganador": "ARGENTINA",
       "definicion": null,
-      "pendiente": true,
+      "pendiente": false,
       "estadio": null
     },
     {
@@ -1876,7 +1877,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-15T19:34:36.623Z",
+    "actualizadoEn": "2026-07-15T21:13:44.512Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
