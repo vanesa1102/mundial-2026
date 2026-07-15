@@ -1845,7 +1845,7 @@
       "fase": "TERCER PUESTO",
       "faseGrupo": "final",
       "fecha": "2026-07-18",
-      "equipo1": null,
+      "equipo1": "FRANCIA",
       "equipo2": null,
       "marcador": null,
       "marcadorPenales": null,
@@ -1858,7 +1858,7 @@
       "fase": "FINAL",
       "faseGrupo": "final",
       "fecha": "2026-07-19",
-      "equipo1": null,
+      "equipo1": "ESPAÑA",
       "equipo2": null,
       "marcador": null,
       "marcadorPenales": null,
@@ -1876,7 +1876,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-15T03:30:36.830Z",
+    "actualizadoEn": "2026-07-15T06:26:23.199Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
