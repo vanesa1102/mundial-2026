@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-07-15T06:26:23.537Z",
+  "generadoEn": "2026-07-15T10:14:43.233Z",
   "config": {
     "inscripcion": 25000,
     "moneda": "COP",
@@ -22,7 +22,7 @@
     "octavos",
     "cuartos"
   ],
-  "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+  "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
   "ranking": [
     {
       "id": "daniel-vargas",
@@ -166,7 +166,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 1,
       "premio": 175000,
       "premioPorcentaje": 0.5
@@ -313,7 +313,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 2,
       "premio": 105000,
       "premioPorcentaje": 0.3
@@ -460,7 +460,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 3,
       "premio": 70000,
       "premioPorcentaje": 0.2
@@ -608,7 +608,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 4,
       "premio": 0,
       "premioPorcentaje": 0
@@ -756,7 +756,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 5,
       "premio": 0,
       "premioPorcentaje": 0
@@ -904,7 +904,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 6,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1052,7 +1052,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 7,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1200,7 +1200,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 8,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1348,7 +1348,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 9,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1495,7 +1495,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 10,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1642,7 +1642,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 11,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1790,7 +1790,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 12,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1938,7 +1938,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 13,
       "premio": 0,
       "premioPorcentaje": 0
@@ -2085,7 +2085,7 @@
         "octavos",
         "cuartos"
       ],
-      "ultimaActualizacionOficial": "2026-07-15T06:26:23.199Z",
+      "ultimaActualizacionOficial": "2026-07-15T10:14:42.787Z",
       "posicion": 14,
       "premio": 0,
       "premioPorcentaje": 0
