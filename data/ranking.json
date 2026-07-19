@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-07-19T21:05:22.965Z",
+  "generadoEn": "2026-07-19T22:10:53.306Z",
   "config": {
     "inscripcion": 25000,
     "moneda": "COP",
@@ -21,14 +21,17 @@
     "dieciseisavos",
     "octavos",
     "cuartos",
-    "semifinales"
+    "semifinales",
+    "final",
+    "campeon",
+    "goleador"
   ],
-  "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+  "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
   "ranking": [
     {
       "id": "daniel-vargas",
       "participante": "Daniel Vargas",
-      "total": 109,
+      "total": 122,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -159,15 +162,42 @@
           "puntos": 16,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [
+            "ESPAÑA"
+          ],
+          "fallos": [],
+          "pendientes": [],
+          "puntos": 13,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [],
+          "fallos": [
+            "Lionel Messi"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
       "posicion": 1,
       "premio": 175000,
       "premioPorcentaje": 0.5
@@ -175,7 +205,7 @@
     {
       "id": "harold-ocampo",
       "participante": "Harold Ocampo",
-      "total": 104,
+      "total": 113,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -307,15 +337,42 @@
           "puntos": 8,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "FRANCIA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [
+            "Mbappe"
+          ],
+          "fallos": [],
+          "pendientes": [],
+          "puntos": 9,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
       "posicion": 2,
       "premio": 105000,
       "premioPorcentaje": 0.3
@@ -323,7 +380,7 @@
     {
       "id": "juan-pablo-suarez",
       "participante": "Juan Pablo Suarez",
-      "total": 90,
+      "total": 99,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -456,15 +513,42 @@
           "puntos": 8,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "ARGENTINA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [
+            "Mbappe"
+          ],
+          "fallos": [],
+          "pendientes": [],
+          "puntos": 9,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
       "posicion": 3,
       "premio": 70000,
       "premioPorcentaje": 0.2
@@ -472,7 +556,7 @@
     {
       "id": "maria-acevedo",
       "participante": "Maria Acevedo",
-      "total": 90,
+      "total": 99,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -603,15 +687,42 @@
           "puntos": 0,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "FRANCIA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [
+            "Mbappe"
+          ],
+          "fallos": [],
+          "pendientes": [],
+          "puntos": 9,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
       "posicion": 4,
       "premio": 0,
       "premioPorcentaje": 0
@@ -619,7 +730,7 @@
     {
       "id": "estiben-cuellar",
       "participante": "Estiben Cuellar",
-      "total": 82,
+      "total": 91,
       "desglose": [
         {
           "fase": "dieciseisavos",
@@ -751,16 +862,218 @@
           "puntos": 8,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [
+            "mbappe"
+          ],
+          "fallos": [],
+          "pendientes": [],
+          "puntos": 9,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
       "posicion": 5,
+      "premio": 0,
+      "premioPorcentaje": 0
+    },
+    {
+      "id": "sebastian-martinez",
+      "participante": "Sebastian Martinez",
+      "total": 86,
+      "desglose": [
+        {
+          "fase": "dieciseisavos",
+          "label": "Dieciseisavos",
+          "puntosPorEquipo": 1,
+          "equiposPronosticados": 32,
+          "aciertos": [
+            "BOSNIA y HERZEG.",
+            "BRASIL",
+            "PAÍSES BAJOS",
+            "ALEMANIA",
+            "AUSTRALIA",
+            "SUECIA",
+            "MARRUECOS",
+            "ECUADOR",
+            "NORUEGA",
+            "FRANCIA",
+            "JAPÓN",
+            "MÉXICO",
+            "CABO VERDE",
+            "INGLATERRA",
+            "REP. del CONGO",
+            "BÉLGICA",
+            "ESTADOS UNIDOS",
+            "AUSTRIA",
+            "PORTUGAL",
+            "CROACIA",
+            "SUIZA",
+            "COSTA de MARFIL",
+            "PARAGUAY",
+            "EGIPTO",
+            "ARGENTINA",
+            "ESPAÑA",
+            "COLOMBIA",
+            "SENEGAL"
+          ],
+          "fallos": [
+            "COREA del SUR",
+            "REP. CHECA",
+            "CATAR",
+            "URUGUAY"
+          ],
+          "pendientes": [],
+          "puntos": 28,
+          "pendiente": false,
+          "parcial": false
+        },
+        {
+          "fase": "octavos",
+          "label": "Octavos",
+          "puntosPorEquipo": 2,
+          "equiposPronosticados": 16,
+          "aciertos": [
+            "MARRUECOS",
+            "FRANCIA",
+            "BRASIL",
+            "MÉXICO",
+            "INGLATERRA",
+            "PORTUGAL",
+            "ESTADOS UNIDOS",
+            "BÉLGICA",
+            "ARGENTINA",
+            "EGIPTO",
+            "COLOMBIA"
+          ],
+          "fallos": [
+            "COREA del SUR",
+            "ALEMANIA",
+            "ECUADOR",
+            "URUGUAY",
+            "COSTA de MARFIL"
+          ],
+          "pendientes": [],
+          "puntos": 22,
+          "pendiente": false,
+          "parcial": false
+        },
+        {
+          "fase": "cuartos",
+          "label": "Cuartos",
+          "puntosPorEquipo": 3,
+          "equiposPronosticados": 8,
+          "aciertos": [
+            "FRANCIA",
+            "MARRUECOS",
+            "INGLATERRA",
+            "ARGENTINA"
+          ],
+          "fallos": [
+            "URUGUAY",
+            "ESTADOS UNIDOS",
+            "BRASIL",
+            "COLOMBIA"
+          ],
+          "pendientes": [],
+          "puntos": 12,
+          "pendiente": false,
+          "parcial": false
+        },
+        {
+          "fase": "semifinales",
+          "label": "Semifinales",
+          "puntosPorEquipo": 5,
+          "equiposPronosticados": 4,
+          "aciertos": [
+            "FRANCIA",
+            "INGLATERRA",
+            "ARGENTINA"
+          ],
+          "fallos": [
+            "ESTADOS UNIDOS"
+          ],
+          "pendientes": [],
+          "puntos": 15,
+          "pendiente": false,
+          "parcial": false
+        },
+        {
+          "fase": "final",
+          "label": "Final",
+          "puntosPorEquipo": 8,
+          "equiposPronosticados": 2,
+          "aciertos": [],
+          "fallos": [
+            "FRANCIA",
+            "INGLATERRA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false,
+          "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "INGLATERRA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [
+            "Mbppe"
+          ],
+          "fallos": [],
+          "pendientes": [],
+          "puntos": 9,
+          "pendiente": false
+        }
+      ],
+      "etapasConfirmadas": [
+        "dieciseisavos",
+        "octavos",
+        "cuartos",
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
+      ],
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
+      "posicion": 6,
       "premio": 0,
       "premioPorcentaje": 0
     },
@@ -899,16 +1212,43 @@
           "puntos": 0,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [],
+          "fallos": [
+            "HARRY KANE"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
-      "posicion": 6,
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
+      "posicion": 7,
       "premio": 0,
       "premioPorcentaje": 0
     },
@@ -1047,16 +1387,43 @@
           "puntos": 0,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "FRANCIA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [],
+          "fallos": [
+            "Harry Kane"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
-      "posicion": 7,
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
+      "posicion": 8,
       "premio": 0,
       "premioPorcentaje": 0
     },
@@ -1195,163 +1562,42 @@
           "puntos": 0,
           "pendiente": false,
           "parcial": false
-        }
-      ],
-      "etapasConfirmadas": [
-        "dieciseisavos",
-        "octavos",
-        "cuartos",
-        "semifinales"
-      ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
-      "posicion": 8,
-      "premio": 0,
-      "premioPorcentaje": 0
-    },
-    {
-      "id": "sebastian-martinez",
-      "participante": "Sebastian Martinez",
-      "total": 77,
-      "desglose": [
-        {
-          "fase": "dieciseisavos",
-          "label": "Dieciseisavos",
-          "puntosPorEquipo": 1,
-          "equiposPronosticados": 32,
-          "aciertos": [
-            "BOSNIA y HERZEG.",
-            "BRASIL",
-            "PAÍSES BAJOS",
-            "ALEMANIA",
-            "AUSTRALIA",
-            "SUECIA",
-            "MARRUECOS",
-            "ECUADOR",
-            "NORUEGA",
-            "FRANCIA",
-            "JAPÓN",
-            "MÉXICO",
-            "CABO VERDE",
-            "INGLATERRA",
-            "REP. del CONGO",
-            "BÉLGICA",
-            "ESTADOS UNIDOS",
-            "AUSTRIA",
-            "PORTUGAL",
-            "CROACIA",
-            "SUIZA",
-            "COSTA de MARFIL",
-            "PARAGUAY",
-            "EGIPTO",
-            "ARGENTINA",
-            "ESPAÑA",
-            "COLOMBIA",
-            "SENEGAL"
-          ],
-          "fallos": [
-            "COREA del SUR",
-            "REP. CHECA",
-            "CATAR",
-            "URUGUAY"
-          ],
-          "pendientes": [],
-          "puntos": 28,
-          "pendiente": false,
-          "parcial": false
         },
         {
-          "fase": "octavos",
-          "label": "Octavos",
-          "puntosPorEquipo": 2,
-          "equiposPronosticados": 16,
-          "aciertos": [
-            "MARRUECOS",
-            "FRANCIA",
-            "BRASIL",
-            "MÉXICO",
-            "INGLATERRA",
-            "PORTUGAL",
-            "ESTADOS UNIDOS",
-            "BÉLGICA",
-            "ARGENTINA",
-            "EGIPTO",
-            "COLOMBIA"
-          ],
-          "fallos": [
-            "COREA del SUR",
-            "ALEMANIA",
-            "ECUADOR",
-            "URUGUAY",
-            "COSTA de MARFIL"
-          ],
-          "pendientes": [],
-          "puntos": 22,
-          "pendiente": false,
-          "parcial": false
-        },
-        {
-          "fase": "cuartos",
-          "label": "Cuartos",
-          "puntosPorEquipo": 3,
-          "equiposPronosticados": 8,
-          "aciertos": [
-            "FRANCIA",
-            "MARRUECOS",
-            "INGLATERRA",
-            "ARGENTINA"
-          ],
-          "fallos": [
-            "URUGUAY",
-            "ESTADOS UNIDOS",
-            "BRASIL",
-            "COLOMBIA"
-          ],
-          "pendientes": [],
-          "puntos": 12,
-          "pendiente": false,
-          "parcial": false
-        },
-        {
-          "fase": "semifinales",
-          "label": "Semifinales",
-          "puntosPorEquipo": 5,
-          "equiposPronosticados": 4,
-          "aciertos": [
-            "FRANCIA",
-            "INGLATERRA",
-            "ARGENTINA"
-          ],
-          "fallos": [
-            "ESTADOS UNIDOS"
-          ],
-          "pendientes": [],
-          "puntos": 15,
-          "pendiente": false,
-          "parcial": false
-        },
-        {
-          "fase": "final",
-          "label": "Final",
-          "puntosPorEquipo": 8,
-          "equiposPronosticados": 2,
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
           "aciertos": [],
           "fallos": [
-            "FRANCIA",
             "INGLATERRA"
           ],
           "pendientes": [],
           "puntos": 0,
-          "pendiente": false,
-          "parcial": false
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [],
+          "fallos": [
+            "Harry Kane"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
       "posicion": 9,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1491,15 +1737,42 @@
           "puntos": 0,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "PORTUGAL"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [],
+          "fallos": [
+            "Erling Haaland"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
       "posicion": 10,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1639,15 +1912,42 @@
           "puntos": 0,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "FRANCIA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [],
+          "fallos": [
+            "Lionel Messi"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
       "posicion": 11,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1787,15 +2087,42 @@
           "puntos": 0,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "INGLATERRA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [],
+          "fallos": [
+            "Harry Kane"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
       "posicion": 12,
       "premio": 0,
       "premioPorcentaje": 0
@@ -1935,15 +2262,42 @@
           "puntos": 0,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "INGLATERRA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [],
+          "fallos": [
+            "Harry Kane"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
       "posicion": 13,
       "premio": 0,
       "premioPorcentaje": 0
@@ -2083,15 +2437,42 @@
           "puntos": 0,
           "pendiente": false,
           "parcial": false
+        },
+        {
+          "fase": "campeón",
+          "label": "Campeón",
+          "puntosPorEquipo": 13,
+          "aciertos": [],
+          "fallos": [
+            "ALEMANIA"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
+        },
+        {
+          "fase": "goleador",
+          "label": "Goleador",
+          "puntosPorEquipo": 9,
+          "aciertos": [],
+          "fallos": [
+            "Messi"
+          ],
+          "pendientes": [],
+          "puntos": 0,
+          "pendiente": false
         }
       ],
       "etapasConfirmadas": [
         "dieciseisavos",
         "octavos",
         "cuartos",
-        "semifinales"
+        "semifinales",
+        "final",
+        "campeon",
+        "goleador"
       ],
-      "ultimaActualizacionOficial": "2026-07-19T21:05:22.725Z",
+      "ultimaActualizacionOficial": "2026-07-19T22:15:00.000Z",
       "posicion": 14,
       "premio": 0,
       "premioPorcentaje": 0

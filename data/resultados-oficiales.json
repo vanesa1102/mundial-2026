@@ -5,7 +5,10 @@
     "dieciseisavos",
     "octavos",
     "cuartos",
-    "semifinales"
+    "semifinales",
+    "final",
+    "campeon",
+    "goleador"
   ],
   "grupos": [
     {
@@ -1861,24 +1864,24 @@
       "fecha": "2026-07-19",
       "equipo1": "ESPAÑA",
       "equipo2": "ARGENTINA",
-      "marcador": null,
+      "marcador": "1-0",
       "marcadorPenales": null,
-      "ganador": null,
-      "definicion": null,
-      "pendiente": true,
+      "ganador": "ESPAÑA",
+      "definicion": "prorroga",
+      "pendiente": false,
       "estadio": null
     }
   ],
   "resultadosFinales": {
-    "campeon": null,
-    "subcampeon": null,
-    "tercerPuesto": null,
-    "cuartoPuesto": null,
+    "campeon": "ESPAÑA",
+    "subcampeon": "ARGENTINA",
+    "tercerPuesto": "INGLATERRA",
+    "cuartoPuesto": "FRANCIA",
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-19T21:05:22.725Z",
+    "actualizadoEn": "2026-07-19T22:15:00.000Z",
     "fuente": "football-data.org",
-    "notas": "Generado automáticamente desde la API WC."
+    "notas": "Final confirmada: España 1-0 Argentina (prórroga). Goleador: Kylian Mbappé."
   }
 }

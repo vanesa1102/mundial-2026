@@ -1,5 +1,6 @@
 if (typeof window !== "undefined") {
   window.TEAM_ALIASES = {"Algeria":"ARGELIA","Argentina":"ARGENTINA","Australia":"AUSTRALIA","Austria":"AUSTRIA","Belgium":"BÉLGICA","Bosnia-H.":"BOSNIA y HERZEG.","Bosnia-H":"BOSNIA y HERZEG.","Bosnia and Herzegovina":"BOSNIA y HERZEG.","Brazil":"BRASIL","Canada":"CANADÁ","Cape Verde":"CABO VERDE","Colombia":"COLOMBIA","Congo DR":"REP. del CONGO","Côte d'Ivoire":"COSTA de MARFIL","Croatia":"CROACIA","Curaçao":"CURAÇAO","Czech Republic":"REP. CHECA","Czechia":"REP. CHECA","DR Congo":"REP. del CONGO","Ecuador":"ECUADOR","Egypt":"EGIPTO","England":"INGLATERRA","France":"FRANCIA","Germany":"ALEMANIA","Ghana":"GHANA","Haiti":"HAITÍ","Iran":"IRÁN","Iraq":"IRAK","Ivory Coast":"COSTA de MARFIL","Japan":"JAPÓN","Jordan":"JORDANIA","Korea Republic":"COREA del SUR","Mexico":"MÉXICO","Morocco":"MARRUECOS","Netherlands":"PAÍSES BAJOS","New Zealand":"NUEVA ZELANDA","Norway":"NORUEGA","Panama":"PANAMÁ","Paraguay":"PARAGUAY","Portugal":"PORTUGAL","Qatar":"CATAR","Saudi Arabia":"ARABIA SAUDITA","Scotland":"ESCOCIA","Senegal":"SENEGAL","South Africa":"SUDÁFRICA","Spain":"ESPAÑA","Sweden":"SUECIA","Switzerland":"SUIZA","Tunisia":"TÚNEZ","Turkey":"TURQUÍA","United States":"ESTADOS UNIDOS","Uruguay":"URUGUAY","USA":"ESTADOS UNIDOS","Uzbekistan":"UZBEKISTÁN"};
+  window.PLAYER_ALIASES = {"Mbappe":"Kylian Mbappé","Mbappé":"Kylian Mbappé","mbappe":"Kylian Mbappé","Mbppe":"Kylian Mbappé","Kylian Mbappe":"Kylian Mbappé","Messi":"Lionel Messi","Lionel Messi":"Lionel Messi","Harry Kane":"Harry Kane","HARRY KANE":"Harry Kane","Kane":"Harry Kane","Erling Haaland":"Erling Haaland","Haaland":"Erling Haaland"};
 }
 
 const PUNTOS_POR_FASE = {
@@ -105,6 +106,81 @@ function loadAliasesFromDisk() {
   }
 
   return {};
+}
+
+function loadPlayerAliasesFromDisk() {
+  if (typeof require === "undefined") {
+    return {};
+  }
+
+  try {
+    const fs = require("fs");
+    const path = require("path");
+    const candidates = [
+      path.join(__dirname, "data", "player-aliases.json"),
+      path.join(__dirname, "..", "data", "player-aliases.json"),
+    ];
+
+    for (const aliasesPath of candidates) {
+      if (fs.existsSync(aliasesPath)) {
+        return JSON.parse(fs.readFileSync(aliasesPath, "utf8"));
+      }
+    }
+  } catch {
+    return {};
+  }
+
+  return {};
+}
+
+let playerAliasLookup = null;
+
+function getPlayerAliasLookup() {
+  if (playerAliasLookup) {
+    return playerAliasLookup;
+  }
+
+  let aliases = {};
+  if (typeof window !== "undefined" && window.PLAYER_ALIASES) {
+    aliases = window.PLAYER_ALIASES;
+  } else {
+    aliases = loadPlayerAliasesFromDisk();
+  }
+
+  playerAliasLookup = buildAliasLookup(aliases);
+  return playerAliasLookup;
+}
+
+function playerKey(name) {
+  return canonicalKey(name, getPlayerAliasLookup());
+}
+
+function matchesPlayerName(predictedValue, officialValue) {
+  const predicted = playerKey(predictedValue);
+  const official = playerKey(officialValue);
+
+  if (!predicted || !official) {
+    return false;
+  }
+
+  if (predicted === official) {
+    return true;
+  }
+
+  const predictedParts = predicted.split(" ").filter(Boolean);
+  const officialParts = official.split(" ").filter(Boolean);
+  const predictedSurname = predictedParts[predictedParts.length - 1];
+  const officialSurname = officialParts[officialParts.length - 1];
+
+  if (predictedSurname && predictedSurname === officialSurname) {
+    return true;
+  }
+
+  if (official.endsWith(` ${predicted}`) || official.includes(` ${predicted}`)) {
+    return true;
+  }
+
+  return false;
 }
 
 function getAliasLookup() {
@@ -547,10 +623,11 @@ function scoreSpecialField(
   officialValue,
   label,
   puntos,
-  allNames
+  allNames,
+  { fuzzyPlayer = false } = {}
 ) {
-  const predicted = teamKey(predictedValue);
-  const official = teamKey(officialValue);
+  const predicted = fuzzyPlayer ? playerKey(predictedValue) : teamKey(predictedValue);
+  const official = fuzzyPlayer ? playerKey(officialValue) : teamKey(officialValue);
 
   if (!official) {
     return {
@@ -565,15 +642,22 @@ function scoreSpecialField(
     };
   }
 
-  const acierto = predicted && predicted === official;
+  const acierto = fuzzyPlayer
+    ? matchesPlayerName(predictedValue, officialValue)
+    : Boolean(predicted && predicted === official);
+
+  const displayPredicted = predictedValue
+    ? fuzzyPlayer
+      ? predictedValue
+      : getDisplayName(allNames, predicted)
+    : null;
 
   return {
     fase: label.toLowerCase(),
     label,
     puntosPorEquipo: puntos,
-    aciertos: acierto ? [getDisplayName(allNames, predicted)] : [],
-    fallos:
-      predictedValue && !acierto ? [getDisplayName(allNames, predicted)] : [],
+    aciertos: acierto && displayPredicted ? [displayPredicted] : [],
+    fallos: predictedValue && !acierto ? [displayPredicted] : [],
     pendientes: [],
     puntos: acierto ? puntos : 0,
     pendiente: false,
@@ -650,7 +734,8 @@ function calcularPuntos(pronostico, oficial) {
       goleadorOficial,
       "Goleador",
       PUNTOS_GOLEADOR,
-      allNames
+      allNames,
+      { fuzzyPlayer: true }
     );
 
     desglose.push(resultado);

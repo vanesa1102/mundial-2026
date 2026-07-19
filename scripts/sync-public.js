@@ -99,13 +99,20 @@ function remapResultadosOficiales(filePath) {
 
 function injectTeamAliasesIntoScoring() {
   const aliasesPath = path.join(root, "data", "team-aliases.json");
+  const playerAliasesPath = path.join(root, "data", "player-aliases.json");
   const scoringPath = path.join(root, "public", "scoring.js");
 
-  if (!fs.existsSync(aliasesPath) || !fs.existsSync(scoringPath)) {
+  if (!fs.existsSync(scoringPath)) {
     return;
   }
 
-  const aliases = JSON.parse(fs.readFileSync(aliasesPath, "utf8"));
+  const aliases = fs.existsSync(aliasesPath)
+    ? JSON.parse(fs.readFileSync(aliasesPath, "utf8"))
+    : {};
+  const playerAliases = fs.existsSync(playerAliasesPath)
+    ? JSON.parse(fs.readFileSync(playerAliasesPath, "utf8"))
+    : {};
+
   let scoring = fs.readFileSync(scoringPath, "utf8");
   scoring = scoring.replace(
     /^if \(typeof window !== "undefined"\) \{\n  window\.TEAM_ALIASES[\s\S]*?\n\}\n*/m,
@@ -115,8 +122,16 @@ function injectTeamAliasesIntoScoring() {
     /\nif \(typeof window !== "undefined"\) \{\n  window\.TEAM_ALIASES[\s\S]*?\n\}\n?$/m,
     ""
   );
+  scoring = scoring.replace(
+    /^if \(typeof window !== "undefined"\) \{\n  window\.PLAYER_ALIASES[\s\S]*?\n\}\n*/m,
+    ""
+  );
+  scoring = scoring.replace(
+    /\nif \(typeof window !== "undefined"\) \{\n  window\.PLAYER_ALIASES[\s\S]*?\n\}\n?$/m,
+    ""
+  );
 
-  const prefix = `if (typeof window !== "undefined") {\n  window.TEAM_ALIASES = ${JSON.stringify(aliases)};\n}\n\n`;
+  const prefix = `if (typeof window !== "undefined") {\n  window.TEAM_ALIASES = ${JSON.stringify(aliases)};\n  window.PLAYER_ALIASES = ${JSON.stringify(playerAliases)};\n}\n\n`;
   fs.writeFileSync(scoringPath, prefix + scoring.trimEnd() + "\n", "utf8");
 }
 
@@ -125,6 +140,7 @@ const files = [
   ["data/ranking.json", "public/data/ranking.json"],
   ["data/config.json", "public/data/config.json"],
   ["data/team-aliases.json", "public/data/team-aliases.json"],
+  ["data/player-aliases.json", "public/data/player-aliases.json"],
   ["lib/scoring.js", "public/scoring.js"],
 ];
 
