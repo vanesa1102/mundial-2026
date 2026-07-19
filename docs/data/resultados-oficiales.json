@@ -1867,7 +1867,7 @@
       "marcador": "1-0",
       "marcadorPenales": null,
       "ganador": "ESPAÑA",
-      "definicion": "prorroga",
+      "definicion": null,
       "pendiente": false,
       "estadio": null
     }
@@ -1880,8 +1880,8 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-19T22:15:00.000Z",
+    "actualizadoEn": "2026-07-19T22:14:33.672Z",
     "fuente": "football-data.org",
-    "notas": "Final confirmada: España 1-0 Argentina (prórroga). Goleador: Kylian Mbappé."
+    "notas": "Generado automáticamente desde la API WC."
   }
 }
