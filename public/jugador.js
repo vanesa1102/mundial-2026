@@ -65,7 +65,11 @@ async function loadPlayer() {
     }
 
     scoreboardRoot.innerHTML = renderScoreboard(resultado, oficial, pronostico);
-    podiumRoot.innerHTML = renderPodium(pronostico.resultadosFinales);
+    podiumRoot.innerHTML = renderPodium(
+      pronostico.resultadosFinales,
+      oficial,
+      resultado.desglose
+    );
     phasesRoot.innerHTML = renderPlayerPhases(pronostico, oficial);
   } catch (error) {
     phasesRoot.innerHTML = `<div class="error">${error.message}</div>`;

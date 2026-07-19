@@ -173,17 +173,76 @@ function renderPhase(fase, partidos) {
   `;
 }
 
-function renderPodium(resultadosFinales) {
+function findSpecialScore(desglose, label) {
+  return (
+    desglose?.find(
+      (entry) =>
+        entry.label === label ||
+        entry.fase === label.toLowerCase() ||
+        entry.fase === label.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+    ) ?? null
+  );
+}
+
+function getSpecialPickStatus(key, predicted, oficial, desglose) {
+  const officialValue = oficial?.resultadosFinales?.[key] ?? null;
+  const predictedValue = predicted?.[key] ?? null;
+  const etapas = oficial?.etapasConfirmadas ?? [];
+  const etapaKey = key === "campeon" ? "campeon" : key === "goleador" ? "goleador" : null;
+  const score =
+    key === "campeon"
+      ? findSpecialScore(desglose, "Campeón")
+      : key === "goleador"
+        ? findSpecialScore(desglose, "Goleador")
+        : null;
+
+  if (!etapaKey || !etapas.includes(etapaKey) || !officialValue) {
+    return {
+      state: "pending",
+      predictedValue,
+      officialValue,
+      puntos: 0,
+      puntosMax: score?.puntosPorEquipo ?? (key === "campeon" ? 13 : key === "goleador" ? 9 : 0),
+    };
+  }
+
+  const hit = Boolean(score?.aciertos?.length) || (score?.puntos ?? 0) > 0;
+
+  return {
+    state: hit ? "hit" : "miss",
+    predictedValue,
+    officialValue,
+    puntos: score?.puntos ?? 0,
+    puntosMax: score?.puntosPorEquipo ?? (key === "campeon" ? 13 : 9),
+  };
+}
+
+function renderPodium(resultadosFinales, oficial = null, desglose = null) {
+  const specialKeys = new Set(["campeon", "goleador"]);
+
   return PODIUM.map(({ key, label, highlight }) => {
-    const value = resultadosFinales[key];
+    const value = resultadosFinales?.[key];
     const empty = !value;
-    const valueClass = empty ? "podium__value--empty" : "";
-    const itemClass = highlight ? "podium__item podium__item--highlight" : "podium__item";
+    let itemClass = highlight ? "podium__item podium__item--highlight" : "podium__item";
+    let valueClass = empty ? "podium__value--empty" : "";
+    let extra = "";
+
+    if (specialKeys.has(key) && oficial) {
+      const status = getSpecialPickStatus(key, resultadosFinales, oficial, desglose);
+      if (status.state === "hit") {
+        itemClass += " podium__item--hit";
+        extra = `<span class="podium__points">+${status.puntos} pts</span>`;
+      } else if (status.state === "miss") {
+        itemClass += " podium__item--miss";
+        extra = `<span class="podium__points podium__points--miss">0 pts</span>`;
+      }
+    }
 
     return `
       <div class="${itemClass}">
         <span class="podium__label">${label}</span>
         <span class="podium__value ${valueClass}">${empty ? "Sin pronóstico" : value}</span>
+        ${extra}
       </div>
     `;
   }).join("");
@@ -229,13 +288,26 @@ function renderPhaseBreakdown(fase) {
     (fase.pendientes?.length ?? 0);
 
   let detail;
-  if (fase.pendiente && fase.parcial) {
+  if (fase.label === "Campeón" || fase.label === "Goleador") {
+    if (fase.pendiente) {
+      detail = "Esperando resultado oficial";
+    } else if (fase.puntos > 0) {
+      detail = `Acierto · +${fase.puntos} pts`;
+    } else {
+      detail = `Sin acierto · 0 / ${fase.puntosPorEquipo} pts`;
+    }
+  } else if (fase.pendiente && fase.parcial) {
     detail = `${fase.aciertos.length} acierto${fase.aciertos.length === 1 ? "" : "s"} · ${fase.fallos.length} fallo${fase.fallos.length === 1 ? "" : "s"} · ${fase.pendientes?.length ?? 0} pendiente${(fase.pendientes?.length ?? 0) === 1 ? "" : "s"}`;
   } else if (fase.pendiente) {
     detail = `${totalTeams} equipo${totalTeams === 1 ? "" : "s"} pronosticado${totalTeams === 1 ? "" : "s"} · esperando resultados oficiales`;
   } else {
     detail = `${fase.aciertos.length} acierto${fase.aciertos.length === 1 ? "" : "s"} × ${fase.puntosPorEquipo} pt`;
   }
+
+  const tagsLabel =
+    fase.label === "Campeón" || fase.label === "Goleador"
+      ? "Pronóstico"
+      : "Equipos seleccionados";
 
   return `
     <div class="phase__stats scoreboard__phase">
@@ -245,7 +317,7 @@ function renderPhaseBreakdown(fase) {
       </div>
       <p class="scoreboard__phase-detail">${detail}</p>
       <div class="scoreboard__tags">
-        <span class="scoreboard__tags-label">Equipos seleccionados</span>
+        <span class="scoreboard__tags-label">${tagsLabel}</span>
         <div class="scoreboard__tags-grid">
           ${renderAllPredictedTeams(fase)}
         </div>
@@ -264,10 +336,21 @@ function buildPlayerDesglose(pronostico, oficial) {
 }
 
 function renderScoreboard(resultado, oficial, pronostico) {
-  const desglose = pronostico ? buildPlayerDesglose(pronostico, oficial) : resultado.desglose ?? [];
+  const phaseDesglose = pronostico ? buildPlayerDesglose(pronostico, oficial) : [];
+  const specialDesglose = (resultado.desglose ?? []).filter(
+    (entry) => entry.label === "Campeón" || entry.label === "Goleador"
+  );
+  const desglose = [...phaseDesglose, ...specialDesglose];
   const breakdown = desglose.map((fase) => renderPhaseBreakdown(fase)).join("");
 
   const etapas = oficial.etapasConfirmadas ?? [];
+  const campeonScore = findSpecialScore(resultado.desglose, "Campeón");
+  const goleadorScore = findSpecialScore(resultado.desglose, "Goleador");
+  const bonusPts = (campeonScore?.puntos ?? 0) + (goleadorScore?.puntos ?? 0);
+  const bonusLine =
+    campeonScore || goleadorScore
+      ? `<p>Bonos especiales: ${bonusPts} pts (campeón ${campeonScore?.puntos ?? 0} · goleador ${goleadorScore?.puntos ?? 0})</p>`
+      : "";
 
   return `
     <div class="scoreboard__summary">
@@ -277,6 +360,7 @@ function renderScoreboard(resultado, oficial, pronostico) {
       </div>
       <div class="scoreboard__meta">
         <p>Resultados según eliminatorias oficiales${etapas.length ? ` · etapas cerradas: ${etapas.join(", ")}` : ""}</p>
+        ${bonusLine}
         ${
           oficial.meta?.actualizadoEn
             ? `<p>Oficial actualizado: ${formatDate(oficial.meta.actualizadoEn.slice(0, 10))}</p>`

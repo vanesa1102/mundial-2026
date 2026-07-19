@@ -506,6 +506,15 @@ body {
   text-transform: uppercase;
 }
 
+.podium__item--hit {
+  border-color: rgba(56, 189, 248, 0.45);
+  background: linear-gradient(180deg, rgba(56, 189, 248, 0.1), var(--bg-card));
+}
+
+.podium__item--miss {
+  border-color: rgba(248, 113, 113, 0.3);
+}
+
 .podium__value {
   font-size: 1.05rem;
   font-weight: 700;
@@ -515,6 +524,18 @@ body {
   color: var(--pending);
   font-weight: 500;
   font-style: italic;
+}
+
+.podium__points {
+  display: inline-block;
+  margin-top: 0.45rem;
+  color: var(--win);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.podium__points--miss {
+  color: #f87171;
 }
 
 .phase {
