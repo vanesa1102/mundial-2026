@@ -1864,7 +1864,7 @@
       "fecha": "2026-07-19",
       "equipo1": "ESPAÑA",
       "equipo2": "ARGENTINA",
-      "marcador": "1-0",
+      "marcador": "0-0",
       "marcadorPenales": null,
       "ganador": "ESPAÑA",
       "definicion": "prorroga",
@@ -1880,7 +1880,7 @@
     "goleador": "Kylian Mbappé"
   },
   "meta": {
-    "actualizadoEn": "2026-07-20T04:01:24.288Z",
+    "actualizadoEn": "2026-07-20T07:26:46.168Z",
     "fuente": "football-data.org",
     "notas": "Generado automáticamente desde la API WC."
   }
