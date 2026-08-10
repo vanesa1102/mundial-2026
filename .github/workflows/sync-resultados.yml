@@ -1,17 +1,9 @@
 name: Sync resultados
 
+# Mundial cerrado: sin cron ni sync en push.
+# Queda solo disparo manual por si hace falta.
 on:
-  schedule:
-    # Cada 2 h en :17 UTC (~cada 2 h Colombia). El cron horario de GitHub
-    # dejó de disparar en este repo; cada 6 h sí funcionaba antes.
-    - cron: "17 */2 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths-ignore:
-      - "data/**"
-      - "public/**"
-      - "docs/**"
 
 permissions:
   contents: write
